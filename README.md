@@ -1,8 +1,10 @@
-############################
-### SSL SCC Neoantigens ###
-############################
+# SSL SCC Neoantigens
 
-**Description:** Characterization of the neoantigens from a novel solar-simulated light-induced cutaneous squamous cell carcinoma cell line
+Characterization of the neoantigens from a novel solar-simulated light-induced cutaneous squamous cell carcinoma cell line
+
+----
+
+## Contact information
 
 **Cell lines created by:** Anngela Adams
 
@@ -12,7 +14,9 @@
 
 **Contact:** knodele@catworks.arizona.edu
 
-### Parent tumors ###
+---
+
+## Parent tumors
 
 **TO DO: Make directories for the QC and variant calling steps and copy over files from Parent_cell_lines directory that are relevant to these analyses, then update this section of the README**
 
@@ -32,4 +36,6 @@
 
 * Steps used to assess heterogeneity of the tumor samples using the mobster software
 
-## Parent Cell Lines ###
+---
+
+## Parent Cell Lines
