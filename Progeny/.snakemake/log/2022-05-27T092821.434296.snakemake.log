@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 16 of /home/eknodel/SCC_samples/Progeny/map.snakefile:
+Missing input files for rule prep_refs:
+/scratch/eknodel/SCC_samples/reference/GRCm38_68.fa

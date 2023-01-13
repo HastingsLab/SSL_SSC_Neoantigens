@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 145 of /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/GATK_CNV.snakefile:
+Missing input files for rule collect_allelic_counts:
+/scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004_gDNA_normal_tissue_377_200_S55.GRCm38_68.sorted.bam

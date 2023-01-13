@@ -1,0 +1,86 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job counts:
+	count	jobs
+	1	all
+	2	index_mkdup_bam
+	2	mark_duplicates
+	2	readgroup
+	7
+
+[Tue Sep 27 11:23:47 2022]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 483_sc_01_B6-1_366_211_S58_L003.picard_mkdup_metrics.txt
+    jobid: 10
+    wildcards: sample=483_sc_01_B6-1_366_211_S58_L003
+    threads: 4
+
+Submitted job 10 with external jobid 'Submitted batch job 17627732'.
+
+[Tue Sep 27 11:23:47 2022]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 483_sc_01_B6-2_354_223_S59_L003.picard_mkdup_metrics.txt
+    jobid: 9
+    wildcards: sample=483_sc_01_B6-2_354_223_S59_L003
+    threads: 4
+
+Submitted job 9 with external jobid 'Submitted batch job 17627733'.
+[Tue Sep 27 11:30:47 2022]
+Finished job 9.
+1 of 7 steps (14%) done
+
+[Tue Sep 27 11:30:47 2022]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 4
+    wildcards: sample=483_sc_01_B6-2_354_223_S59_L003
+
+Submitted job 4 with external jobid 'Submitted batch job 17627768'.
+[Tue Sep 27 11:33:17 2022]
+Finished job 10.
+2 of 7 steps (29%) done
+
+[Tue Sep 27 11:33:17 2022]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 5
+    wildcards: sample=483_sc_01_B6-1_366_211_S58_L003
+
+Submitted job 5 with external jobid 'Submitted batch job 17627799'.
+[Tue Sep 27 11:35:48 2022]
+Finished job 4.
+3 of 7 steps (43%) done
+
+[Tue Sep 27 11:35:48 2022]
+Job 7: Indexing sorted BAM file.
+
+Submitted job 7 with external jobid 'Submitted batch job 17627831'.
+[Tue Sep 27 11:36:18 2022]
+Finished job 7.
+4 of 7 steps (57%) done
+[Tue Sep 27 11:38:48 2022]
+Finished job 5.
+5 of 7 steps (71%) done
+
+[Tue Sep 27 11:38:48 2022]
+Job 6: Indexing sorted BAM file.
+
+Submitted job 6 with external jobid 'Submitted batch job 17627836'.
+[Tue Sep 27 11:39:19 2022]
+Finished job 6.
+6 of 7 steps (86%) done
+
+[Tue Sep 27 11:39:19 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Progeny/RNAseq/sam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Progeny/RNAseq/bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Progeny/RNAseq/bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai
+    jobid: 0
+
+[Tue Sep 27 11:39:19 2022]
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Progeny/04_variant_specific_expression/.snakemake/log/2022-09-27T112346.789132.snakemake.log

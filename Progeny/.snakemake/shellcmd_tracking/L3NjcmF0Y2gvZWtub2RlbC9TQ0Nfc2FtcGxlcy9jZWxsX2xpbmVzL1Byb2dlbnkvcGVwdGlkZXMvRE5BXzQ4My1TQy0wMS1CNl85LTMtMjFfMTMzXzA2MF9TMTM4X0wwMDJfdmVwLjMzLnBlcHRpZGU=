@@ -1,0 +1,8 @@
+
+        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/Progeny/variants/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.vcf 29 /scratch/eknodel/SCC_samples/cell_lines/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.29.peptide;
+        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/Progeny/variants/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.vcf 31 /scratch/eknodel/SCC_samples/cell_lines/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.31.peptide;
+        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/Progeny/variants/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.vcf 33 /scratch/eknodel/SCC_samples/cell_lines/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.33.peptide;
+        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/Progeny/variants/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.vcf 35 /scratch/eknodel/SCC_samples/cell_lines/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.35.peptide;
+        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/Progeny/variants/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.vcf 37 /scratch/eknodel/SCC_samples/cell_lines/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.37.peptide;
+        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/Progeny/variants/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.vcf 39 /scratch/eknodel/SCC_samples/cell_lines/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.39.peptide;
+        

@@ -1,0 +1,76 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 6
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	filter
+	1
+
+[Tue Sep 20 16:01:14 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.filtered.vcf.gz
+    jobid: 0
+    wildcards: subject=483_sc_01_B6-2_354_223_S59_L003
+
+16:01:19.622 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Sep 20, 2022 4:01:19 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+16:01:19.858 INFO  FilterMutectCalls - ------------------------------------------------------------
+16:01:19.859 INFO  FilterMutectCalls - The Genome Analysis Toolkit (GATK) v4.1.7.0
+16:01:19.859 INFO  FilterMutectCalls - For support and documentation go to https://software.broadinstitute.org/gatk/
+16:01:19.859 INFO  FilterMutectCalls - Executing as eknodel@cg17-8.agave.rc.asu.edu on Linux v3.10.0-1160.21.1.el7.x86_64 amd64
+16:01:19.859 INFO  FilterMutectCalls - Java runtime: OpenJDK 64-Bit Server VM v11.0.1-internal+0-adhoc..src
+16:01:19.859 INFO  FilterMutectCalls - Start Date/Time: September 20, 2022 at 4:01:19 PM MST
+16:01:19.859 INFO  FilterMutectCalls - ------------------------------------------------------------
+16:01:19.859 INFO  FilterMutectCalls - ------------------------------------------------------------
+16:01:19.860 INFO  FilterMutectCalls - HTSJDK Version: 2.21.2
+16:01:19.860 INFO  FilterMutectCalls - Picard Version: 2.21.9
+16:01:19.860 INFO  FilterMutectCalls - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+16:01:19.860 INFO  FilterMutectCalls - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+16:01:19.860 INFO  FilterMutectCalls - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+16:01:19.860 INFO  FilterMutectCalls - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+16:01:19.860 INFO  FilterMutectCalls - Deflater: IntelDeflater
+16:01:19.860 INFO  FilterMutectCalls - Inflater: IntelInflater
+16:01:19.860 INFO  FilterMutectCalls - GCS max retries/reopens: 20
+16:01:19.860 INFO  FilterMutectCalls - Requester pays: disabled
+16:01:19.860 INFO  FilterMutectCalls - Initializing engine
+16:01:20.184 INFO  FeatureManager - Using codec VCFCodec to read file file:///scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.vcf.gz
+16:01:20.328 INFO  FilterMutectCalls - Done initializing engine
+16:01:20.412 INFO  ProgressMeter - Starting traversal
+16:01:20.412 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+16:01:20.413 INFO  FilterMutectCalls - Starting pass 0 through the variants
+16:01:30.490 INFO  ProgressMeter -          15:43069362              0.2                 71000         422786.8
+16:01:40.586 INFO  ProgressMeter -          4:139298291              0.3                164000         487780.7
+16:01:49.484 INFO  FilterMutectCalls - Finished pass 0 through the variants
+16:02:56.042 INFO  FilterMutectCalls - Starting pass 1 through the variants
+16:02:56.124 INFO  ProgressMeter -           1:10066609              1.6                250000         156720.2
+16:03:06.151 INFO  ProgressMeter -          17:35660036              1.8                343000         194630.2
+16:03:16.249 INFO  ProgressMeter -          6:119853444              1.9                442000         228942.4
+16:03:23.159 INFO  FilterMutectCalls - Finished pass 1 through the variants
+16:03:43.324 INFO  FilterMutectCalls - Starting pass 2 through the variants
+16:03:43.643 INFO  ProgressMeter -           1:16664889              2.4                500000         209451.9
+16:03:53.646 INFO  ProgressMeter -          17:78491887              2.6                597000         233760.1
+16:04:03.749 INFO  ProgressMeter -           6:85234848              2.7                689000         253097.9
+16:04:10.448 INFO  FilterMutectCalls - Finished pass 2 through the variants
+16:04:10.561 INFO  FilterMutectCalls - Starting pass 3 through the variants
+16:04:13.794 INFO  ProgressMeter -          10:59951572              2.9                767000         265425.5
+16:04:23.846 INFO  ProgressMeter -          17:24411268              3.1                837000         273776.9
+16:04:33.990 INFO  ProgressMeter -           4:94654852              3.2                904000         280198.6
+16:04:44.020 INFO  ProgressMeter -           8:72374393              3.4                970000         285843.4
+16:04:47.845 INFO  FilterMutectCalls - Finished pass 3 through the variants
+16:04:47.856 INFO  FilterMutectCalls - No variants filtered by: AllowAllVariantsVariantFilter
+16:04:47.857 INFO  FilterMutectCalls - 0 read(s) filtered by: AllowAllReadsReadFilter 
+
+16:04:47.857 INFO  ProgressMeter -           Y:90757897              3.5                998624         288835.3
+16:04:47.857 INFO  ProgressMeter - Traversal complete. Processed 998624 total variants in 3.5 minutes.
+16:04:47.996 INFO  FilterMutectCalls - Shutting down engine
+[September 20, 2022 at 4:04:47 PM MST] org.broadinstitute.hellbender.tools.walkers.mutect.filtering.FilterMutectCalls done. Elapsed time: 3.47 minutes.
+Runtime.totalMemory()=1704984576
+Using GATK jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar FilterMutectCalls -R /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa -V /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.vcf.gz -O /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.filtered.vcf.gz
+[Tue Sep 20 16:04:48 2022]
+Finished job 0.
+1 of 1 steps (100%) done

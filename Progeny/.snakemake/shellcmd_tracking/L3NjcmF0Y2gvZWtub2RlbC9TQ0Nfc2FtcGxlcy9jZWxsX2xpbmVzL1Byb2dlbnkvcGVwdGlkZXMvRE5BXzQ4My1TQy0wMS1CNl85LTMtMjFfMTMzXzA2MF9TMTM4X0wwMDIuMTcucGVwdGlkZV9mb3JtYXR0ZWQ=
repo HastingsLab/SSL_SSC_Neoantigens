@@ -1,0 +1,3 @@
+
+        cat /scratch/eknodel/SCC_samples/cell_lines/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_vep.17.peptide | sed '/>WT/,+1 d' > /scratch/eknodel/SCC_samples/cell_lines/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.17.peptide_formatted;
+        

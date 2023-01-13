@@ -1,0 +1,27 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job counts:
+	count	jobs
+	1	all
+	6	gatk_asereadcounter
+	1	index_vcf
+	1	remove_duplicates
+	9
+
+[Thu Sep 22 21:06:28 2022]
+rule remove_duplicates:
+    input: /scratch/eknodel/SCC_samples/cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.filtered.pass_rmdup.vcf
+    jobid: 7
+
+Submitted job 7 with external jobid 'Submitted batch job 17562837'.
+[Thu Sep 22 21:06:42 2022]
+Error in rule remove_duplicates:
+    jobid: 7
+    output: /scratch/eknodel/SCC_samples/cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.filtered.pass_rmdup.vcf
+    cluster_jobid: Submitted batch job 17562837
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/04_variant_specific_expression/.snakemake/log/2022-09-22T210628.074172.snakemake.log

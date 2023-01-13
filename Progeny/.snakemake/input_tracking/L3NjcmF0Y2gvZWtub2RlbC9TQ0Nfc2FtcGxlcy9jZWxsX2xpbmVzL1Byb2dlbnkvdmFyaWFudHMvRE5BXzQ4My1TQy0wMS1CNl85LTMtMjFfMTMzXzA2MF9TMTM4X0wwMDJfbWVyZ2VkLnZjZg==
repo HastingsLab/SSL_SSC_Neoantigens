@@ -1,0 +1,3 @@
+/scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.filtered.pass.vcf
+/scratch/eknodel/SCC_samples/cell_lines/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.indels.pass.vcf
+/scratch/eknodel/SCC_samples/cell_lines/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.snvs.pass.vcf

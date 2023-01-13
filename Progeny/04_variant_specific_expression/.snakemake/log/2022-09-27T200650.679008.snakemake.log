@@ -1,0 +1,42 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job counts:
+	count	jobs
+	1	all
+	2	format_output
+	3
+
+[Tue Sep 27 20:06:50 2022]
+rule format_output:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_strelka_unfiltered_expression.tsv
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_unfiltered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_strelka_filtered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_strelka_unfiltered_expression.out
+    jobid: 2
+    wildcards: RNA=483_sc_01_B6-2_354_223_S59_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 17635933'.
+
+[Tue Sep 27 20:06:51 2022]
+rule format_output:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_unfiltered_expression.tsv
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_unfiltered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_filtered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_unfiltered_expression.out
+    jobid: 3
+    wildcards: RNA=483_sc_01_B6-1_366_211_S58_L003
+
+Submitted job 3 with external jobid 'Submitted batch job 17635934'.
+[Tue Sep 27 20:07:01 2022]
+Finished job 2.
+1 of 3 steps (33%) done
+[Tue Sep 27 20:07:01 2022]
+Finished job 3.
+2 of 3 steps (67%) done
+
+[Tue Sep 27 20:07:01 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_filtered_expression.out
+    jobid: 0
+
+[Tue Sep 27 20:07:01 2022]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Progeny/04_variant_specific_expression/.snakemake/log/2022-09-27T200650.679008.snakemake.log

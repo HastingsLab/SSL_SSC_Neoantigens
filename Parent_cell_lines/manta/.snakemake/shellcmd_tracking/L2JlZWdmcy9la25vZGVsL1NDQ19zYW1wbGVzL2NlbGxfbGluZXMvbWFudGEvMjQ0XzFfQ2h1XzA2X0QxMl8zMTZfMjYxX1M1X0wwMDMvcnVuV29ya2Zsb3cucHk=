@@ -1,0 +1,3 @@
+
+        ~/bin/manta-1.6.0.centos6_x86_64/bin/configManta.py         --tumorBam /beegfs/eknodel/SCC_samples/cell_lines/processed_bams/244_1_Chu_06_D12_316_261_S5_L003.GRCm38_68.sorted.bam         --normalBam /beegfs/eknodel/SCC_samples/cell_lines/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam         --referenceFasta /beegfs/eknodel/SCC_samples/reference/GRCm38_68.fa         --runDir /beegfs/eknodel/SCC_samples/cell_lines/manta/244_1_Chu_06_D12_316_261_S5_L003
+        

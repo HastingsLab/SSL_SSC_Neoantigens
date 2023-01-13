@@ -1,0 +1,17 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	tumor_only
+	2
+
+[Wed Apr 20 10:52:20 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/GENCODE_Mus_musculus/gencode.vM27.transcripts.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_aligned_sortedbycoord_RG.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_haplotype_caller/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz
+    jobid: 1
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 15097980'.

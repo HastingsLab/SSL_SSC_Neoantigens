@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 71
+Job counts:
+	count	jobs
+	1	all
+	1	format_peptides
+	1	generate_fasta_21_gatk
+	1	generate_fasta_gatk
+	1	generate_fasta_strelka
+	1	run_vep
+	1	va_annotation
+	7
+
+[Tue Dec 20 08:49:01 2022]
+rule run_vep:
+    input: /scratch/eknodel/SCC_samples/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic_sorted.filtered.pass.vcf, /scratch/eknodel/SCC_samples/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic_sorted.vcf, /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic_sorted.pass.vcf, /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic_sorted.vcf
+    output: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered.vcf
+    jobid: 3
+    wildcards: sample=DNA_483-SC-01-B6_9-3-21_133_060_S138_L002
+
+Submitted job 3 with external jobid 'Submitted batch job 18601517'.
+[Tue Dec 20 08:49:11 2022]
+Error in rule run_vep:
+    jobid: 3
+    output: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered.vcf
+    cluster_jobid: Submitted batch job 18601517
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Progeny/03_variant_annotation/.snakemake/log/2022-12-20T084900.945183.snakemake.log

@@ -1,0 +1,142 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	2	SplitNCigarReads
+	2	add_readgroup
+	1	all
+	2	filter
+	2	select_pass_variants
+	2	tumor_only
+	11
+
+[Tue Sep 20 12:39:56 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 10
+    wildcards: subject=483_sc_01_B6-2_354_223_S59_L003
+
+Submitted job 10 with external jobid 'Submitted batch job 17533461'.
+
+[Tue Sep 20 12:39:56 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 9
+    wildcards: subject=483_sc_01_B6-1_366_211_S58_L003
+
+Submitted job 9 with external jobid 'Submitted batch job 17533462'.
+[Tue Sep 20 12:44:56 2022]
+Finished job 10.
+1 of 11 steps (9%) done
+
+[Tue Sep 20 12:44:56 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 8
+    wildcards: subject=483_sc_01_B6-2_354_223_S59_L003
+
+Submitted job 8 with external jobid 'Submitted batch job 17533475'.
+[Tue Sep 20 12:45:27 2022]
+Finished job 9.
+2 of 11 steps (18%) done
+
+[Tue Sep 20 12:45:27 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 7
+    wildcards: subject=483_sc_01_B6-1_366_211_S58_L003
+
+Submitted job 7 with external jobid 'Submitted batch job 17533476'.
+[Tue Sep 20 13:31:00 2022]
+Finished job 8.
+3 of 11 steps (27%) done
+
+[Tue Sep 20 13:31:00 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.vcf.gz
+    jobid: 5
+    wildcards: subject=483_sc_01_B6-2_354_223_S59_L003
+
+Submitted job 5 with external jobid 'Submitted batch job 17533616'.
+[Tue Sep 20 13:42:31 2022]
+Finished job 7.
+4 of 11 steps (36%) done
+
+[Tue Sep 20 13:42:31 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.vcf.gz
+    jobid: 2
+    wildcards: subject=483_sc_01_B6-1_366_211_S58_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 17533789'.
+[Tue Sep 20 16:01:11 2022]
+Finished job 5.
+5 of 11 steps (45%) done
+
+[Tue Sep 20 16:01:11 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.filtered.vcf.gz
+    jobid: 1
+    wildcards: subject=483_sc_01_B6-2_354_223_S59_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 17534280'.
+[Tue Sep 20 16:05:41 2022]
+Finished job 1.
+6 of 11 steps (55%) done
+
+[Tue Sep 20 16:05:41 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.filtered.pass.vcf.gz
+    jobid: 4
+    wildcards: subject=483_sc_01_B6-2_354_223_S59_L003
+
+Submitted job 4 with external jobid 'Submitted batch job 17534296'.
+[Tue Sep 20 16:05:51 2022]
+Finished job 4.
+7 of 11 steps (64%) done
+[Tue Sep 20 16:24:42 2022]
+Finished job 2.
+8 of 11 steps (73%) done
+
+[Tue Sep 20 16:24:42 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.filtered.vcf.gz
+    jobid: 3
+    wildcards: subject=483_sc_01_B6-1_366_211_S58_L003
+
+Submitted job 3 with external jobid 'Submitted batch job 17534380'.
+[Tue Sep 20 16:29:13 2022]
+Finished job 3.
+9 of 11 steps (82%) done
+
+[Tue Sep 20 16:29:13 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.filtered.pass.vcf.gz
+    jobid: 6
+    wildcards: subject=483_sc_01_B6-1_366_211_S58_L003
+
+Submitted job 6 with external jobid 'Submitted batch job 17534399'.
+[Tue Sep 20 16:29:43 2022]
+Finished job 6.
+10 of 11 steps (91%) done
+
+[Tue Sep 20 16:29:43 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.filtered.pass.vcf.gz
+    jobid: 0
+
+[Tue Sep 20 16:29:43 2022]
+Finished job 0.
+11 of 11 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Progeny/RNA_mutations/02_variant_calling/.snakemake/log/2022-09-20T123955.812576.snakemake.log

@@ -1,0 +1,53 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 6
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	select_pass_variants
+	1
+
+[Tue Sep 20 16:29:14 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.filtered.pass.vcf.gz
+    jobid: 0
+    wildcards: subject=483_sc_01_B6-1_366_211_S58_L003
+
+16:29:16.307 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Sep 20, 2022 4:29:16 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+16:29:16.523 INFO  SelectVariants - ------------------------------------------------------------
+16:29:16.523 INFO  SelectVariants - The Genome Analysis Toolkit (GATK) v4.1.7.0
+16:29:16.523 INFO  SelectVariants - For support and documentation go to https://software.broadinstitute.org/gatk/
+16:29:16.523 INFO  SelectVariants - Executing as eknodel@cg17-3.agave.rc.asu.edu on Linux v3.10.0-1160.21.1.el7.x86_64 amd64
+16:29:16.523 INFO  SelectVariants - Java runtime: OpenJDK 64-Bit Server VM v11.0.1-internal+0-adhoc..src
+16:29:16.524 INFO  SelectVariants - Start Date/Time: September 20, 2022 at 4:29:16 PM MST
+16:29:16.524 INFO  SelectVariants - ------------------------------------------------------------
+16:29:16.524 INFO  SelectVariants - ------------------------------------------------------------
+16:29:16.525 INFO  SelectVariants - HTSJDK Version: 2.21.2
+16:29:16.525 INFO  SelectVariants - Picard Version: 2.21.9
+16:29:16.525 INFO  SelectVariants - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+16:29:16.525 INFO  SelectVariants - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+16:29:16.525 INFO  SelectVariants - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+16:29:16.525 INFO  SelectVariants - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+16:29:16.525 INFO  SelectVariants - Deflater: IntelDeflater
+16:29:16.525 INFO  SelectVariants - Inflater: IntelInflater
+16:29:16.525 INFO  SelectVariants - GCS max retries/reopens: 20
+16:29:16.525 INFO  SelectVariants - Requester pays: disabled
+16:29:16.525 INFO  SelectVariants - Initializing engine
+16:29:16.708 INFO  FeatureManager - Using codec VCFCodec to read file file:///scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.filtered.vcf.gz
+16:29:16.848 INFO  SelectVariants - Done initializing engine
+16:29:16.908 INFO  ProgressMeter - Starting traversal
+16:29:16.909 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+16:29:23.470 INFO  ProgressMeter -      JH584304.1:8523              0.1                299195        2736539.6
+16:29:23.471 INFO  ProgressMeter - Traversal complete. Processed 299195 total variants in 0.1 minutes.
+16:29:23.554 INFO  SelectVariants - Shutting down engine
+[September 20, 2022 at 4:29:23 PM MST] org.broadinstitute.hellbender.tools.walkers.variantutils.SelectVariants done. Elapsed time: 0.12 minutes.
+Runtime.totalMemory()=1182793728
+Using GATK jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar SelectVariants -R /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa -V /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.filtered.vcf.gz --exclude-filtered -O /scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.filtered.pass.vcf.gz
+[Tue Sep 20 16:29:23 2022]
+Finished job 0.
+1 of 1 steps (100%) done

@@ -1,0 +1,3 @@
+
+        vep -i /scratch/eknodel/SCC_samples/variants/gDNA_188_25_2E2_5C_157_036_S57_L004_merged.vcf --format vcf --species mus_musculus --cache --cache_version 100 --offline --vcf -o /scratch/eknodel/SCC_samples/variants/gDNA_188_25_2E2_5C_157_036_S57_L004_vep.vcf --force_overwrite  --symbol --plugin Wildtype --terms SO --plugin Downstream 
+        

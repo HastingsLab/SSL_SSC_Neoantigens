@@ -1,0 +1,75 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Select jobs to execute...
+
+[Tue Nov 15 15:39:04 2022]
+rule collect_fragment_counts:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_188_25_2E2_5C_157_036_S57_L004.GRCm38_68.sorted.mkdup.bam, targets_C.preprocessed.interval_list, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: cnv_files/gDNA_188_25_2E2_5C_157_036_S57_L004_tumor.counts.hdf5
+    jobid: 0
+    wildcards: subject=gDNA_188_25_2E2_5C_157_036_S57_L004
+    resources: mem_mb=10599, disk_mb=10599, tmpdir=/tmp
+
+15:39:07.638 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Nov 15, 2022 3:39:07 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+15:39:07.980 INFO  CollectReadCounts - ------------------------------------------------------------
+15:39:07.980 INFO  CollectReadCounts - The Genome Analysis Toolkit (GATK) v4.1.7.0
+15:39:07.980 INFO  CollectReadCounts - For support and documentation go to https://software.broadinstitute.org/gatk/
+15:39:07.980 INFO  CollectReadCounts - Executing as eknodel@s76-7.agave.rc.asu.edu on Linux v3.10.0-1160.21.1.el7.x86_64 amd64
+15:39:07.980 INFO  CollectReadCounts - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_352-b08
+15:39:07.981 INFO  CollectReadCounts - Start Date/Time: November 15, 2022 3:39:07 PM MST
+15:39:07.981 INFO  CollectReadCounts - ------------------------------------------------------------
+15:39:07.981 INFO  CollectReadCounts - ------------------------------------------------------------
+15:39:07.981 INFO  CollectReadCounts - HTSJDK Version: 2.21.2
+15:39:07.981 INFO  CollectReadCounts - Picard Version: 2.21.9
+15:39:07.981 INFO  CollectReadCounts - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+15:39:07.981 INFO  CollectReadCounts - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+15:39:07.981 INFO  CollectReadCounts - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+15:39:07.981 INFO  CollectReadCounts - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+15:39:07.981 INFO  CollectReadCounts - Deflater: IntelDeflater
+15:39:07.981 INFO  CollectReadCounts - Inflater: IntelInflater
+15:39:07.981 INFO  CollectReadCounts - GCS max retries/reopens: 20
+15:39:07.981 INFO  CollectReadCounts - Requester pays: disabled
+15:39:07.981 INFO  CollectReadCounts - Initializing engine
+15:39:08.462 INFO  FeatureManager - Using codec IntervalListCodec to read file file:///home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/targets_C.preprocessed.interval_list
+15:39:10.678 INFO  IntervalArgumentCollection - Processing 188874319 bp from intervals
+15:39:10.720 INFO  CollectReadCounts - Done initializing engine
+15:39:10.725 INFO  CollectReadCounts - Collecting read counts...
+15:39:10.726 INFO  ProgressMeter - Starting traversal
+15:39:10.726 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Reads Processed     Reads/Minute
+15:39:20.729 INFO  ProgressMeter -          1:165475083              0.2               3303000       19814037.2
+15:39:30.729 INFO  ProgressMeter -          11:70097633              0.3               8454000       25359464.1
+15:39:40.730 INFO  ProgressMeter -          13:51418928              0.5              13584000       27164378.1
+15:39:50.734 INFO  ProgressMeter -          16:17047273              0.7              18611000       27910917.8
+15:40:00.736 INFO  ProgressMeter -          18:80452430              0.8              23571000       28280109.6
+15:40:10.736 INFO  ProgressMeter -          2:119454099              1.0              28614000       28609708.5
+15:40:20.735 INFO  ProgressMeter -          3:116274031              1.2              33515000       28723449.8
+15:40:30.736 INFO  ProgressMeter -          4:152380499              1.3              38351000       28759655.0
+15:40:40.738 INFO  ProgressMeter -           6:57687516              1.5              43310000       28869484.1
+15:40:50.739 INFO  ProgressMeter -          7:135668915              1.7              48166000       28895843.5
+15:41:00.739 INFO  ProgressMeter -          9:100803287              1.8              52863000       28830956.3
+15:41:05.811 INFO  CollectReadCounts - 0 read(s) filtered by: WellformedReadFilter 
+3838 read(s) filtered by: MappedReadFilter 
+0 read(s) filtered by: NonZeroReferenceLengthAlignmentReadFilter 
+7058213 read(s) filtered by: NotDuplicateReadFilter 
+2482663 read(s) filtered by: MappingQualityReadFilter 
+9544714 total reads filtered
+15:41:05.811 INFO  ProgressMeter -     JH584304.1:58721              1.9              54941862       28644147.5
+15:41:05.811 INFO  ProgressMeter - Traversal complete. Processed 54941862 total reads in 1.9 minutes.
+15:41:05.811 INFO  CollectReadCounts - Writing read counts to /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/cnv_files/gDNA_188_25_2E2_5C_157_036_S57_L004_tumor.counts.hdf5...
+log4j:WARN No appenders could be found for logger (org.broadinstitute.hdf5.HDF5Library).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+15:41:06.484 INFO  CollectReadCounts - CollectReadCounts complete.
+15:41:06.484 INFO  CollectReadCounts - Shutting down engine
+[November 15, 2022 3:41:06 PM MST] org.broadinstitute.hellbender.tools.copynumber.CollectReadCounts done. Elapsed time: 1.98 minutes.
+Runtime.totalMemory()=792788992
+Using GATK jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar CollectReadCounts -I /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_188_25_2E2_5C_157_036_S57_L004.GRCm38_68.sorted.mkdup.bam -L targets_C.preprocessed.interval_list --interval-merging-rule OVERLAPPING_ONLY -O cnv_files/gDNA_188_25_2E2_5C_157_036_S57_L004_tumor.counts.hdf5
+[Tue Nov 15 15:41:06 2022]
+Finished job 0.
+1 of 1 steps (100%) done

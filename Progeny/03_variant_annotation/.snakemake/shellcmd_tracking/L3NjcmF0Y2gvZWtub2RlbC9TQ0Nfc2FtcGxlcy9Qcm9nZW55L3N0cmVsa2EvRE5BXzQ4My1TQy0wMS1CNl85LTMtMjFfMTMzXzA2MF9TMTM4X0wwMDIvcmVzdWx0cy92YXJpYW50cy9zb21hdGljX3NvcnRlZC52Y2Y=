@@ -1,0 +1,6 @@
+
+        bcftools sort /scratch/eknodel/SCC_samples/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.filtered.pass.vcf -o /scratch/eknodel/SCC_samples/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic_sorted.filtered.pass.vcf;
+        bcftools sort /scratch/eknodel/SCC_samples/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.vcf -o /scratch/eknodel/SCC_samples/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic_sorted.vcf;
+        bcftools sort /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.pass.vcf -o /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic_sorted.pass.vcf;
+        bcftools sort /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.vcf -o /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic_sorted.vcf;
+        

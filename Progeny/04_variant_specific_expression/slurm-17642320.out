@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	format_output
+	1
+
+[Wed Sep 28 09:53:07 2022]
+rule format_output:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_unfiltered_expression.tsv
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_unfiltered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_filtered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_unfiltered_expression.out
+    jobid: 0
+    wildcards: RNA=483_sc_01_B6-1_366_211_S58_L003
+
+[Wed Sep 28 09:53:08 2022]
+Finished job 0.
+1 of 1 steps (100%) done

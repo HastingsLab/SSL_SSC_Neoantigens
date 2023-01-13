@@ -1,0 +1,69 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 1
+Job counts:
+	count	jobs
+	1	all
+	1	format_peptides
+	1	generate_fasta_gatk
+	1	generate_fasta_strelka
+	1	va_annotation
+	5
+
+[Wed Dec  7 16:04:50 2022]
+rule va_annotation:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_unfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered_gt.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_unfiltered_gt.vcf
+    jobid: 7
+    wildcards: sample=185_1_SC_01_F11_364_213_S1_L003
+
+Submitted job 7 with external jobid 'Submitted batch job 18414238'.
+[Wed Dec  7 16:06:20 2022]
+Finished job 7.
+1 of 5 steps (20%) done
+
+[Wed Dec  7 16:06:20 2022]
+rule generate_fasta_strelka:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered_gt.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_unfiltered_gt.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_ubfiltered.vcf
+    jobid: 2
+    wildcards: sample=185_1_SC_01_F11_364_213_S1_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 18414254'.
+[Wed Dec  7 16:08:50 2022]
+Finished job 2.
+2 of 5 steps (40%) done
+
+[Wed Dec  7 16:08:50 2022]
+rule generate_fasta_gatk:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_unfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_unfiltered.vcf
+    jobid: 5
+    wildcards: sample=185_1_SC_01_F11_364_213_S1_L003
+
+Submitted job 5 with external jobid 'Submitted batch job 18414265'.
+[Wed Dec  7 16:10:20 2022]
+Finished job 5.
+3 of 5 steps (60%) done
+
+[Wed Dec  7 16:10:20 2022]
+rule format_peptides:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_ubfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_unfiltered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_unfiltered.peptides
+    jobid: 4
+    wildcards: sample=185_1_SC_01_F11_364_213_S1_L003
+
+Submitted job 4 with external jobid 'Submitted batch job 18414275'.
+[Wed Dec  7 16:10:30 2022]
+Finished job 4.
+4 of 5 steps (80%) done
+
+[Wed Dec  7 16:10:30 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.peptides
+    jobid: 0
+
+[Wed Dec  7 16:10:30 2022]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/03_variant_annotation/.snakemake/log/2022-12-07T160449.549087.snakemake.log

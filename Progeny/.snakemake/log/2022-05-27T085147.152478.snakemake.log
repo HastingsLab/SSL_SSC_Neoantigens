@@ -1,0 +1,81 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 40
+Job counts:
+	count	jobs
+	1	all
+	1	fastqc_analysis
+	1	multiqc_analysis
+	1	trim_adapters_paired_bbduk
+	1	trimmed_fastqc_analysis
+	1	trimmed_multiqc_analysis
+	6
+
+[Fri May 27 08:51:47 2022]
+rule fastqc_analysis:
+    input: /home/eknodel/SCC_samples/Progeny/WES/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_R1_001.fastq.gz, /home/eknodel/SCC_samples/Progeny/WES/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_R2_001.fastq.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/raw_fastqc_results/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_R1_001_fastqc.html, /scratch/eknodel/SCC_samples/cell_lines/Progeny/raw_fastqc_results/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_R2_001_fastqc.html
+    jobid: 3
+    wildcards: sample=DNA_483-SC-01-B6_9-3-21_133_060_S138_L002
+
+Submitted job 3 with external jobid 'Submitted batch job 15911812'.
+
+[Fri May 27 08:51:47 2022]
+rule trim_adapters_paired_bbduk:
+    input: /home/eknodel/SCC_samples/Progeny/WES/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_R1_001.fastq.gz, /home/eknodel/SCC_samples/Progeny/WES/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_R2_001.fastq.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/trimmed_fastqs/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_trimmed_read1.fastq.gz, /scratch/eknodel/SCC_samples/cell_lines/Progeny/trimmed_fastqs/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_trimmed_read2.fastq.gz
+    jobid: 5
+    wildcards: sample=DNA_483-SC-01-B6_9-3-21_133_060_S138_L002
+    threads: 2
+
+Submitted job 5 with external jobid 'Submitted batch job 15911813'.
+[Fri May 27 08:59:48 2022]
+Finished job 5.
+1 of 6 steps (17%) done
+
+[Fri May 27 08:59:48 2022]
+rule trimmed_fastqc_analysis:
+    input: /scratch/eknodel/SCC_samples/cell_lines/Progeny/trimmed_fastqs/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_trimmed_read1.fastq.gz, /scratch/eknodel/SCC_samples/cell_lines/Progeny/trimmed_fastqs/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_trimmed_read2.fastq.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/trimmed_fastqc_results/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_trimmed_read1_fastqc.html, /scratch/eknodel/SCC_samples/cell_lines/Progeny/trimmed_fastqc_results/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_trimmed_read2_fastqc.html
+    jobid: 4
+    wildcards: sample=DNA_483-SC-01-B6_9-3-21_133_060_S138_L002
+
+Submitted job 4 with external jobid 'Submitted batch job 15911973'.
+[Fri May 27 09:08:19 2022]
+Finished job 3.
+2 of 6 steps (33%) done
+
+[Fri May 27 09:08:19 2022]
+rule multiqc_analysis:
+    input: /scratch/eknodel/SCC_samples/cell_lines/Progeny/raw_fastqc_results/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_R1_001_fastqc.html, /scratch/eknodel/SCC_samples/cell_lines/Progeny/raw_fastqc_results/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_R2_001_fastqc.html
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/raw_multiqc_results/multiqc_report.html
+    jobid: 1
+
+Submitted job 1 with external jobid 'Submitted batch job 15912425'.
+[Fri May 27 09:08:49 2022]
+Finished job 1.
+3 of 6 steps (50%) done
+[Fri May 27 09:14:19 2022]
+Finished job 4.
+4 of 6 steps (67%) done
+
+[Fri May 27 09:14:19 2022]
+rule trimmed_multiqc_analysis:
+    input: /scratch/eknodel/SCC_samples/cell_lines/Progeny/trimmed_fastqc_results/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_trimmed_read1_fastqc.html, /scratch/eknodel/SCC_samples/cell_lines/Progeny/trimmed_fastqc_results/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_trimmed_read2_fastqc.html
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/trimmed_multiqc_results/multiqc_report.html
+    jobid: 2
+
+Submitted job 2 with external jobid 'Submitted batch job 15912535'.
+[Fri May 27 09:14:49 2022]
+Finished job 2.
+5 of 6 steps (83%) done
+
+[Fri May 27 09:14:49 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/cell_lines/Progeny/raw_multiqc_results/multiqc_report.html, /scratch/eknodel/SCC_samples/cell_lines/Progeny/trimmed_multiqc_results/multiqc_report.html
+    jobid: 0
+
+[Fri May 27 09:14:49 2022]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Progeny/.snakemake/log/2022-05-27T085147.152478.snakemake.log

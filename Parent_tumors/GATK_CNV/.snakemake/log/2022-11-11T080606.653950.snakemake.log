@@ -1,0 +1,12 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules plot_tumor and plot_normal are ambiguous for the file cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.denoised.png.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	plot_tumor: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+	plot_normal: normal=gDNA_185_25_2E1_5C_365_212_S56_L004
+Expected input files:
+	plot_tumor: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+	plot_normal: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_normal.standardizedCR.tsv cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_normal.denoisedCR.tsvExpected output files:
+	plot_tumor: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.denoised.png
+	plot_normal: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.denoised.png

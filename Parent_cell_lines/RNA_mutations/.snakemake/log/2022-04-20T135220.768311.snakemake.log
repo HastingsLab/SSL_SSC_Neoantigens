@@ -1,0 +1,56 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	filter
+	1	select_pass_variants
+	1	tumor_only
+	4
+
+[Wed Apr 20 13:52:20 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz
+    jobid: 3
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 3 with external jobid 'Submitted batch job 15103939'.
+[Wed Apr 20 15:51:58 2022]
+Finished job 3.
+1 of 4 steps (25%) done
+
+[Wed Apr 20 15:51:58 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.filtered.vcf.gz
+    jobid: 2
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 15106208'.
+[Wed Apr 20 15:56:29 2022]
+Finished job 2.
+2 of 4 steps (50%) done
+
+[Wed Apr 20 15:56:29 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.filtered.pass.vcf.gz
+    jobid: 1
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 15106550'.
+[Wed Apr 20 15:57:59 2022]
+Finished job 1.
+3 of 4 steps (75%) done
+
+[Wed Apr 20 15:57:59 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.filtered.pass.vcf.gz
+    jobid: 0
+
+[Wed Apr 20 15:57:59 2022]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/RNA_mutations/.snakemake/log/2022-04-20T135220.768311.snakemake.log

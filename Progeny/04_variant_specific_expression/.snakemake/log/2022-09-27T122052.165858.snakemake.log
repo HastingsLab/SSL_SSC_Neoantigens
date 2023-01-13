@@ -1,0 +1,66 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job counts:
+	count	jobs
+	1	all
+	2	gatk_asereadcounter
+	1	index_vcf
+	1	remove_duplicates
+	5
+
+[Tue Sep 27 12:20:52 2022]
+rule remove_duplicates:
+    input: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered.vcf, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf
+    jobid: 4
+
+Submitted job 4 with external jobid 'Submitted batch job 17628592'.
+[Tue Sep 27 12:22:23 2022]
+Finished job 4.
+1 of 5 steps (20%) done
+
+[Tue Sep 27 12:22:23 2022]
+rule index_vcf:
+    input: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf
+    output: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf.idx
+    jobid: 3
+
+Submitted job 3 with external jobid 'Submitted batch job 17628597'.
+[Tue Sep 27 12:22:53 2022]
+Finished job 3.
+2 of 5 steps (40%) done
+
+[Tue Sep 27 12:22:53 2022]
+rule gatk_asereadcounter:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf.idx
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_unfiltered_expression.tsv
+    jobid: 2
+    wildcards: RNA=483_sc_01_B6-1_366_211_S58_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 17628600'.
+
+[Tue Sep 27 12:22:53 2022]
+rule gatk_asereadcounter:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf.idx
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_strelka_unfiltered_expression.tsv
+    jobid: 1
+    wildcards: RNA=483_sc_01_B6-2_354_223_S59_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 17628601'.
+[Tue Sep 27 13:26:07 2022]
+Finished job 2.
+3 of 5 steps (60%) done
+[Tue Sep 27 13:27:47 2022]
+Finished job 1.
+4 of 5 steps (80%) done
+
+[Tue Sep 27 13:27:47 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_filtered_expression.tsv
+    jobid: 0
+
+[Tue Sep 27 13:27:47 2022]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Progeny/04_variant_specific_expression/.snakemake/log/2022-09-27T122052.165858.snakemake.log

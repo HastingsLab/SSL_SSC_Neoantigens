@@ -1,0 +1,36 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job stats:
+job               count    min threads    max threads
+--------------  -------  -------------  -------------
+all                   1              1              1
+model_segments        1              1              1
+total                 2              1              1
+
+Select jobs to execute...
+
+[Fri Nov 11 12:35:59 2022]
+rule model_segments:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.allelicCounts.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.allelicCounts.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004.hets.tsv
+    jobid: 10
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 18084792'.
+[Fri Nov 11 12:37:29 2022]
+Finished job 10.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Fri Nov 11 12:37:29 2022]
+localrule all:
+    input: targets_C.preprocessed.interval_list, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.standardizedCR.tsv, cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoised.png, cnv_plots/gDNA_normal_tissue_377_200_S55_L004_normal.denoised.png, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.allelicCounts.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.allelicCounts.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004.hets.tsv
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Fri Nov 11 12:37:29 2022]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/log/2022-11-11T123549.553953.snakemake.log

@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 17 of /home/eknodel/SCC_samples/Progeny/gatk_mutect2.snakefile:
+Missing input files for rule tumor_with_matched_normal:
+/scratch/eknodel/SCC_samples/cell_lines/Progeny/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam
+/scratch/eknodel/SCC_samples/reference/GRCm38_68.fa

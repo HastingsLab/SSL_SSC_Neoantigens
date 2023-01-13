@@ -1,0 +1,3 @@
+WildcardError in line 21 of /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/GATK_CNV.snakefile:
+No values given for wildcard 'normal'.
+  File "/home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/GATK_CNV.snakefile", line 21, in <module>

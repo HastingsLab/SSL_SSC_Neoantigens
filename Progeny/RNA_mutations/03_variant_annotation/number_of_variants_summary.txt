@@ -1,0 +1,4 @@
+filename	num_variants
+/scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-1_366_211_S58_L003.somatic.vcf	299195
+/scratch/eknodel/SCC_samples/cell_lines/Progeny/RNAseq/gatk_mutect2/483_sc_01_B6-2_354_223_S59_L003.somatic.vcf	249656
+at_least_1_vcfs	451529

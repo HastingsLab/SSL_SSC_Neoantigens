@@ -1,0 +1,100 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job stats:
+job                               count    min threads    max threads
+------------------------------  -------  -------------  -------------
+all                                   1              1              1
+collect_fragment_counts               1              1              1
+collect_fragment_counts_normal        1              1              1
+plot_normal                           1              1              1
+plot_tumor                            1              1              1
+process_intervals                     1              1              1
+standardize_normal                    1              1              1
+standardize_tumor                     1              1              1
+total                                 8              1              1
+
+Select jobs to execute...
+
+[Fri Nov 11 15:40:42 2022]
+rule process_intervals:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: targets_C.preprocessed.interval_list
+    jobid: 1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 18086490'.
+Waiting at most 5 seconds for missing files.
+[Fri Nov 11 15:41:13 2022]
+Finished job 1.
+1 of 8 steps (12%) done
+Select jobs to execute...
+
+[Fri Nov 11 15:41:13 2022]
+rule collect_fragment_counts_normal:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, targets_C.preprocessed.interval_list, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    jobid: 3
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 18086493'.
+
+[Fri Nov 11 15:41:13 2022]
+rule collect_fragment_counts:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.bam, targets_C.preprocessed.interval_list, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    jobid: 2
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 18086494'.
+[Fri Nov 11 15:43:12 2022]
+Finished job 3.
+2 of 8 steps (25%) done
+Select jobs to execute...
+
+[Fri Nov 11 15:43:12 2022]
+rule standardize_normal:
+    input: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.standardizedCR.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.denoisedCR.tsv
+    jobid: 5
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 18086499'.
+[Fri Nov 11 15:43:42 2022]
+Finished job 2.
+3 of 8 steps (38%) done
+Select jobs to execute...
+
+[Fri Nov 11 15:43:42 2022]
+rule standardize_tumor:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    jobid: 4
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 18086500'.
+[Fri Nov 11 15:43:42 2022]
+Finished job 5.
+4 of 8 steps (50%) done
+Select jobs to execute...
+
+[Fri Nov 11 15:43:42 2022]
+rule plot_normal:
+    input: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.standardizedCR.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.denoisedCR.tsv
+    output: cnv_plots/gDNA_normal_tissue_377_200_S55_L004_normal.denoised.png
+    jobid: 7
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 18086501'.
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 78 of /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/GATK_CNV.snakefile:
+Job Missing files after 5 seconds:
+cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv
+cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 4 completed successfully, but some output files are missing. 4

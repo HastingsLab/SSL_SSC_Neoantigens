@@ -1,0 +1,4 @@
+
+        bcftools concat -a /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.indels.pass.vcf.gz /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.snvs.pass.vcf.gz -o /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.pass.vcf;
+        bcftools concat -a /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.indels.vcf.gz /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.snvs.vcf.gz -o /scratch/eknodel/SCC_samples/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.vcf
+        

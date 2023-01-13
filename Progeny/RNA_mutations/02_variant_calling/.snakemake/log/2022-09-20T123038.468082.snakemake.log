@@ -1,0 +1,3 @@
+NameError in line 13 of /home/eknodel/SCC_samples/Progeny/RNA_mutations/02_variant_calling/gatk_mutect2.snakefile:
+name 'sample' is not defined
+  File "/home/eknodel/SCC_samples/Progeny/RNA_mutations/02_variant_calling/gatk_mutect2.snakefile", line 13, in <module>

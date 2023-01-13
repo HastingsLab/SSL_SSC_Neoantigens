@@ -1,0 +1,6 @@
+filename	num_variants
+/scratch/eknodel/SCC_samples/gatk_mutect2/gDNA_188_25_2E2_5C_157_036_S57_L004.somatic.filtered.pass.vcf	30358
+/scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/results/variants/somatic.snvs.pass.vcf	27819
+/scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/results/variants/somatic.indels.pass.vcf	32
+at_least_2_vcfs	23297
+70

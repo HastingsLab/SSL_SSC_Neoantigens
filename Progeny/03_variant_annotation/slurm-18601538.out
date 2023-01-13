@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/eknodel/bin/pVACtools/pvactools/tools/pvacseq/generate_protein_fasta.py", line 14, in <module>
+    from pvactools.lib.fasta_generator import FastaGenerator
+ImportError: No module named 'pvactools'
+Error in job generate_fasta_gatk while creating output files /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered.vcf.
+RuleException:
+CalledProcessError in line 132 of /home/eknodel/SCC_samples/Progeny/03_variant_annotation/VEP_PVACseq_updated.snakefile:
+Command '
+        python /home/eknodel/bin/pVACtools/pvactools/tools/pvacseq/generate_protein_fasta.py /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.vcf 8 /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.vcf -s DNA_483-SC-01-B6_9-3-21_133_060_S138_L002;
+        python /home/eknodel/bin/pVACtools/pvactools/tools/pvacseq/generate_protein_fasta.py /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered.vcf 8 /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered.vcf -s DNA_483-SC-01-B6_9-3-21_133_060_S138_L002;
+        ' returned non-zero exit status 1
+  File "/home/eknodel/SCC_samples/Progeny/03_variant_annotation/VEP_PVACseq_updated.snakefile", line 132, in __rule_generate_fasta_gatk
+  File "/home/eknodel/miniconda3/envs/var_call_env/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+Exiting because a job execution failed. Look above for error message

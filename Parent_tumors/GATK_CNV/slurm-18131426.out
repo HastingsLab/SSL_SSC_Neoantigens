@@ -1,0 +1,52 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Select jobs to execute...
+
+[Tue Nov 15 15:42:05 2022]
+rule plot_tumor:
+    input: cnv_files/gDNA_244_25_2E1_chu_329_248_S59_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_244_25_2E1_chu_329_248_S59_L004_tumor.denoisedCR.tsv
+    output: cnv_plots/gDNA_244_25_2E1_chu_329_248_S59_L004_tumor.denoised.png
+    jobid: 0
+    wildcards: subject=gDNA_244_25_2E1_chu_329_248_S59_L004
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+15:42:08.655 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Nov 15, 2022 3:42:08 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+15:42:08.990 INFO  PlotDenoisedCopyRatios - ------------------------------------------------------------
+15:42:08.990 INFO  PlotDenoisedCopyRatios - The Genome Analysis Toolkit (GATK) v4.1.7.0
+15:42:08.990 INFO  PlotDenoisedCopyRatios - For support and documentation go to https://software.broadinstitute.org/gatk/
+15:42:08.990 INFO  PlotDenoisedCopyRatios - Executing as eknodel@s76-7.agave.rc.asu.edu on Linux v3.10.0-1160.21.1.el7.x86_64 amd64
+15:42:08.991 INFO  PlotDenoisedCopyRatios - Java runtime: OpenJDK 64-Bit Server VM v1.8.0_352-b08
+15:42:08.991 INFO  PlotDenoisedCopyRatios - Start Date/Time: November 15, 2022 3:42:08 PM MST
+15:42:08.991 INFO  PlotDenoisedCopyRatios - ------------------------------------------------------------
+15:42:08.991 INFO  PlotDenoisedCopyRatios - ------------------------------------------------------------
+15:42:08.991 INFO  PlotDenoisedCopyRatios - HTSJDK Version: 2.21.2
+15:42:08.991 INFO  PlotDenoisedCopyRatios - Picard Version: 2.21.9
+15:42:08.991 INFO  PlotDenoisedCopyRatios - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+15:42:08.991 INFO  PlotDenoisedCopyRatios - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+15:42:08.991 INFO  PlotDenoisedCopyRatios - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+15:42:08.991 INFO  PlotDenoisedCopyRatios - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+15:42:08.991 INFO  PlotDenoisedCopyRatios - Deflater: IntelDeflater
+15:42:08.991 INFO  PlotDenoisedCopyRatios - Inflater: IntelInflater
+15:42:08.991 INFO  PlotDenoisedCopyRatios - GCS max retries/reopens: 20
+15:42:08.992 INFO  PlotDenoisedCopyRatios - Requester pays: disabled
+15:42:08.992 INFO  PlotDenoisedCopyRatios - Initializing engine
+15:42:08.992 INFO  PlotDenoisedCopyRatios - Done initializing engine
+15:42:08.995 INFO  PlotDenoisedCopyRatios - Reading and validating input files...
+15:42:10.864 INFO  PlotDenoisedCopyRatios - Contigs above length threshold: {1=195471971, 10=130694993, 11=122082543, 12=120129022, 13=120421639, 14=124902244, 15=104043685, 16=98207768, 17=94987271, 18=90702639, 19=61431566, 2=182113224, 3=160039680, 4=156508116, 5=151834684, 6=149736546, 7=145441459, 8=129401213, 9=124595110, X=171031299, Y=91744698}
+15:42:10.920 WARN  PlotDenoisedCopyRatios - Contigs present in the file cnv_files/gDNA_244_25_2E1_chu_329_248_S59_L004_tumor.standardizedCR.tsv are missing from the sequence dictionary and will not be plotted.
+15:42:11.107 WARN  PlotDenoisedCopyRatios - Contigs present in the file cnv_files/gDNA_244_25_2E1_chu_329_248_S59_L004_tumor.denoisedCR.tsv are missing from the sequence dictionary and will not be plotted.
+15:42:11.152 INFO  PlotDenoisedCopyRatios - Writing plots to /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/cnv_plots...
+15:42:17.052 INFO  PlotDenoisedCopyRatios - PlotDenoisedCopyRatios complete.
+15:42:17.053 INFO  PlotDenoisedCopyRatios - Shutting down engine
+[November 15, 2022 3:42:17 PM MST] org.broadinstitute.hellbender.tools.copynumber.plotting.PlotDenoisedCopyRatios done. Elapsed time: 0.14 minutes.
+Runtime.totalMemory()=792788992
+Using GATK jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar PlotDenoisedCopyRatios --standardized-copy-ratios cnv_files/gDNA_244_25_2E1_chu_329_248_S59_L004_tumor.standardizedCR.tsv --denoised-copy-ratios cnv_files/gDNA_244_25_2E1_chu_329_248_S59_L004_tumor.denoisedCR.tsv --sequence-dictionary /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.dict --minimum-contig-length 1000000 --output cnv_plots --output-prefix gDNA_244_25_2E1_chu_329_248_S59_L004_tumor
+[Tue Nov 15 15:42:17 2022]
+Finished job 0.
+1 of 1 steps (100%) done

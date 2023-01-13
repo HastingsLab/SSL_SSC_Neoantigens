@@ -1,0 +1,3 @@
+TypeError in line 16 of /home/eknodel/SCC_samples/Progeny/03_variant_annotation/VEP_PVACseq_updated.snakefile:
+'str' object is not callable
+  File "/home/eknodel/SCC_samples/Progeny/03_variant_annotation/VEP_PVACseq_updated.snakefile", line 16, in <module>

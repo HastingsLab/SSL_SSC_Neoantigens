@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in line 178 of /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/GATK_CNV.snakefile:
+Wildcards in input files cannot be determined from output files:
+'normal'

@@ -1,0 +1,3 @@
+
+        netMHCpan -a H-2-Dd,H-2-Kd,H-2-Ld -f /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/244_B7.17.peptide_formatted -BA -s -xls -l 9  -xlsfile /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/netMHCpan/244_B7_9_netmhc.xsl;
+        

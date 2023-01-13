@@ -1,0 +1,73 @@
+Converting VCF to TSV
+Completed
+Generating Variant Peptide FASTA and Key File
+Wildtype sequence length is shorter than desired peptide sequence length at position (4, 43421763, 43421764). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (4, 119171011, 119171012). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 66452276, 66452276). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 66452276, 66452276). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (9, 108513180, 108513181). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (14, 51885404, 51885405). Using wildtype sequence length (14) instead.
+Completed
+Parsing the Variant Peptide FASTA and Key File
+Completed
+Converting VCF to TSV
+Completed
+Generating Variant Peptide FASTA and Key File
+Wildtype sequence length is shorter than desired peptide sequence length at position (4, 43421763, 43421764). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (4, 119171011, 119171012). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 21756668, 21756669). Using wildtype sequence length (15) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 66452276, 66452276). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 66452276, 66452276). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 100661872, 100661873). Using wildtype sequence length (16) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (9, 108513180, 108513181). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (14, 51885404, 51885405). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (16, 91911992, 91911993). Using wildtype sequence length (16) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (X, 136734430, 136734431). Using wildtype sequence length (16) instead.
+Completed
+Parsing the Variant Peptide FASTA and Key File
+Completed
+Converting VCF to TSV
+Completed
+Generating Variant Peptide FASTA and Key File
+Wildtype sequence length is shorter than desired peptide sequence length at position (2, 130276637, 130276638). Using wildtype sequence length (18) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (2, 157558148, 157558149). Using wildtype sequence length (17) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (4, 43421763, 43421764). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (4, 119171011, 119171012). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 21756668, 21756669). Using wildtype sequence length (15) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 66452276, 66452276). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 66452276, 66452276). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 100661872, 100661873). Using wildtype sequence length (16) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (7, 31143688, 31143689). Using wildtype sequence length (18) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (9, 108513180, 108513181). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (11, 115624324, 115624325). Using wildtype sequence length (18) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (14, 51885404, 51885405). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (16, 91911992, 91911993). Using wildtype sequence length (16) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (X, 136734430, 136734431). Using wildtype sequence length (16) instead.
+Completed
+Parsing the Variant Peptide FASTA and Key File
+Completed
+Converting VCF to TSV
+Completed
+Generating Variant Peptide FASTA and Key File
+Wildtype sequence length is shorter than desired peptide sequence length at position (2, 130276637, 130276638). Using wildtype sequence length (18) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (2, 157558148, 157558149). Using wildtype sequence length (17) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (2, 158420883, 158420884). Using wildtype sequence length (19) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (4, 43421763, 43421764). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (4, 119171011, 119171012). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 21756668, 21756669). Using wildtype sequence length (15) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 66452276, 66452276). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 66452276, 66452276). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 100661872, 100661873). Using wildtype sequence length (16) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 114945829, 114945830). Using wildtype sequence length (19) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (5, 114945831, 114945831). Using wildtype sequence length (19) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (7, 31143688, 31143689). Using wildtype sequence length (18) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (7, 141093879, 141093880). Using wildtype sequence length (20) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (9, 14761631, 14761632). Using wildtype sequence length (19) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (9, 108513180, 108513181). Using wildtype sequence length (12) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (11, 115624324, 115624325). Using wildtype sequence length (18) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (14, 51885404, 51885405). Using wildtype sequence length (14) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (16, 91911992, 91911993). Using wildtype sequence length (16) instead.
+Wildtype sequence length is shorter than desired peptide sequence length at position (X, 136734430, 136734431). Using wildtype sequence length (16) instead.
+Completed
+Parsing the Variant Peptide FASTA and Key File
+Completed

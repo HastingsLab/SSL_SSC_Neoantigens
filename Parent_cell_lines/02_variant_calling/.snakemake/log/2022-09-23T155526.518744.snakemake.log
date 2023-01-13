@@ -1,0 +1,43 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	run
+	1	select_pass_variants
+	3
+
+[Fri Sep 23 15:55:26 2022]
+rule run:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/processed_bams/244_1_Chu_02_B7_352_225_S2_L003.GRCm38_68.sorted.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.snvs.vcf.gz, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.indels.vcf.gz
+    jobid: 1
+    wildcards: subject=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 17567759'.
+[Fri Sep 23 16:03:57 2022]
+Finished job 1.
+1 of 3 steps (33%) done
+
+[Fri Sep 23 16:03:57 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.snvs.vcf.gz, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.indels.vcf.gz
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.snvs.pass.vcf.gz, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.indels.pass.vcf.gz
+    jobid: 2
+    wildcards: subject=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 17567797'.
+[Fri Sep 23 16:04:27 2022]
+Finished job 2.
+2 of 3 steps (67%) done
+
+[Fri Sep 23 16:04:27 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/runWorkflow.py, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.snvs.vcf.gz, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.indels.vcf.gz, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.snvs.pass.vcf.gz, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.indels.pass.vcf.gz
+    jobid: 0
+
+[Fri Sep 23 16:04:27 2022]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/02_variant_calling/.snakemake/log/2022-09-23T155526.518744.snakemake.log

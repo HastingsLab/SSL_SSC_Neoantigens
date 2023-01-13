@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 6
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	va_annotation
+	1
+
+[Wed Dec  7 16:04:53 2022]
+rule va_annotation:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_unfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered_gt.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_unfiltered_gt.vcf
+    jobid: 0
+    wildcards: sample=185_1_SC_01_F11_364_213_S1_L003
+
+[Wed Dec  7 16:05:24 2022]
+Finished job 0.
+1 of 1 steps (100%) done

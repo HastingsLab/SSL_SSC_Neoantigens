@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	filter
+	1	select_pass_variants
+	1	tumor_with_matched_normal
+	4
+
+[Tue May 31 16:46:04 2022]
+rule tumor_with_matched_normal:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/cell_lines/Progeny/processed_bams/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.GRCm38_68.sorted.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.vcf.gz
+    jobid: 1
+    wildcards: subject=DNA_483-SC-01-B6_9-3-21_133_060_S138_L002
+
+Submitted job 1 with external jobid 'Submitted batch job 15979513'.
+[Tue May 31 16:46:14 2022]
+Error in rule tumor_with_matched_normal:
+    jobid: 1
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.vcf.gz
+    cluster_jobid: Submitted batch job 15979513
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Progeny/.snakemake/log/2022-05-31T164604.502207.snakemake.log

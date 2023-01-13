@@ -1,0 +1,56 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	filter
+	1	select_pass_variants
+	1	tumor_with_matched_normal
+	4
+
+[Tue May 31 16:49:00 2022]
+rule tumor_with_matched_normal:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/cell_lines/Progeny/processed_bams/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.GRCm38_68.sorted.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.vcf.gz
+    jobid: 3
+    wildcards: subject=DNA_483-SC-01-B6_9-3-21_133_060_S138_L002
+
+Submitted job 3 with external jobid 'Submitted batch job 15979524'.
+[Wed Jun  1 04:49:21 2022]
+Finished job 3.
+1 of 4 steps (25%) done
+
+[Wed Jun  1 04:49:21 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.filtered.vcf.gz
+    jobid: 1
+    wildcards: subject=DNA_483-SC-01-B6_9-3-21_133_060_S138_L002
+
+Submitted job 1 with external jobid 'Submitted batch job 15989589'.
+[Wed Jun  1 04:51:21 2022]
+Finished job 1.
+2 of 4 steps (50%) done
+
+[Wed Jun  1 04:51:21 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.filtered.pass.vcf.gz
+    jobid: 2
+    wildcards: subject=DNA_483-SC-01-B6_9-3-21_133_060_S138_L002
+
+Submitted job 2 with external jobid 'Submitted batch job 15989590'.
+[Wed Jun  1 04:51:31 2022]
+Finished job 2.
+3 of 4 steps (75%) done
+
+[Wed Jun  1 04:51:31 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.filtered.pass.vcf.gz
+    jobid: 0
+
+[Wed Jun  1 04:51:31 2022]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Progeny/.snakemake/log/2022-05-31T164900.742477.snakemake.log

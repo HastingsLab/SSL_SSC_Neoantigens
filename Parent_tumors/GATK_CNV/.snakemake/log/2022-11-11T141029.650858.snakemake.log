@@ -1,0 +1,181 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job stats:
+job                               count    min threads    max threads
+------------------------------  -------  -------------  -------------
+all                                   1              1              1
+collect_allelic_counts                1              1              1
+collect_allelic_counts_normal         1              1              1
+collect_fragment_counts               1              1              1
+collect_fragment_counts_normal        1              1              1
+model_segments                        1              1              1
+plot_model_segments                   1              1              1
+plot_normal                           1              1              1
+plot_tumor                            1              1              1
+process_intervals                     1              1              1
+standardize_normal                    1              1              1
+standardize_tumor                     1              1              1
+total                                12              1              1
+
+Select jobs to execute...
+
+[Fri Nov 11 14:10:31 2022]
+rule collect_allelic_counts_normal:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/Parent_tumors/gatk_mutect2/gDNA_185_25_2E1_5C_365_212_S56_L004.somatic.filtered.pass.vcf
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.allelicCounts.tsv
+    jobid: 9
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+    resources: tmpdir=/tmp
+
+Submitted job 9 with external jobid 'Submitted batch job 18085964'.
+
+[Fri Nov 11 14:10:32 2022]
+rule collect_allelic_counts:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/Parent_tumors/gatk_mutect2/gDNA_185_25_2E1_5C_365_212_S56_L004.somatic.filtered.pass.vcf
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.allelicCounts.tsv
+    jobid: 8
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 8 with external jobid 'Submitted batch job 18085965'.
+
+[Fri Nov 11 14:10:32 2022]
+rule process_intervals:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: targets_C.preprocessed.interval_list
+    jobid: 1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 18085966'.
+[Fri Nov 11 14:10:51 2022]
+Finished job 1.
+1 of 12 steps (8%) done
+Select jobs to execute...
+
+[Fri Nov 11 14:10:51 2022]
+rule collect_fragment_counts_normal:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, targets_C.preprocessed.interval_list, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    jobid: 3
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+    resources: tmpdir=/tmp
+
+Submitted job 3 with external jobid 'Submitted batch job 18085967'.
+
+[Fri Nov 11 14:10:52 2022]
+rule collect_fragment_counts:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.bam, targets_C.preprocessed.interval_list, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    jobid: 2
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 18085968'.
+[Fri Nov 11 14:12:41 2022]
+Finished job 9.
+2 of 12 steps (17%) done
+[Fri Nov 11 14:13:21 2022]
+Finished job 3.
+3 of 12 steps (25%) done
+Select jobs to execute...
+
+[Fri Nov 11 14:13:22 2022]
+rule standardize_normal:
+    input: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.standardizedCR.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.denoisedCR.tsv
+    jobid: 5
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+    resources: tmpdir=/tmp
+
+Submitted job 5 with external jobid 'Submitted batch job 18085985'.
+[Fri Nov 11 14:13:32 2022]
+Finished job 8.
+4 of 12 steps (33%) done
+[Fri Nov 11 14:13:32 2022]
+Finished job 5.
+5 of 12 steps (42%) done
+Select jobs to execute...
+
+[Fri Nov 11 14:13:32 2022]
+rule plot_normal:
+    input: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.standardizedCR.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.denoisedCR.tsv
+    output: cnv_plots/gDNA_normal_tissue_377_200_S55_L004_normal.denoised.png
+    jobid: 7
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+    resources: tmpdir=/tmp
+
+Submitted job 7 with external jobid 'Submitted batch job 18085986'.
+[Fri Nov 11 14:13:52 2022]
+Finished job 7.
+6 of 12 steps (50%) done
+[Fri Nov 11 14:14:02 2022]
+Finished job 2.
+7 of 12 steps (58%) done
+Select jobs to execute...
+
+[Fri Nov 11 14:14:02 2022]
+rule standardize_tumor:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    jobid: 4
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 18085987'.
+[Fri Nov 11 14:14:12 2022]
+Finished job 4.
+8 of 12 steps (67%) done
+Select jobs to execute...
+
+[Fri Nov 11 14:14:12 2022]
+rule plot_tumor:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    output: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoised.png
+    jobid: 6
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 18085988'.
+
+[Fri Nov 11 14:14:12 2022]
+rule model_segments:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.allelicCounts.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.allelicCounts.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004.hets.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004.modelFinal.seg
+    jobid: 10
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 10 with external jobid 'Submitted batch job 18085989'.
+[Fri Nov 11 14:14:32 2022]
+Finished job 6.
+9 of 12 steps (75%) done
+[Fri Nov 11 14:15:02 2022]
+Finished job 10.
+10 of 12 steps (83%) done
+Select jobs to execute...
+
+[Fri Nov 11 14:15:02 2022]
+rule plot_model_segments:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.allelicCounts.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.allelicCounts.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004.modelFinal.seg
+    output: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.png
+    jobid: 11
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 18085991'.
+[Fri Nov 11 14:15:12 2022]
+Error in rule plot_model_segments:
+    jobid: 11
+    output: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.png
+    shell:
+        
+        /home/eknodel/gatk-4.1.7.0/gatk PlotModeledSegments --segments cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004.modelFinal.seg --denoised-copy-ratios cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv --allelic-counts cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.allelicCounts.tsv --sequence-dictionary /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.dict --output cnv_plots --output-prefix gDNA_185_25_2E1_5C_365_212_S56_L004
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 18085991
+
+Error executing rule plot_model_segments on cluster (jobid: 11, external: Submitted batch job 18085991, jobscript: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/tmp.0b9ayvkf/snakejob.plot_model_segments.11.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/log/2022-11-11T141029.650858.snakemake.log
