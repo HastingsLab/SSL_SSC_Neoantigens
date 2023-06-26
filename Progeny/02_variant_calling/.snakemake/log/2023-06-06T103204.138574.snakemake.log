@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 11 of /home/eknodel/SCC_samples/Progeny/02_variant_calling/gatk_mutect2_test_MNP_change.snakefile:
+Missing input files for rule all:
+/scratch/eknodel/SCC_samples/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.filtered.pass.vcf.gz
+/scratch/eknodel/SCC_samples/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.filtered.vcf.gz

@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 14 of /home/eknodel/SCC_samples/Progeny/03_variant_annotation/VEP_PVACseq_updated.snakefile:
+Missing input files for rule all:
+/scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_29.peptides

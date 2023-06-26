@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 19 of /home/eknodel/SCC_samples/Parent_cell_lines/03_variant_annotation/VEP_fix_MNPs.snakefile:
+Missing input files for rule sort_input:
+/scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_06_D12_316_261_S5_L003_mnp_split.somatic.filtered.pass.vcf

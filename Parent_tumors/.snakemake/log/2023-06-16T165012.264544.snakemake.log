@@ -1,0 +1,128 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 71
+Job counts:
+	count	jobs
+	1	all
+	3	format_peptides
+	3	generate_fasta_ns
+	3	va_annotation
+	10
+
+[Fri Jun 16 16:50:13 2023]
+rule va_annotation:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_188_25_2E2_5C_157_036_S57_L004_merged_vep.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_188_25_2E2_5C_157_036_S57_L004_merged_vep_gt.vcf
+    jobid: 20
+    wildcards: subject=gDNA_188_25_2E2_5C_157_036_S57_L004
+
+Submitted job 20 with external jobid 'Submitted batch job 21319466'.
+
+[Fri Jun 16 16:50:13 2023]
+rule va_annotation:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_244_25_2E1_chu_329_248_S59_L004_merged_vep.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_244_25_2E1_chu_329_248_S59_L004_merged_vep_gt.vcf
+    jobid: 19
+    wildcards: subject=gDNA_244_25_2E1_chu_329_248_S59_L004
+
+Submitted job 19 with external jobid 'Submitted batch job 21319467'.
+
+[Fri Jun 16 16:50:13 2023]
+rule va_annotation:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_185_25_2E1_5C_365_212_S56_L004_merged_vep.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_185_25_2E1_5C_365_212_S56_L004_merged_vep_gt.vcf
+    jobid: 21
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+
+Submitted job 21 with external jobid 'Submitted batch job 21319468'.
+[Fri Jun 16 16:50:23 2023]
+Finished job 21.
+1 of 10 steps (10%) done
+
+[Fri Jun 16 16:50:23 2023]
+rule generate_fasta_ns:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_185_25_2E1_5C_365_212_S56_L004_merged_vep_gt.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_185_25_2E1_5C_365_212_S56_L004_vep.17.vcf
+    jobid: 17
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+
+Submitted job 17 with external jobid 'Submitted batch job 21319476'.
+[Fri Jun 16 16:50:33 2023]
+Finished job 20.
+2 of 10 steps (20%) done
+
+[Fri Jun 16 16:50:33 2023]
+rule generate_fasta_ns:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_188_25_2E2_5C_157_036_S57_L004_merged_vep_gt.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_188_25_2E2_5C_157_036_S57_L004_vep.17.vcf
+    jobid: 16
+    wildcards: subject=gDNA_188_25_2E2_5C_157_036_S57_L004
+
+[Fri Jun 16 16:50:33 2023]
+Finished job 19.
+3 of 10 steps (30%) done
+Submitted job 16 with external jobid 'Submitted batch job 21319483'.
+
+[Fri Jun 16 16:50:33 2023]
+rule generate_fasta_ns:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_244_25_2E1_chu_329_248_S59_L004_merged_vep_gt.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_244_25_2E1_chu_329_248_S59_L004_vep.17.vcf
+    jobid: 10
+    wildcards: subject=gDNA_244_25_2E1_chu_329_248_S59_L004
+
+Submitted job 10 with external jobid 'Submitted batch job 21319484'.
+[Fri Jun 16 16:51:03 2023]
+Finished job 17.
+4 of 10 steps (40%) done
+
+[Fri Jun 16 16:51:03 2023]
+rule format_peptides:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_185_25_2E1_5C_365_212_S56_L004_vep.17.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_185_25_2E1_5C_365_212_S56_L004_vep.17.peptides
+    jobid: 8
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+
+[Fri Jun 16 16:51:03 2023]
+Finished job 16.
+5 of 10 steps (50%) done
+[Fri Jun 16 16:51:03 2023]
+Finished job 10.
+6 of 10 steps (60%) done
+Submitted job 8 with external jobid 'Submitted batch job 21319501'.
+
+[Fri Jun 16 16:51:03 2023]
+rule format_peptides:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_188_25_2E2_5C_157_036_S57_L004_vep.17.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_188_25_2E2_5C_157_036_S57_L004_vep.17.peptides
+    jobid: 7
+    wildcards: subject=gDNA_188_25_2E2_5C_157_036_S57_L004
+
+Submitted job 7 with external jobid 'Submitted batch job 21319502'.
+
+[Fri Jun 16 16:51:03 2023]
+rule format_peptides:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_244_25_2E1_chu_329_248_S59_L004_vep.17.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_244_25_2E1_chu_329_248_S59_L004_vep.17.peptides
+    jobid: 1
+    wildcards: subject=gDNA_244_25_2E1_chu_329_248_S59_L004
+
+Submitted job 1 with external jobid 'Submitted batch job 21319503'.
+[Fri Jun 16 16:51:13 2023]
+Finished job 8.
+7 of 10 steps (70%) done
+[Fri Jun 16 16:51:13 2023]
+Finished job 7.
+8 of 10 steps (80%) done
+[Fri Jun 16 16:51:13 2023]
+Finished job 1.
+9 of 10 steps (90%) done
+
+[Fri Jun 16 16:51:13 2023]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_185_25_2E1_5C_365_212_S56_L004_merged.vcf, /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_188_25_2E2_5C_157_036_S57_L004_merged.vcf, /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_244_25_2E1_chu_329_248_S59_L004_merged.vcf, /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_185_25_2E1_5C_365_212_S56_L004_merged_vep.vcf, /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_188_25_2E2_5C_157_036_S57_L004_merged_vep.vcf, /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_244_25_2E1_chu_329_248_S59_L004_merged_vep.vcf, /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_185_25_2E1_5C_365_212_S56_L004_vep.17.peptides, /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_188_25_2E2_5C_157_036_S57_L004_vep.17.peptides, /scratch/eknodel/SCC_samples/Parent_tumors/peptides/gDNA_244_25_2E1_chu_329_248_S59_L004_vep.17.peptides
+    jobid: 0
+
+[Fri Jun 16 16:51:13 2023]
+Finished job 0.
+10 of 10 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/.snakemake/log/2023-06-16T165012.264544.snakemake.log

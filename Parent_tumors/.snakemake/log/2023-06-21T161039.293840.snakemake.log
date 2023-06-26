@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in line 6 of /home/eknodel/SCC_samples/Parent_tumors/footprint.snakefile:
+Missing input files for rule all:
+/scratch/eknodel/SCC_samples/Parent_tumors/processed_bamsgDNA_normal_tissue_377_200_S55_L004_footprint.out
+/scratch/eknodel/SCC_samples/Parent_tumors/processed_bamsgDNA_244_25_2E1_chu_329_248_S59_L004_footprint.out
+/scratch/eknodel/SCC_samples/Parent_tumors/processed_bamsgDNA_185_25_2E1_5C_365_212_S56_L004_footprint.out
+/scratch/eknodel/SCC_samples/Parent_tumors/processed_bamsgDNA_188_25_2E2_5C_157_036_S57_L004_footprint.out

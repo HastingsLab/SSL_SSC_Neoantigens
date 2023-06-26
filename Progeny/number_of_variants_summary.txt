@@ -1,5 +1,0 @@
-filename	num_variants
-/scratch/eknodel/SCC_samples/cell_lines/Progeny/gatk_mutect2/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002.somatic.filtered.vcf	49877
-/scratch/eknodel/SCC_samples/cell_lines/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.snvs.vcf	220384
-/scratch/eknodel/SCC_samples/cell_lines/Progeny/strelka/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002/results/variants/somatic.indels.vcf	2567
-at_least_1_vcfs	232510

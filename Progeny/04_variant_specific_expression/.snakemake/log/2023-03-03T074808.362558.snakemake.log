@@ -1,0 +1,42 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job counts:
+	count	jobs
+	1	all
+	2	gatk_asereadcounter_strelka
+	3
+
+[Fri Mar  3 07:48:08 2023]
+rule gatk_asereadcounter_strelka:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-1_366_211_S58_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf.idx
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_unfiltered_expression.tsv
+    jobid: 3
+    wildcards: RNA=483_sc_01_B6-1_366_211_S58_L003
+
+Submitted job 3 with external jobid 'Submitted batch job 19545184'.
+
+[Fri Mar  3 07:48:08 2023]
+rule gatk_asereadcounter_strelka:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/sorted_bam/483_sc_01_B6-2_354_223_S59_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_snps.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_unfiltered_snps.vcf.idx
+    output: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_strelka_unfiltered_expression.tsv
+    jobid: 2
+    wildcards: RNA=483_sc_01_B6-2_354_223_S59_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 19545185'.
+[Fri Mar  3 08:27:11 2023]
+Finished job 3.
+1 of 3 steps (33%) done
+[Fri Mar  3 08:28:51 2023]
+Finished job 2.
+2 of 3 steps (67%) done
+
+[Fri Mar  3 08:28:51 2023]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-1_366_211_S58_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Progeny/RNAseq/variant_specific_expression/483_sc_01_B6-2_354_223_S59_L003_gatk_filtered_expression.out
+    jobid: 0
+
+[Fri Mar  3 08:28:51 2023]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Progeny/04_variant_specific_expression/.snakemake/log/2023-03-03T074808.362558.snakemake.log

@@ -1,0 +1,5 @@
+Building DAG of jobs...
+MissingInputException in line 66 of /home/eknodel/SCC_samples/Parent_cell_lines/04_variant_specific_expression/hisat2_read_mapping.snakefile:
+Missing input files for rule hisat2_align_reads:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/trimmed_fastqs/244-chu-06-F5-7-9-21-2_225_352_S32_L003_trimmed_read1.fastq.gz
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/trimmed_fastqs/244-chu-06-F5-7-9-21-2_225_352_S32_L003_trimmed_read2.fastq.gz

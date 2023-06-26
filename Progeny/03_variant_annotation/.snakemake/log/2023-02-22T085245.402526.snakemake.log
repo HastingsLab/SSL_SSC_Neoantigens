@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 71
+Job counts:
+	count	jobs
+	1	all
+	1	generate_fasta_21_gatk
+	2
+
+[Wed Feb 22 08:52:46 2023]
+rule generate_fasta_21_gatk:
+    input: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.vcf
+    output: /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_21.peptides, /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_29.peptides
+    jobid: 4
+    wildcards: sample=DNA_483-SC-01-B6_9-3-21_133_060_S138_L002
+
+Submitted job 4 with external jobid 'Submitted batch job 19413576'.
+[Wed Feb 22 08:54:16 2023]
+Finished job 4.
+1 of 2 steps (50%) done
+
+[Wed Feb 22 08:54:16 2023]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_21.peptides, /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_29.peptides
+    jobid: 0
+
+[Wed Feb 22 08:54:16 2023]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Progeny/03_variant_annotation/.snakemake/log/2023-02-22T085245.402526.snakemake.log

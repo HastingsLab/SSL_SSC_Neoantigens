@@ -1,0 +1,129 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	index_vcf
+	1
+
+[Tue Jun 20 20:34:13 2023]
+rule index_vcf:
+    input: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_biall.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_biall.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/strelka_unique_rescues.vcf
+    output: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_biall.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_biall.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/strelka_unique_rescues.vcf.idx
+    jobid: 0
+
+20:34:17.074 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jun 20, 2023 8:34:17 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+20:34:17.679 INFO  IndexFeatureFile - ------------------------------------------------------------
+20:34:17.680 INFO  IndexFeatureFile - The Genome Analysis Toolkit (GATK) v4.1.7.0
+20:34:17.680 INFO  IndexFeatureFile - For support and documentation go to https://software.broadinstitute.org/gatk/
+20:34:17.680 INFO  IndexFeatureFile - Executing as eknodel@cg22-1.agave.rc.asu.edu on Linux v3.10.0-1160.21.1.el7.x86_64 amd64
+20:34:17.681 INFO  IndexFeatureFile - Java runtime: OpenJDK 64-Bit Server VM v11.0.1-internal+0-adhoc..src
+20:34:17.681 INFO  IndexFeatureFile - Start Date/Time: June 20, 2023 at 8:34:16 PM MST
+20:34:17.681 INFO  IndexFeatureFile - ------------------------------------------------------------
+20:34:17.681 INFO  IndexFeatureFile - ------------------------------------------------------------
+20:34:17.682 INFO  IndexFeatureFile - HTSJDK Version: 2.21.2
+20:34:17.682 INFO  IndexFeatureFile - Picard Version: 2.21.9
+20:34:17.682 INFO  IndexFeatureFile - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+20:34:17.683 INFO  IndexFeatureFile - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+20:34:17.683 INFO  IndexFeatureFile - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+20:34:17.683 INFO  IndexFeatureFile - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+20:34:17.683 INFO  IndexFeatureFile - Deflater: IntelDeflater
+20:34:17.683 INFO  IndexFeatureFile - Inflater: IntelInflater
+20:34:17.683 INFO  IndexFeatureFile - GCS max retries/reopens: 20
+20:34:17.683 INFO  IndexFeatureFile - Requester pays: disabled
+20:34:17.683 INFO  IndexFeatureFile - Initializing engine
+20:34:17.683 INFO  IndexFeatureFile - Done initializing engine
+20:34:18.263 INFO  FeatureManager - Using codec VCFCodec to read file file:///scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_biall.vcf
+20:34:18.345 INFO  ProgressMeter - Starting traversal
+20:34:18.346 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Records Processed   Records/Minute
+20:34:20.891 INFO  ProgressMeter -          X:151914447              0.0                 28123         663800.2
+20:34:20.891 INFO  ProgressMeter - Traversal complete. Processed 28123 total records in 0.0 minutes.
+20:34:25.644 INFO  IndexFeatureFile - Successfully wrote index to /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_biall.vcf.idx
+20:34:25.645 INFO  IndexFeatureFile - Shutting down engine
+[June 20, 2023 at 8:34:25 PM MST] org.broadinstitute.hellbender.tools.IndexFeatureFile done. Elapsed time: 0.14 minutes.
+Runtime.totalMemory()=676331520
+Tool returned:
+/scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_biall.vcf.idx
+Using GATK jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar IndexFeatureFile -I /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_biall.vcf
+20:34:29.572 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jun 20, 2023 8:34:29 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+20:34:29.868 INFO  IndexFeatureFile - ------------------------------------------------------------
+20:34:29.868 INFO  IndexFeatureFile - The Genome Analysis Toolkit (GATK) v4.1.7.0
+20:34:29.869 INFO  IndexFeatureFile - For support and documentation go to https://software.broadinstitute.org/gatk/
+20:34:29.869 INFO  IndexFeatureFile - Executing as eknodel@cg22-1.agave.rc.asu.edu on Linux v3.10.0-1160.21.1.el7.x86_64 amd64
+20:34:29.869 INFO  IndexFeatureFile - Java runtime: OpenJDK 64-Bit Server VM v11.0.1-internal+0-adhoc..src
+20:34:29.869 INFO  IndexFeatureFile - Start Date/Time: June 20, 2023 at 8:34:29 PM MST
+20:34:29.869 INFO  IndexFeatureFile - ------------------------------------------------------------
+20:34:29.869 INFO  IndexFeatureFile - ------------------------------------------------------------
+20:34:29.871 INFO  IndexFeatureFile - HTSJDK Version: 2.21.2
+20:34:29.871 INFO  IndexFeatureFile - Picard Version: 2.21.9
+20:34:29.871 INFO  IndexFeatureFile - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+20:34:29.871 INFO  IndexFeatureFile - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+20:34:29.871 INFO  IndexFeatureFile - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+20:34:29.871 INFO  IndexFeatureFile - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+20:34:29.871 INFO  IndexFeatureFile - Deflater: IntelDeflater
+20:34:29.871 INFO  IndexFeatureFile - Inflater: IntelInflater
+20:34:29.871 INFO  IndexFeatureFile - GCS max retries/reopens: 20
+20:34:29.871 INFO  IndexFeatureFile - Requester pays: disabled
+20:34:29.871 INFO  IndexFeatureFile - Initializing engine
+20:34:29.871 INFO  IndexFeatureFile - Done initializing engine
+20:34:30.022 INFO  FeatureManager - Using codec VCFCodec to read file file:///scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_biall.vcf
+20:34:30.112 INFO  ProgressMeter - Starting traversal
+20:34:30.113 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Records Processed   Records/Minute
+20:34:35.710 INFO  ProgressMeter -          X:139779756              0.1                 49438         530450.6
+20:34:35.712 INFO  ProgressMeter - Traversal complete. Processed 49438 total records in 0.1 minutes.
+20:34:36.606 INFO  IndexFeatureFile - Successfully wrote index to /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_biall.vcf.idx
+20:34:36.607 INFO  IndexFeatureFile - Shutting down engine
+[June 20, 2023 at 8:34:36 PM MST] org.broadinstitute.hellbender.tools.IndexFeatureFile done. Elapsed time: 0.12 minutes.
+Runtime.totalMemory()=740294656
+Tool returned:
+/scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_biall.vcf.idx
+Using GATK jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar IndexFeatureFile -I /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_biall.vcf
+20:34:40.225 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Jun 20, 2023 8:34:40 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+20:34:40.519 INFO  IndexFeatureFile - ------------------------------------------------------------
+20:34:40.522 INFO  IndexFeatureFile - The Genome Analysis Toolkit (GATK) v4.1.7.0
+20:34:40.522 INFO  IndexFeatureFile - For support and documentation go to https://software.broadinstitute.org/gatk/
+20:34:40.522 INFO  IndexFeatureFile - Executing as eknodel@cg22-1.agave.rc.asu.edu on Linux v3.10.0-1160.21.1.el7.x86_64 amd64
+20:34:40.522 INFO  IndexFeatureFile - Java runtime: OpenJDK 64-Bit Server VM v11.0.1-internal+0-adhoc..src
+20:34:40.523 INFO  IndexFeatureFile - Start Date/Time: June 20, 2023 at 8:34:40 PM MST
+20:34:40.523 INFO  IndexFeatureFile - ------------------------------------------------------------
+20:34:40.523 INFO  IndexFeatureFile - ------------------------------------------------------------
+20:34:40.526 INFO  IndexFeatureFile - HTSJDK Version: 2.21.2
+20:34:40.526 INFO  IndexFeatureFile - Picard Version: 2.21.9
+20:34:40.526 INFO  IndexFeatureFile - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+20:34:40.526 INFO  IndexFeatureFile - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+20:34:40.526 INFO  IndexFeatureFile - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+20:34:40.526 INFO  IndexFeatureFile - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+20:34:40.527 INFO  IndexFeatureFile - Deflater: IntelDeflater
+20:34:40.527 INFO  IndexFeatureFile - Inflater: IntelInflater
+20:34:40.527 INFO  IndexFeatureFile - GCS max retries/reopens: 20
+20:34:40.527 INFO  IndexFeatureFile - Requester pays: disabled
+20:34:40.527 INFO  IndexFeatureFile - Initializing engine
+20:34:40.527 INFO  IndexFeatureFile - Done initializing engine
+20:34:40.723 INFO  FeatureManager - Using codec VCFCodec to read file file:///scratch/eknodel/SCC_samples/Progeny/VEP/strelka_unique_rescues.vcf
+20:34:40.749 INFO  ProgressMeter - Starting traversal
+20:34:40.750 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Records Processed   Records/Minute
+20:34:40.840 INFO  ProgressMeter -             unmapped              0.0                    20          13636.4
+20:34:40.840 INFO  ProgressMeter - Traversal complete. Processed 20 total records in 0.0 minutes.
+20:34:42.674 INFO  IndexFeatureFile - Successfully wrote index to /scratch/eknodel/SCC_samples/Progeny/VEP/strelka_unique_rescues.vcf.idx
+20:34:42.675 INFO  IndexFeatureFile - Shutting down engine
+[June 20, 2023 at 8:34:42 PM MST] org.broadinstitute.hellbender.tools.IndexFeatureFile done. Elapsed time: 0.04 minutes.
+Runtime.totalMemory()=446693376
+Tool returned:
+/scratch/eknodel/SCC_samples/Progeny/VEP/strelka_unique_rescues.vcf.idx
+Using GATK jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /home/eknodel/gatk-4.1.7.0/gatk-package-4.1.7.0-local.jar IndexFeatureFile -I /scratch/eknodel/SCC_samples/Progeny/VEP/strelka_unique_rescues.vcf
+[Tue Jun 20 20:34:42 2023]
+Finished job 0.
+1 of 1 steps (100%) done

@@ -17,7 +17,9 @@ rule all:
         expand(peptide_path + "{sample}_gatk_vep_filtered.vcf", sample=sample, peptide_path=peptide_path),
         expand(peptide_path + "{sample}_strelka_vep_filtered.vcf", sample=sample, peptide_path=peptide_path),
         expand(peptide_path + "{sample}_gatk_vep_filtered.peptides", sample=sample, peptide_path=peptide_path),
-        expand(peptide_path + "{sample}_gatk_vep_filtered_21.peptides", sample=sample, peptide_path=peptide_path)
+        expand(peptide_path + "{sample}_gatk_vep_filtered_21.peptides", sample=sample, peptide_path=peptide_path),
+        expand(peptide_path + "{sample}_gatk_vep_filtered_29.peptides", sample=sample, peptide_path=peptide_path),
+        expand(peptide_path + "{sample}_gatk_vep_filtered_WT.peptides", sample=sample, peptide_path=peptide_path)
 
 rule combine_strelka_vcfs:
     input: 
@@ -34,33 +36,7 @@ rule combine_strelka_vcfs:
         bcftools concat -a {input.strelka_indels_unfiltered} {input.strelka_snvs_unfiltered} -o {output.strelka_unfiltered}
         """
 
-#rule gunzip:
-#    input:
-#        gatk_filtered = os.path.join(gatk_path, "{sample}.somatic.filtered.pass.vcf.gz"),
-#        gatk_unfiltered = os.path.join(gatk_path, "{sample}.somatic.vcf.gz")
-#    output:
-#        gatk_filtered = os.path.join(gatk_path, "{sample}.somatic.filtered.pass.vcf"),
-#        gatk_unfiltered = os.path.join(gatk_path, "{sample}.somatic.vcf")
-#    shell:
-#        """
-#        gunzip {input.gatk_filtered};
-#        gunzip {input.gatk_unfiltered};
-#        """
-
-#rule gunzip_bgzip:
-#    iput:
-#        strelka_filtered = os.path.join(strelka_dir, "{sample}/results/variants/somatic.pass.vcf.gz"),
-#        strelka_unfiltered = os.path.join(strelka_dir, "{sample}/results/variants/somatic.vcf.gz")
-#    output:
-#        strelka_filtered = os.path.join(strelka_dir, "{sample}/results/variants/somatic.pass.vcf"),
-#        strelka_unfiltered = os.path.join(strelka_dir, "{sample}/results/variants/somatic.vcf")
-#    shell:
-#        """
-#        bgzip -d {input.strelka_filtered};
-#        bgzip -d {input.strelka_unfiltered};
-#        """
-
-rule isort_input: 
+rule sort_input: 
     input: 
         gatk_filtered = os.path.join(gatk_path, "{sample}.somatic.filtered.pass.vcf"),
         gatk_unfiltered = os.path.join(gatk_path, "{sample}.somatic.vcf"),
@@ -125,20 +101,22 @@ rule generate_fasta_gatk:
         gatk_unfiltered = os.path.join(vep_path, "{sample}_gatk_vep_unfiltered.vcf")
     output:
         gatk_filtered = os.path.join(peptide_path, "{sample}_gatk_vep_filtered.vcf"),
-        gatk_unfiltered = os.path.join(peptide_path, "{sample}_gatk_vep_unfiltered.vcf")
+        gatk_unfiltered = os.path.join(peptide_path, "{sample}_gatk_vep_unfiltered.vcf"),
+        gatk_filtered_29 = os.path.join(peptide_path, "{sample}_gatk_vep_filtered_29.vcf")
     params: 
         sample = "{sample}"
     shell:
         """
         python /home/eknodel/bin/pVACtools/pvactools/tools/pvacseq/generate_protein_fasta.py {input.gatk_filtered} 8 {output.gatk_filtered} -s {params.sample};
         python /home/eknodel/bin/pVACtools/pvactools/tools/pvacseq/generate_protein_fasta.py {input.gatk_unfiltered} 8 {output.gatk_unfiltered} -s {params.sample};
+        python /home/eknodel/bin/pVACtools/pvactools/tools/pvacseq/generate_protein_fasta.py {input.gatk_filtered} 14 {output.gatk_filtered_29} -s {params.sample};
         """
 
 rule generate_fasta_21_gatk:
     input:
-        gatk_filtered = os.path.join(vep_path, "{sample}_gatk_vep_filtered.vcf")
+        gatk_filtered = os.path.join(vep_path, "{sample}_gatk_vep_filtered.vcf"),
     output:
-        gatk_filtered = os.path.join(peptide_path, "{sample}_gatk_vep_filtered_21.peptides")
+        gatk_filtered = os.path.join(peptide_path, "{sample}_gatk_vep_filtered_21.peptides"),
     params:
         sample = "{sample}"
     shell:
@@ -180,17 +158,42 @@ rule format_peptides:
     input:
         gatk_filtered = os.path.join(peptide_path, "{sample}_gatk_vep_filtered.vcf"),
         gatk_unfiltered = os.path.join(peptide_path, "{sample}_gatk_vep_unfiltered.vcf"),
+        gatk_filtered_29 = os.path.join(peptide_path, "{sample}_gatk_vep_filtered_29.vcf"),
         strelka_filtered = os.path.join(peptide_path, "{sample}_strelka_vep_filtered.vcf"),
         strelka_unfiltered = os.path.join(peptide_path, "{sample}_strelka_vep_ubfiltered.vcf")
     output:
         gatk_filtered = os.path.join(peptide_path, "{sample}_gatk_vep_filtered.peptides"),
         gatk_unfiltered = os.path.join(peptide_path, "{sample}_gatk_vep_unfiltered.peptides"),
+        gatk_filtered_29 = os.path.join(peptide_path, "{sample}_gatk_vep_filtered_29.peptides"),
         strelka_filtered = os.path.join(peptide_path, "{sample}_strelka_vep_filtered.peptides"),
         strelka_unfiltered = os.path.join(peptide_path, "{sample}_strelka_vep_unfiltered.peptides")
     shell:
         """
         cat {input.gatk_filtered} | sed ':a;N;$!ba;s/\\n/ /g' | sed 's/>/\\n>/g' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed '/>WT/d' | sed 's/\./ /g' > {output.gatk_filtered};
         cat {input.gatk_unfiltered} | sed ':a;N;$!ba;s/\\n/ /g' | sed 's/>/\\n>/g' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed '/>WT/d' | sed 's/\./ /g' > {output.gatk_unfiltered};
+        cat {input.gatk_filtered_29} | sed ':a;N;$!ba;s/\\n/ /g' | sed 's/>/\\n>/g' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed '/>WT/d' | sed 's/\./ /g' > {output.gatk_filtered_29};
         cat {input.strelka_filtered} | sed ':a;N;$!ba;s/\\n/ /g' | sed 's/>/\\n>/g' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed '/>WT/d' | sed 's/\./ /g' > {output.strelka_filtered};
         cat {input.strelka_unfiltered} | sed ':a;N;$!ba;s/\\n/ /g' | sed 's/>/\\n>/g' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed '/>WT/d' | sed 's/\./ /g' > {output.strelka_unfiltered};
+        """
+
+rule format_WT_peptides:
+    input:
+        gatk_filtered = os.path.join(peptide_path, "{sample}_gatk_vep_filtered.vcf"),
+        gatk_unfiltered = os.path.join(peptide_path, "{sample}_gatk_vep_unfiltered.vcf"),
+        gatk_filtered_29 = os.path.join(peptide_path, "{sample}_gatk_vep_filtered_29.vcf"),
+        strelka_filtered = os.path.join(peptide_path, "{sample}_strelka_vep_filtered.vcf"),
+        strelka_unfiltered = os.path.join(peptide_path, "{sample}_strelka_vep_ubfiltered.vcf")
+    output:
+        gatk_filtered = os.path.join(peptide_path, "{sample}_gatk_vep_filtered_WT.peptides"),
+        gatk_unfiltered = os.path.join(peptide_path, "{sample}_gatk_vep_unfiltered_WT.peptides"),
+        gatk_filtered_29 = os.path.join(peptide_path, "{sample}_gatk_vep_filtered_29_WT.peptides"),
+        strelka_filtered = os.path.join(peptide_path, "{sample}_strelka_vep_filtered_WT.peptides"),
+        strelka_unfiltered = os.path.join(peptide_path, "{sample}_strelka_vep_unfiltered_WT.peptides")
+    shell:
+        """
+        cat {input.gatk_filtered} | sed ':a;N;$!ba;s/\\n/ /g' | sed 's/>/\\n>/g' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed '/>MT/d' | sed 's/\./ /g' > {output.gatk_filtered};
+        cat {input.gatk_unfiltered} | sed ':a;N;$!ba;s/\\n/ /g' | sed 's/>/\\n>/g' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed '/>MT/d' | sed 's/\./ /g' > {output.gatk_unfiltered};
+        cat {input.gatk_filtered_29} | sed ':a;N;$!ba;s/\\n/ /g' | sed 's/>/\\n>/g' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed '/>MT/d' | sed 's/\./ /g' > {output.gatk_filtered_29};
+        cat {input.strelka_filtered} | sed ':a;N;$!ba;s/\\n/ /g' | sed 's/>/\\n>/g' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed '/>MT/d' | sed 's/\./ /g' > {output.strelka_filtered};
+        cat {input.strelka_unfiltered} | sed ':a;N;$!ba;s/\\n/ /g' | sed 's/>/\\n>/g' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed 's/ //2' | sed '/>MT/d' | sed 's/\./ /g' > {output.strelka_unfiltered};
         """

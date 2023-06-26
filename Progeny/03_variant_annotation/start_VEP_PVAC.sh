@@ -11,8 +11,8 @@
 
 newgrp combinedlab
 
-source activate var_call_env
-#source activate cancergenomics_new_pvacseq
+#source activate var_call_env
+source activate cancergenomics_new_pvacseq
 
 module load picard/2.18.3
 module load bcftools/1.9

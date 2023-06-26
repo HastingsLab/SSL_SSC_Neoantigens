@@ -1,0 +1,29 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job counts:
+	count	jobs
+	1	all
+	2	format_output
+	2	format_output_strelka
+	2	gatk_asereadcounter
+	2	gatk_asereadcounter_strelka
+	1	index_vcf
+	10
+
+[Tue Jun 20 19:56:09 2023]
+rule index_vcf:
+    input: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_biall.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_biall.vcf, /scratch/eknodel/SCC_samples/Progeny/VEP/strelka_unique_rescues.vcf
+    output: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_biall.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_biall.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/strelka_unique_rescues.vcf.idx
+    jobid: 5
+
+Submitted job 5 with external jobid 'Submitted batch job 21429022'.
+[Tue Jun 20 19:56:40 2023]
+Error in rule index_vcf:
+    jobid: 5
+    output: /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_biall.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_unfiltered_biall.vcf.idx, /scratch/eknodel/SCC_samples/Progeny/VEP/strelka_unique_rescues.vcf.idx
+    cluster_jobid: Submitted batch job 21429022
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Progeny/04_variant_specific_expression/.snakemake/log/2023-06-20T195609.336476.snakemake.log

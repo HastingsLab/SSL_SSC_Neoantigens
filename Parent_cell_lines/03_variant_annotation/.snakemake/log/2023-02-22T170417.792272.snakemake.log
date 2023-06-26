@@ -1,0 +1,2 @@
+SyntaxError in line 171 of /home/eknodel/SCC_samples/Parent_cell_lines/03_variant_annotation/VEP_PVACseq_updated.snakefile:
+keyword argument repeated

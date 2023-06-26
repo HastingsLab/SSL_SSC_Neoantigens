@@ -1,0 +1,5 @@
+
+        cat /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_WT.peptides | awk '{print $1"."$7, $8}' | sed 's/>WT/>/' | sed 's/ /\n/g' > /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered.WT_peptide_formatted;
+        cat /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_29_WT.peptides | awk '{print $1"."$7, $8}' | sed 's/>WT/>/' | sed 's/ /\n/g' > /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_gatk_vep_filtered_29.WT_peptide_formatted;
+        cat /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered_WT.peptides | awk '{print $1"."$7, $8}' | sed 's/>WT/>/' | sed 's/ /\n/g' > /scratch/eknodel/SCC_samples/Progeny/peptides/DNA_483-SC-01-B6_9-3-21_133_060_S138_L002_strelka_vep_filtered.WT_peptide_formatted
+        
