@@ -16,7 +16,7 @@ Characterization of the neoantigens from a novel solar-simulated UV light-induce
 
 ---
 
-## Parent tumors
+## Parent cell lines
 
 **TO DO: Determine if we will be using any of the heterogeneity analysis and remove if not**
 
@@ -60,7 +60,7 @@ Characterization of the neoantigens from a novel solar-simulated UV light-induce
 
 ---
 
-## Parent Cell Lines
+## Parent clonal cell lines
 
 **Description:** Analysis of the neoantigens present in the passaged cell lines derived from the initial parent tumor
 
