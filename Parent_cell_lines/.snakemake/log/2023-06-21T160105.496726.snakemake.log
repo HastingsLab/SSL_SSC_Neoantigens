@@ -1,3 +1,0 @@
-WorkflowError in line 3 of /home/eknodel/SCC_samples/Parent_tumors/footprint.snakefile:
-Config file SCC.config.json not found.
-  File "/home/eknodel/SCC_samples/Parent_tumors/footprint.snakefile", line 3, in <module>
