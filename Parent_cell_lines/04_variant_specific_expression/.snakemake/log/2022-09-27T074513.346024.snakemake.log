@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 55 of /home/eknodel/SCC_samples/Parent_cell_lines/04_variant_specific_expression/variant_expression_quantification.snakefile:
-Missing input files for rule gatk_asereadcounter:
-/scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-6-21_250_327_S22_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam

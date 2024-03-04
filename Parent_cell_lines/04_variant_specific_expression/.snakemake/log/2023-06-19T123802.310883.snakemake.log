@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 25 of /home/eknodel/SCC_samples/Parent_cell_lines/04_variant_specific_expression/variant_expression_quantification_244B7_fixMNPs.snakefile:
-Missing input files for rule remove_duplicates:
-/scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_mnp_split_gatk_vep_unfiltered.vcf
