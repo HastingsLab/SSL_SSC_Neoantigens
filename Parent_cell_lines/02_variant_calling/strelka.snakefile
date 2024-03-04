@@ -1,11 +1,12 @@
 import os
 
-sample = ["244_1_Chu_02_B7_352_225_S2_L003"]
+sample = ["gDNA_185_25_2E1_5C_365_212_S56_L004", "gDNA_188_25_2E2_5C_157_036_S57_L004",
+"gDNA_244_25_2E1_chu_329_248_S59_L004"]
 normal = ["gDNA_normal_tissue_377_200_S55_L004"]
 
 ## Directory Paths ##
-bam_dir = "/scratch/eknodel/SCC_samples/Parent_cell_lines/processed_bams/"
-strelka_dir = "/scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/"
+bam_dir = "/scratch/eknodel/SCC_samples/processed_bams/"
+strelka_dir = "/scratch/eknodel/SCC_samples/strelka/"
 ref_basename = "GRCm38_68"
 ref_dir = "/data/CEM/shared/public_data/references/ensemble_GRCm38.68/"
 
@@ -23,10 +24,10 @@ rule config:
         tumor_bam = os.path.join(bam_dir, "{subject}." + ref_basename + ".sorted.bam"),
         ref = os.path.join(ref_dir, ref_basename + ".fa")
     output:
-        "/scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/{subject}/runWorkflow.py"
+        "/scratch/eknodel/SCC_samples/strelka/{subject}/runWorkflow.py"
     params:
         strelka = "/home/eknodel/strelka-2.9.2.centos6_x86_64/bin/configureStrelkaSomaticWorkflow.py",
-        run_dir = "/scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/{subject}"
+        run_dir = "/scratch/eknodel/SCC_samples/strelka/{subject}"
     shell:
         """
         {params.strelka} --normalBam {input.normal_bam} --tumorBam {input.tumor_bam} --referenceFasta {input.ref} --runDir {params.run_dir}

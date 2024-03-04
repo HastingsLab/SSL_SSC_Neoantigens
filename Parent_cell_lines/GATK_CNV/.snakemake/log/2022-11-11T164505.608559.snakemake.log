@@ -1,0 +1,12 @@
+Building DAG of jobs...
+AmbiguousRuleException:
+Rules index_mkdup_normal and index_mkdup are ambiguous for the file /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.mkdup.bam.bai.
+Consider starting rule output with a unique prefix, constrain your wildcards, or use the ruleorder directive.
+Wildcards:
+	index_mkdup_normal: normal=gDNA_185_25_2E1_5C_365_212_S56_L004
+	index_mkdup: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+Expected input files:
+	index_mkdup_normal: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.mkdup.bam
+	index_mkdup: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.mkdup.bamExpected output files:
+	index_mkdup_normal: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.mkdup.bam.bai
+	index_mkdup: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.mkdup.bam.bai

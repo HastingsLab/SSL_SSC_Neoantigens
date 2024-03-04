@@ -1,0 +1,37 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job stats:
+job           count    min threads    max threads
+----------  -------  -------------  -------------
+all               1              1              1
+plot_tumor        1              1              1
+total             2              1              1
+
+Select jobs to execute...
+
+[Thu Nov 10 11:57:03 2022]
+rule plot_tumor:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    output: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.denoised.png
+    jobid: 6
+    reason: Missing output files: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.denoised.png
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=<TBD>
+
+Submitted job 6 with external jobid 'Submitted batch job 18068059'.
+[Thu Nov 10 11:57:13 2022]
+Error in rule plot_tumor:
+    jobid: 6
+    output: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.denoised.png
+    shell:
+        
+        /home/eknodel/gatk-4.1.7.0/gatk PlotDenoisedCopyRatios         --standardized-copy-ratios cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv         --denoised-copy-ratios cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv         --sequence-dictionary /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.dict         --output cnv_plots         --output-prefix gDNA_185_25_2E1_5C_365_212_S56_L004
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 18068059
+
+Error executing rule plot_tumor on cluster (jobid: 6, external: Submitted batch job 18068059, jobscript: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/tmp.0xy2nar2/snakejob.plot_tumor.6.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-11-10T115700.847022.snakemake.log

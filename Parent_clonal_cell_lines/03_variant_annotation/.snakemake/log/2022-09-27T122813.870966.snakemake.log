@@ -1,0 +1,43 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 1
+Job counts:
+	count	jobs
+	1	all
+	1	generate_fasta_gatk
+	1	generate_fasta_strelka
+	3
+
+[Tue Sep 27 12:28:14 2022]
+rule generate_fasta_strelka:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_filtered_gt.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_unfiltered_gt.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_ubfiltered.vcf
+    jobid: 2
+    wildcards: sample=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 17628805'.
+[Tue Sep 27 12:29:34 2022]
+Finished job 2.
+1 of 3 steps (33%) done
+
+[Tue Sep 27 12:29:34 2022]
+rule generate_fasta_gatk:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_unfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_unfiltered.vcf
+    jobid: 1
+    wildcards: sample=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 17628807'.
+[Tue Sep 27 12:31:04 2022]
+Finished job 1.
+2 of 3 steps (67%) done
+
+[Tue Sep 27 12:31:04 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_filtered.vcf
+    jobid: 0
+
+[Tue Sep 27 12:31:04 2022]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/03_variant_annotation/.snakemake/log/2022-09-27T122813.870966.snakemake.log

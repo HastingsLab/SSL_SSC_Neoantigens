@@ -1,12 +1,11 @@
 import os
 
-sample = ["185_1_SC_01_F11_364_213_S1_L003", "244_1_Chu_06_D12_316_261_S5_L003", "185_1_SC_01_F11_364_213_S1_L003", "244_1_Chu_06_F5_328_249_S4_L003",
-"185_1_SC_09_G9_304_273_S6_L003", "244_1_Chu_06_F5_328_249_S4_L003", "185_1_SC_09_G9_304_273_S6_L003", "188_2_SC_05_F11_340_237_S3_L003",
-"188_2_SC_05_F11_340_237_S3_L003", "244_1_Chu_02_B7_352_225_S2_L003", "244_1_Chu_02_B7_352_225_S2_L003", "244_1_Chu_06_D12_316_261_S5_L003"]
+samples = ["gDNA_185_25_2E1_5C_365_212_S56_L004", "gDNA_188_25_2E2_5C_157_036_S57_L004", "gDNA_190_25_2E2_5C_341_236_S58_L004",
+"gDNA_244_25_2E1_chu_329_248_S59_L004", "gDNA_normal_tissue_377_200_S55_L004"]
 
 ref_dir = "/scratch/eknodel/SCC_samples/reference/"
 ref_basename = "GRCm38_68"
-bam_dir = "/scratch/eknodel/SCC_samples/cell_lines/processed_bams/"
+bam_dir = "/scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/"
 
 rule all:
     input:
@@ -31,12 +30,12 @@ rule prep_refs:
 
 rule map:
     input:
-        fq_1 = "/scratch/eknodel/SCC_samples/cell_lines/trimmed_fastqs/{sample}_trimmed_read1.fastq.gz",
-        fq_2 = "/scratch/eknodel/SCC_samples/cell_lines/trimmed_fastqs/{sample}_trimmed_read2.fastq.gz",
+        fq_1 = "/scratch/eknodel/SCC_samples/Parent_tumors/trimmed_fastqs/{sample}_trimmed_read1.fastq.gz",
+        fq_2 = "/scratch/eknodel/SCC_samples/Parent_tumors/trimmed_fastqs/{sample}_trimmed_read2.fastq.gz",
         fai = os.path.join(ref_dir, ref_basename + ".fa.fai"),
         ref = os.path.join(ref_dir, ref_basename + ".fa")
     output:
-        os.path.join("/scratch/eknodel/SCC_samples/cell_lines/processed_bams/{sample}." + ref_basename + ".sorted.bam")
+        os.path.join("/scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/{sample}." + ref_basename + ".sorted.bam")
     params:
         id = "{sample}",
         sm = "{sample}",

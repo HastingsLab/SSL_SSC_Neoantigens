@@ -1,0 +1,3 @@
+
+        cat /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.peptides | awk '{print $1"."$5, $6}' | sed 's/>MT/>/' | sed 's/ /\n/g' > /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.peptide_formatted;
+        

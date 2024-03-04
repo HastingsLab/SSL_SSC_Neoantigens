@@ -1,0 +1,3 @@
+/scratch/eknodel/SCC_samples/gatk_mutect2/gDNA_185_25_2E1_5C_365_212_S56_L004.somatic.filtered.pass.vcf
+/scratch/eknodel/SCC_samples/strelka/gDNA_185_25_2E1_5C_365_212_S56_L004/results/variants/somatic.indels.pass.vcf
+/scratch/eknodel/SCC_samples/strelka/gDNA_185_25_2E1_5C_365_212_S56_L004/results/variants/somatic.snvs.pass.vcf

@@ -1,0 +1,56 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	collect_fragment_counts
+	1	collect_fragment_counts_normal
+	2	mark_duplicates_normal
+	1	plot_normal
+	1	plot_tumor
+	1	standardize_normal
+	1	standardize_tumor
+	9
+
+[Fri Nov 11 15:57:05 2022]
+rule mark_duplicates_normal:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.bam
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.mkdup.bam, processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004_normal.picard_mkdup_metrics.txt
+    jobid: 8
+    wildcards: normal=gDNA_185_25_2E1_5C_365_212_S56_L004
+
+Submitted job 8 with external jobid 'Submitted batch job 18088230'.
+
+[Fri Nov 11 15:57:06 2022]
+rule mark_duplicates_normal:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam
+    output: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.mkdup.bam, processed_bams/gDNA_normal_tissue_377_200_S55_L004_normal.picard_mkdup_metrics.txt
+    jobid: 9
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+
+Submitted job 9 with external jobid 'Submitted batch job 18088231'.
+[Fri Nov 11 16:08:07 2022]
+Finished job 9.
+1 of 9 steps (11%) done
+
+[Fri Nov 11 16:08:07 2022]
+rule collect_fragment_counts_normal:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.mkdup.bam, targets_C.preprocessed.interval_list, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    jobid: 3
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+
+Submitted job 3 with external jobid 'Submitted batch job 18088284'.
+[Fri Nov 11 16:08:17 2022]
+Error in rule collect_fragment_counts_normal:
+    jobid: 3
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    cluster_jobid: Submitted batch job 18088284
+
+[Fri Nov 11 16:09:47 2022]
+Finished job 8.
+2 of 9 steps (22%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/log/2022-11-11T155705.841301.snakemake.log

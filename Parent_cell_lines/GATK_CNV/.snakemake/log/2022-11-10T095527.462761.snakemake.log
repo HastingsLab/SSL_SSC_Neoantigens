@@ -1,0 +1,2 @@
+SyntaxError in line 34 of /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/GATK_CNV.snakefile:
+Expected name or colon after rule keyword. (GATK_CNV.snakefile, line 34)

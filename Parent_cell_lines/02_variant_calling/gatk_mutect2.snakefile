@@ -1,12 +1,13 @@
 import os
 
-sample = ["244_1_Chu_02_B7_352_225_S2_L003"]
+sample = ["gDNA_185_25_2E1_5C_365_212_S56_L004", "gDNA_188_25_2E2_5C_157_036_S57_L004",
+"gDNA_244_25_2E1_chu_329_248_S59_L004"]
 normal = ["gDNA_normal_tissue_377_200_S55_L004"]
 
 ref_dir = "/data/CEM/shared/public_data/references/ensemble_GRCm38.68/"
 ref_basename = "GRCm38_68"
-bam_dir = "/scratch/eknodel/SCC_samples/Parent_cell_lines/processed_bams/"
-gatk_dir = "/scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/"
+bam_dir = "/scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/"
+gatk_dir = "/scratch/eknodel/SCC_samples/Parent_tumors/gatk_mutect2/"
 
 rule all:
     input:

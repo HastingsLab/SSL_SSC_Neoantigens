@@ -1,0 +1,6 @@
+
+        bcftools sort /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/188_2_SC_05_F11_340_237_S3_L003.somatic.filtered.pass.vcf -o /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/188_2_SC_05_F11_340_237_S3_L003.somatic_sorted.filtered.pass.vcf;
+        bcftools sort /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/188_2_SC_05_F11_340_237_S3_L003.somatic.vcf -o /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/188_2_SC_05_F11_340_237_S3_L003.somatic_sorted.vcf;
+        bcftools sort /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/188_2_SC_05_F11_340_237_S3_L003/results/variants/somatic.pass.vcf -o /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/188_2_SC_05_F11_340_237_S3_L003/results/variants/somatic_sorted.pass.vcf;
+        bcftools sort /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/188_2_SC_05_F11_340_237_S3_L003/results/variants/somatic.vcf -o /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/188_2_SC_05_F11_340_237_S3_L003/results/variants/somatic_sorted.vcf;
+        

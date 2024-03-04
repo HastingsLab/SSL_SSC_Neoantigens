@@ -1,0 +1,4 @@
+
+        netMHCpan -a H-2-Dd,H-2-Kd,H-2-Ld -f /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.peptide_formatted -BA -s -xls -l 9  -xlsfile /scratch/eknodel/SCC_samples/Parent_cell_lines/netMHCpan/244_1_Chu_02_B7_352_225_S2_L003_gatk_netmhc.xsl;
+        netMHCpan -a H-2-Dd,H-2-Kd,H-2-Ld -f /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_filtered.peptide_formatted -BA -s -xls -l 9  -xlsfile /scratch/eknodel/SCC_samples/Parent_cell_lines/netMHCpan/244_1_Chu_02_B7_352_225_S2_L003_strelka_netmhc.xsl;
+        

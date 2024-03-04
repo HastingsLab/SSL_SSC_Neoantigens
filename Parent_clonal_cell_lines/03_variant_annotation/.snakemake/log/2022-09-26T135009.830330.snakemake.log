@@ -1,0 +1,40 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 1
+Job counts:
+	count	jobs
+	1	all
+	1	generate_fasta
+	1	isort_input
+	1	run_vep
+	4
+
+[Mon Sep 26 13:50:10 2022]
+rule isort_input:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.filtered.pass.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.pass.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic_sorted.filtered.pass.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic_sorted.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic_sorted.pass.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic_sorted.vcf
+    jobid: 3
+    wildcards: sample=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 3 with external jobid 'Submitted batch job 17620043'.
+[Mon Sep 26 13:50:20 2022]
+Finished job 3.
+1 of 4 steps (25%) done
+
+[Mon Sep 26 13:50:20 2022]
+rule run_vep:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic_sorted.filtered.pass.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic_sorted.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic_sorted.pass.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/results/variants/somatic_sorted.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_unfiltered.vcf
+    jobid: 2
+    wildcards: sample=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 17620044'.
+[Mon Sep 26 13:50:30 2022]
+Error in rule run_vep:
+    jobid: 2
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_unfiltered.vcf
+    cluster_jobid: Submitted batch job 17620044
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/03_variant_annotation/.snakemake/log/2022-09-26T135009.830330.snakemake.log

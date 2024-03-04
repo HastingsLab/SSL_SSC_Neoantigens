@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	tumor_only
+	2
+
+[Wed Apr 20 11:05:56 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/GENCODE_Mus_musculus/gencode.vM27.transcripts.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_aligned_sortedbycoord_RG.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_haplotype_caller/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz
+    jobid: 1
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 15098934'.
+[Wed Apr 20 11:36:08 2022]
+Finished job 1.
+1 of 2 steps (50%) done
+
+[Wed Apr 20 11:36:08 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_haplotype_caller/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz
+    jobid: 0
+
+[Wed Apr 20 11:36:08 2022]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/RNA_mutations/.snakemake/log/2022-04-20T110556.690222.snakemake.log

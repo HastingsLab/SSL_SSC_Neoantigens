@@ -1,0 +1,41 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job stats:
+job                               count    min threads    max threads
+------------------------------  -------  -------------  -------------
+all                                   1              1              1
+collect_fragment_counts               1              1              1
+collect_fragment_counts_normal        1              1              1
+plot_normal                           1              1              1
+plot_tumor                            1              1              1
+process_intervals                     1              1              1
+standardize_normal                    1              1              1
+standardize_tumor                     1              1              1
+total                                 8              1              1
+
+Select jobs to execute...
+
+[Fri Nov 11 14:33:39 2022]
+rule process_intervals:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: targets_C.preprocessed.interval_list
+    jobid: 1
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 18086153'.
+[Fri Nov 11 14:34:09 2022]
+Error in rule process_intervals:
+    jobid: 1
+    output: targets_C.preprocessed.interval_list
+    shell:
+        
+        /home/eknodel/gatk-4.1.7.0/gatk PreprocessIntervals         -L /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.interval_list         -R /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa         --bin-length 0         --interval-merging-rule OVERLAPPING_ONLY         -O targets_C.preprocessed.interval_list
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 18086153
+
+Error executing rule process_intervals on cluster (jobid: 1, external: Submitted batch job 18086153, jobscript: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/tmp.4i3wq7o5/snakejob.process_intervals.1.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/log/2022-11-11T143323.699220.snakemake.log

@@ -1,0 +1,4 @@
+
+        paste -s -d' 
+' /scratch/eknodel/SCC_samples/peptides/gDNA_188_25_2E2_5C_157_036_S57_L004_vep.17.peptide | sed '/>WT/d' > /scratch/eknodel/SCC_samples/peptides/gDNA_188_25_2E2_5C_157_036_S57_L004.17.peptide_formatted2;
+        

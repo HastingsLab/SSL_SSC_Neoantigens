@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	format_output
+	1
+
+[Mon Jun 19 13:13:20 2023]
+rule format_output:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_mnp_split_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_mnp_split_gatk_unfiltered_expression.tsv
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_mnp_split_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_mnp_split_gatk_unfiltered_expression.out
+    jobid: 0
+    wildcards: RNA=244-1-chu-02-B7-6-22-21_202_375_S26_L003
+
+[Mon Jun 19 13:13:20 2023]
+Finished job 0.
+1 of 1 steps (100%) done

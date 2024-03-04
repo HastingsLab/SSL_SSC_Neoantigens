@@ -1,0 +1,4 @@
+
+        bcftools concat -a /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_06_D12_316_261_S5_L003/results/variants/somatic.indels.pass.vcf.gz /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_06_D12_316_261_S5_L003/results/variants/somatic.snvs.pass.vcf.gz -o /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_06_D12_316_261_S5_L003/results/variants/somatic.pass.vcf;
+        bcftools concat -a /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_06_D12_316_261_S5_L003/results/variants/somatic.indels.vcf.gz /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_06_D12_316_261_S5_L003/results/variants/somatic.snvs.vcf.gz -o /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_06_D12_316_261_S5_L003/results/variants/somatic.vcf
+        

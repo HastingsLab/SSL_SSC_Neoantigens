@@ -1,0 +1,56 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	filter
+	1	select_pass_variants
+	1	tumor_with_matched_normal
+	4
+
+[Sat Sep 24 14:27:09 2022]
+rule tumor_with_matched_normal:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/Parent_cell_lines/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/processed_bams/244_1_Chu_02_B7_352_225_S2_L003.GRCm38_68.sorted.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.vcf.gz
+    jobid: 1
+    wildcards: subject=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 17578712'.
+[Sat Sep 24 17:20:51 2022]
+Finished job 1.
+1 of 4 steps (25%) done
+
+[Sat Sep 24 17:20:51 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.filtered.vcf.gz
+    jobid: 3
+    wildcards: subject=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 3 with external jobid 'Submitted batch job 17581042'.
+[Sat Sep 24 17:25:21 2022]
+Finished job 3.
+2 of 4 steps (50%) done
+
+[Sat Sep 24 17:25:21 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.filtered.pass.vcf.gz
+    jobid: 2
+    wildcards: subject=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 17581049'.
+[Sat Sep 24 17:26:51 2022]
+Finished job 2.
+3 of 4 steps (75%) done
+
+[Sat Sep 24 17:26:51 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003.somatic.filtered.pass.vcf.gz
+    jobid: 0
+
+[Sat Sep 24 17:26:51 2022]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/02_variant_calling/.snakemake/log/2022-09-24T142709.578477.snakemake.log

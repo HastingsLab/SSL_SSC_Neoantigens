@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	filter
+	1	select_pass_variants
+	1	tumor_only
+	4
+
+[Thu Apr 14 14:06:05 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/GENCODE_Mus_musculus/gencode.vM27.transcripts.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/trimmed_fastqs/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz
+    jobid: 2
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 14960392'.
+[Thu Apr 14 14:06:15 2022]
+Error in rule tumor_only:
+    jobid: 2
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz
+    cluster_jobid: Submitted batch job 14960392
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/RNA_mutations/.snakemake/log/2022-04-14T140605.781980.snakemake.log

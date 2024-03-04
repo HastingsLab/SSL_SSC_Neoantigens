@@ -1,0 +1,3 @@
+
+        python prepare_input_for_vep_gatk_and_strelka.py --vcf_filenames         /scratch/eknodel/SCC_samples/gatk_mutect2/gDNA_188_25_2E2_5C_157_036_S57_L004.somatic.filtered.pass.vcf,/scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/results/variants/somatic.snvs.pass.vcf,/scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/results/variants/somatic.indels.pass.vcf         --vep_format_fn /scratch/eknodel/SCC_samples/variants/gDNA_188_25_2E2_5C_157_036_S57_L004_merged.vcf
+        

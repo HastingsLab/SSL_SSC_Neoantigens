@@ -1,0 +1,42 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	standardize_normal
+	1	standardize_tumor
+	3
+
+[Thu Nov 10 10:37:39 2022]
+rule standardize_tumor:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    jobid: 2
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+
+Submitted job 2 with external jobid 'Submitted batch job 18067463'.
+
+[Thu Nov 10 10:37:39 2022]
+rule standardize_normal:
+    input: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.standardizedCR.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.denoisedCR.tsv
+    jobid: 5
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+
+Submitted job 5 with external jobid 'Submitted batch job 18067464'.
+[Thu Nov 10 10:37:49 2022]
+Error in rule standardize_tumor:
+    jobid: 2
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    cluster_jobid: Submitted batch job 18067463
+
+[Thu Nov 10 10:37:49 2022]
+Error in rule standardize_normal:
+    jobid: 5
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.standardizedCR.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.denoisedCR.tsv
+    cluster_jobid: Submitted batch job 18067464
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/log/2022-11-10T103739.167184.snakemake.log

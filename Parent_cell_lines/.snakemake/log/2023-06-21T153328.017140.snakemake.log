@@ -1,0 +1,2 @@
+SyntaxError in line 8 of /home/eknodel/SCC_samples/Parent_tumors/footprint.snakefile:
+EOF in multi-line statement (footprint.snakefile, line 8)

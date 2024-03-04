@@ -1,0 +1,139 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job counts:
+	count	jobs
+	1	all
+	5	format_peptides
+	5	generate_fasta_gatk
+	11
+
+[Wed Jun 21 14:34:44 2023]
+rule generate_fasta_gatk:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_unfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_unfiltered.vcf
+    jobid: 3
+    wildcards: sample=185_1_SC_01_F11_364_213_S1_L003
+
+Submitted job 3 with external jobid 'Submitted batch job 21435291'.
+
+[Wed Jun 21 14:34:45 2023]
+rule generate_fasta_gatk:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_06_F5_328_249_S4_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_06_F5_328_249_S4_L003_gatk_vep_unfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_gatk_vep_unfiltered.vcf
+    jobid: 14
+    wildcards: sample=244_1_Chu_06_F5_328_249_S4_L003
+
+Submitted job 14 with external jobid 'Submitted batch job 21435292'.
+
+[Wed Jun 21 14:34:45 2023]
+rule generate_fasta_gatk:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_09_G9_304_273_S6_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_09_G9_304_273_S6_L003_gatk_vep_unfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_gatk_vep_unfiltered.vcf
+    jobid: 1
+    wildcards: sample=185_1_SC_09_G9_304_273_S6_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 21435293'.
+
+[Wed Jun 21 14:34:45 2023]
+rule generate_fasta_gatk:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_06_D12_316_261_S5_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_06_D12_316_261_S5_L003_gatk_vep_unfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_gatk_vep_unfiltered.vcf
+    jobid: 16
+    wildcards: sample=244_1_Chu_06_D12_316_261_S5_L003
+
+Submitted job 16 with external jobid 'Submitted batch job 21435294'.
+
+[Wed Jun 21 14:34:46 2023]
+rule generate_fasta_gatk:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/188_2_SC_05_F11_340_237_S3_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/188_2_SC_05_F11_340_237_S3_L003_gatk_vep_unfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_gatk_vep_unfiltered.vcf
+    jobid: 10
+    wildcards: sample=188_2_SC_05_F11_340_237_S3_L003
+
+Submitted job 10 with external jobid 'Submitted batch job 21435295'.
+[Wed Jun 21 14:36:15 2023]
+Finished job 3.
+1 of 11 steps (9%) done
+
+[Wed Jun 21 14:36:15 2023]
+rule format_peptides:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_ubfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_unfiltered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_unfiltered.peptides
+    jobid: 5
+    wildcards: sample=185_1_SC_01_F11_364_213_S1_L003
+
+[Wed Jun 21 14:36:15 2023]
+Finished job 14.
+2 of 11 steps (18%) done
+Submitted job 5 with external jobid 'Submitted batch job 21435298'.
+[Wed Jun 21 14:36:15 2023]
+Finished job 16.
+3 of 11 steps (27%) done
+[Wed Jun 21 14:36:15 2023]
+Finished job 10.
+4 of 11 steps (36%) done
+
+[Wed Jun 21 14:36:15 2023]
+rule format_peptides:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_strelka_vep_ubfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_gatk_vep_unfiltered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_strelka_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_strelka_vep_unfiltered.peptides
+    jobid: 9
+    wildcards: sample=188_2_SC_05_F11_340_237_S3_L003
+
+Submitted job 9 with external jobid 'Submitted batch job 21435299'.
+
+[Wed Jun 21 14:36:15 2023]
+rule format_peptides:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_strelka_vep_ubfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_gatk_vep_unfiltered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_strelka_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_strelka_vep_unfiltered.peptides
+    jobid: 6
+    wildcards: sample=244_1_Chu_06_D12_316_261_S5_L003
+
+Submitted job 6 with external jobid 'Submitted batch job 21435300'.
+
+[Wed Jun 21 14:36:15 2023]
+rule format_peptides:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_strelka_vep_ubfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_gatk_vep_unfiltered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_strelka_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_strelka_vep_unfiltered.peptides
+    jobid: 15
+    wildcards: sample=244_1_Chu_06_F5_328_249_S4_L003
+
+Submitted job 15 with external jobid 'Submitted batch job 21435301'.
+[Wed Jun 21 14:36:25 2023]
+Finished job 5.
+5 of 11 steps (45%) done
+[Wed Jun 21 14:36:25 2023]
+Finished job 1.
+6 of 11 steps (55%) done
+
+[Wed Jun 21 14:36:25 2023]
+rule format_peptides:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_gatk_vep_unfiltered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_strelka_vep_ubfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_gatk_vep_unfiltered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_strelka_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_strelka_vep_unfiltered.peptides
+    jobid: 8
+    wildcards: sample=185_1_SC_09_G9_304_273_S6_L003
+
+[Wed Jun 21 14:36:26 2023]
+Finished job 9.
+7 of 11 steps (64%) done
+[Wed Jun 21 14:36:26 2023]
+Finished job 6.
+8 of 11 steps (73%) done
+Submitted job 8 with external jobid 'Submitted batch job 21435302'.
+[Wed Jun 21 14:36:26 2023]
+Finished job 15.
+9 of 11 steps (82%) done
+[Wed Jun 21 14:36:36 2023]
+Finished job 8.
+10 of 11 steps (91%) done
+
+[Wed Jun 21 14:36:36 2023]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_01_F11_364_213_S1_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_D12_316_261_S5_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_06_F5_328_249_S4_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/185_1_SC_09_G9_304_273_S6_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/188_2_SC_05_F11_340_237_S3_L003_gatk_vep_filtered.peptides, /scratch/eknodel/SCC_samples/Parent_cell_lines/peptides/244_1_Chu_02_B7_352_225_S2_L003_gatk_vep_filtered.peptides
+    jobid: 0
+
+[Wed Jun 21 14:36:36 2023]
+Finished job 0.
+11 of 11 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/03_variant_annotation/.snakemake/log/2023-06-21T143441.931148.snakemake.log

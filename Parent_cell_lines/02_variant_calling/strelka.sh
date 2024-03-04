@@ -7,10 +7,11 @@
 #SBATCH -c 1
 #SBATCH -t 168:00:00
 #SBATCH --mem=40000
-#SBATCH -q tempboost
+#SBATCH -p wildfire
+#SBATCH -q wildfire
 
 newgrp combinedlab
 
 source activate cancergenomics
 
-snakemake --snakefile strelka.snakefile -j 190 --keep-target-files --rerun-incomplete --cluster "sbatch -q tempboost -n 1 -c 1 --mem=50000 -t 96:00:00"
+snakemake --snakefile strelka.snakefile -j 190 --keep-target-files --rerun-incomplete --cluster "sbatch -p wildfire -q wildfire -n 1 -c 1 --mem=50000 -t 96:00:00"

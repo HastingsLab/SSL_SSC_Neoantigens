@@ -1,0 +1,3 @@
+
+        ~/bin/netMHCIIpan-4.1/netMHCIIpan -a H-2-IAd,H-2-IEd -f /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/244_F5.29.peptide_formatted -BA -s -xls -length 15  -xlsfile /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/netMHCpan/244_F5_15_netmhcII.xsl;
+        

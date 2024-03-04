@@ -1,0 +1,317 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 30
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+all                        1              1              1
+salmon_quant_paired       36              1              1
+total                     37              1              1
+
+Select jobs to execute...
+
+[Mon Feb  6 20:32:10 2023]
+Job 27: Quantifying 244-chu-06-F5-7-2-21-2_261_316_S29_L003 transcripts with Salmon.
+
+Submitted job 27 with external jobid 'Submitted batch job 19170469'.
+
+[Mon Feb  6 20:32:11 2023]
+Job 12: Quantifying 244-1-chu-06-D12-7-12-21-2_248_329_S38_L003 transcripts with Salmon.
+
+Submitted job 12 with external jobid 'Submitted batch job 19170470'.
+
+[Mon Feb  6 20:32:11 2023]
+Job 20: Quantifying 244-1-chu-02-B7-6-11-21_226_351_S24_L003 transcripts with Salmon.
+
+Submitted job 20 with external jobid 'Submitted batch job 19170471'.
+
+[Mon Feb  6 20:32:11 2023]
+Job 5: Quantifying 188-2-5c-05-F11-6-15-21_286_291_S19_L003 transcripts with Salmon.
+
+Submitted job 5 with external jobid 'Submitted batch job 19170472'.
+
+[Mon Feb  6 20:32:11 2023]
+Job 28: Quantifying 185-15c-09-G9-6-3-21_288_289_S3_L003 transcripts with Salmon.
+
+Submitted job 28 with external jobid 'Submitted batch job 19170473'.
+
+[Mon Feb  6 20:32:11 2023]
+Job 13: Quantifying 185-1-5c-01-F11-6-26-21-5_263_314_S13_L003 transcripts with Salmon.
+
+Submitted job 13 with external jobid 'Submitted batch job 19170474'.
+
+[Mon Feb  6 20:32:11 2023]
+Job 36: Quantifying 244-chu-06-F5-7-9-21-2_225_352_S32_L003 transcripts with Salmon.
+
+Submitted job 36 with external jobid 'Submitted batch job 19170475'.
+
+[Mon Feb  6 20:32:13 2023]
+Job 21: Quantifying 244-chu-06-F5-6-26-21_285_292_S27_L003 transcripts with Salmon.
+
+Submitted job 21 with external jobid 'Submitted batch job 19170476'.
+
+[Mon Feb  6 20:32:13 2023]
+Job 6: Quantifying 244-1-chu-06-D12-6-26-21_201_376_S34_L003 transcripts with Salmon.
+
+Submitted job 6 with external jobid 'Submitted batch job 19170477'.
+
+[Mon Feb  6 20:32:13 2023]
+Job 29: Quantifying 244-1-chu-02-B7-6-3-21_262_315_S21_L003 transcripts with Salmon.
+
+Submitted job 29 with external jobid 'Submitted batch job 19170478'.
+
+[Mon Feb  6 20:32:13 2023]
+Job 14: Quantifying 188-2-5c-05-F11-6-6-21_227_350_S16_L003 transcripts with Salmon.
+
+Submitted job 14 with external jobid 'Submitted batch job 19170479'.
+
+[Mon Feb  6 20:32:13 2023]
+Job 22: Quantifying 185-15c-09-G9-6-15-21_240_337_S7_L003 transcripts with Salmon.
+
+Submitted job 22 with external jobid 'Submitted batch job 19170480'.
+
+[Mon Feb  6 20:32:13 2023]
+Job 7: Quantifying 185-1-5c-01-F11-6-26-21-3_287_290_S11_L003 transcripts with Salmon.
+
+Submitted job 7 with external jobid 'Submitted batch job 19170481'.
+
+[Mon Feb  6 20:32:13 2023]
+Job 30: Quantifying 244-chu-06-F5-7-2-21-3_249_328_S30_L003 transcripts with Salmon.
+
+Submitted job 30 with external jobid 'Submitted batch job 19170482'.
+
+[Mon Feb  6 20:32:14 2023]
+Job 15: Quantifying 244-1-chu-06-D12-7-9-21-1_284_293_S35_L003 transcripts with Salmon.
+
+Submitted job 15 with external jobid 'Submitted batch job 19170483'.
+
+[Mon Feb  6 20:32:14 2023]
+Job 23: Quantifying 244-1-chu-02-B7-6-15-21_214_363_S25_L003 transcripts with Salmon.
+
+Submitted job 23 with external jobid 'Submitted batch job 19170484'.
+
+[Mon Feb  6 20:32:14 2023]
+Job 8: Quantifying 188-2-5c-05-F11-6-22-21_274_303_S20_L003 transcripts with Salmon.
+
+Submitted job 8 with external jobid 'Submitted batch job 19170485'.
+
+[Mon Feb  6 20:32:14 2023]
+Job 31: Quantifying 185-15c-09-G9-6-6-21_276_301_S4_L003 transcripts with Salmon.
+
+Submitted job 31 with external jobid 'Submitted batch job 19170486'.
+
+[Mon Feb  6 20:32:14 2023]
+Job 16: Quantifying 185-1-5c-01-F11-6-26-21-6_251_326_S14_L003 transcripts with Salmon.
+
+Submitted job 16 with external jobid 'Submitted batch job 19170487'.
+
+[Mon Feb  6 20:32:15 2023]
+Job 1: Quantifying 185-1-5c-01-F11-6-26-21-1_216_361_S9_L003 transcripts with Salmon.
+
+Submitted job 1 with external jobid 'Submitted batch job 19170488'.
+
+[Mon Feb  6 20:32:16 2023]
+Job 25: Quantifying 185-15c-09-G9-6-22-21_228_349_S8_L003 transcripts with Salmon.
+
+Submitted job 25 with external jobid 'Submitted batch job 19170489'.
+
+[Mon Feb  6 20:32:16 2023]
+Job 10: Quantifying 185-1-5c-01-F11-6-26-21-4_275_302_S12_L003 transcripts with Salmon.
+
+Submitted job 10 with external jobid 'Submitted batch job 19170490'.
+
+[Mon Feb  6 20:32:16 2023]
+Job 33: Quantifying 244-chu-06-F5-7-9-21-1_237_340_S31_L003 transcripts with Salmon.
+
+Submitted job 33 with external jobid 'Submitted batch job 19170491'.
+
+[Mon Feb  6 20:32:16 2023]
+Job 18: Quantifying 244-1-chu-06-D12-7-9-21-2_272_305_S36_L003 transcripts with Salmon.
+
+Submitted job 18 with external jobid 'Submitted batch job 19170492'.
+
+[Mon Feb  6 20:32:16 2023]
+Job 3: Quantifying 244-1-chu-06-D12-6-22-21_213_364_S33_L003 transcripts with Salmon.
+
+Submitted job 3 with external jobid 'Submitted batch job 19170493'.
+
+[Mon Feb  6 20:32:16 2023]
+Job 26: Quantifying 244-1-chu-02-B7-6-22-21_202_375_S26_L003 transcripts with Salmon.
+
+Submitted job 26 with external jobid 'Submitted batch job 19170494'.
+
+[Mon Feb  6 20:32:16 2023]
+Job 11: Quantifying 188-2-5c-05-F11-6-3-21_239_338_S15_L003 transcripts with Salmon.
+
+Submitted job 11 with external jobid 'Submitted batch job 19170495'.
+
+[Mon Feb  6 20:32:17 2023]
+Job 34: Quantifying 185-15c-09-G9-6-9-21_264_313_S5_L003 transcripts with Salmon.
+
+Submitted job 34 with external jobid 'Submitted batch job 19170496'.
+
+[Mon Feb  6 20:32:17 2023]
+Job 19: Quantifying 185-15c-09-G9-6-11-21_252_325_S6_L003 transcripts with Salmon.
+
+Submitted job 19 with external jobid 'Submitted batch job 19170497'.
+
+[Mon Feb  6 20:32:17 2023]
+Job 4: Quantifying 185-1-5c-01-F11-6-26-21-2_204_373_S10_L003 transcripts with Salmon.
+
+Submitted job 4 with external jobid 'Submitted batch job 19170498'.
+[Mon Feb  6 20:36:39 2023]
+Finished job 27.
+1 of 37 steps (3%) done
+Select jobs to execute...
+
+[Mon Feb  6 20:36:39 2023]
+Job 17: Quantifying 188-2-5c-05-F11-6-9-21_215_362_S17_L003 transcripts with Salmon.
+
+Submitted job 17 with external jobid 'Submitted batch job 19170506'.
+[Mon Feb  6 20:37:31 2023]
+Finished job 12.
+2 of 37 steps (5%) done
+Select jobs to execute...
+
+[Mon Feb  6 20:37:31 2023]
+Job 32: Quantifying 244-1-chu-02-B7-6-6-21_250_327_S22_L003 transcripts with Salmon.
+
+Submitted job 32 with external jobid 'Submitted batch job 19170509'.
+[Mon Feb  6 20:40:34 2023]
+Finished job 20.
+3 of 37 steps (8%) done
+Select jobs to execute...
+
+[Mon Feb  6 20:40:34 2023]
+Job 24: Quantifying 244-chu-06-F5-7-2-21-1_273_304_S28_L003 transcripts with Salmon.
+
+Submitted job 24 with external jobid 'Submitted batch job 19170522'.
+[Mon Feb  6 20:40:36 2023]
+Finished job 33.
+4 of 37 steps (11%) done
+Select jobs to execute...
+
+[Mon Feb  6 20:40:36 2023]
+Job 9: Quantifying 244-1-chu-06-D12-7-12-21-1_260_317_S37_L003 transcripts with Salmon.
+
+Submitted job 9 with external jobid 'Submitted batch job 19170523'.
+[Mon Feb  6 20:43:25 2023]
+Finished job 3.
+5 of 37 steps (14%) done
+Select jobs to execute...
+
+[Mon Feb  6 20:43:25 2023]
+Job 2: Quantifying 188-2-5c-05-F11-6-11-21_203_374_S18_L003 transcripts with Salmon.
+
+Submitted job 2 with external jobid 'Submitted batch job 19170524'.
+[Mon Feb  6 20:44:04 2023]
+Finished job 18.
+6 of 37 steps (16%) done
+Select jobs to execute...
+
+[Mon Feb  6 20:44:04 2023]
+Job 35: Quantifying 244-1-chu-02-B7-6-9-21_238_339_S23_L003 transcripts with Salmon.
+
+Submitted job 35 with external jobid 'Submitted batch job 19170526'.
+[Mon Feb  6 20:45:46 2023]
+Finished job 5.
+7 of 37 steps (19%) done
+[Mon Feb  6 20:46:35 2023]
+Finished job 28.
+8 of 37 steps (22%) done
+[Mon Feb  6 20:48:23 2023]
+Finished job 13.
+9 of 37 steps (24%) done
+[Mon Feb  6 20:48:23 2023]
+Finished job 36.
+10 of 37 steps (27%) done
+[Mon Feb  6 20:49:12 2023]
+Finished job 21.
+11 of 37 steps (30%) done
+[Mon Feb  6 20:51:00 2023]
+Finished job 29.
+12 of 37 steps (32%) done
+[Mon Feb  6 20:51:48 2023]
+Finished job 6.
+13 of 37 steps (35%) done
+[Mon Feb  6 20:51:48 2023]
+Finished job 14.
+14 of 37 steps (38%) done
+[Mon Feb  6 20:52:00 2023]
+Finished job 22.
+15 of 37 steps (41%) done
+[Mon Feb  6 20:53:48 2023]
+Finished job 7.
+16 of 37 steps (43%) done
+[Mon Feb  6 20:54:36 2023]
+Finished job 30.
+17 of 37 steps (46%) done
+[Mon Feb  6 20:55:21 2023]
+Finished job 23.
+18 of 37 steps (49%) done
+[Mon Feb  6 20:56:05 2023]
+Finished job 8.
+19 of 37 steps (51%) done
+[Mon Feb  6 20:57:56 2023]
+Finished job 31.
+20 of 37 steps (54%) done
+[Mon Feb  6 20:57:56 2023]
+Finished job 16.
+21 of 37 steps (57%) done
+[Mon Feb  6 20:58:40 2023]
+Finished job 15.
+22 of 37 steps (59%) done
+[Mon Feb  6 20:58:40 2023]
+Finished job 1.
+23 of 37 steps (62%) done
+[Mon Feb  6 21:00:30 2023]
+Finished job 25.
+24 of 37 steps (65%) done
+[Mon Feb  6 21:01:14 2023]
+Finished job 10.
+25 of 37 steps (68%) done
+[Mon Feb  6 21:01:14 2023]
+Finished job 11.
+26 of 37 steps (70%) done
+[Mon Feb  6 21:01:58 2023]
+Finished job 26.
+27 of 37 steps (73%) done
+[Mon Feb  6 21:02:09 2023]
+Finished job 34.
+28 of 37 steps (76%) done
+[Mon Feb  6 21:03:49 2023]
+Finished job 19.
+29 of 37 steps (78%) done
+[Mon Feb  6 21:03:49 2023]
+Finished job 4.
+30 of 37 steps (81%) done
+[Mon Feb  6 21:05:29 2023]
+Finished job 17.
+31 of 37 steps (84%) done
+[Mon Feb  6 21:06:10 2023]
+Finished job 32.
+32 of 37 steps (86%) done
+[Mon Feb  6 21:07:50 2023]
+Finished job 24.
+33 of 37 steps (89%) done
+[Mon Feb  6 21:07:50 2023]
+Finished job 9.
+34 of 37 steps (92%) done
+[Mon Feb  6 21:07:50 2023]
+Finished job 2.
+35 of 37 steps (95%) done
+[Mon Feb  6 21:07:50 2023]
+Finished job 35.
+36 of 37 steps (97%) done
+Select jobs to execute...
+
+[Mon Feb  6 21:07:50 2023]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/188-2-5c-05-F11-6-11-21_203_374_S18_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-06-D12-6-22-21_213_364_S33_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/188-2-5c-05-F11-6-15-21_286_291_S19_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-06-D12-6-26-21_201_376_S34_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/188-2-5c-05-F11-6-22-21_274_303_S20_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/188-2-5c-05-F11-6-3-21_239_338_S15_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/188-2-5c-05-F11-6-6-21_227_350_S16_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/188-2-5c-05-F11-6-9-21_215_362_S17_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-15c-09-G9-6-11-21_252_325_S6_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-02-B7-6-11-21_226_351_S24_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-chu-06-F5-6-26-21_285_292_S27_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-15c-09-G9-6-15-21_240_337_S7_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-02-B7-6-15-21_214_363_S25_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-chu-06-F5-7-2-21-1_273_304_S28_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-15c-09-G9-6-22-21_228_349_S8_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-02-B7-6-22-21_202_375_S26_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-chu-06-F5-7-2-21-2_261_316_S29_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-15c-09-G9-6-3-21_288_289_S3_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-02-B7-6-3-21_262_315_S21_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-chu-06-F5-7-2-21-3_249_328_S30_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-15c-09-G9-6-6-21_276_301_S4_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-02-B7-6-6-21_250_327_S22_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-chu-06-F5-7-9-21-1_237_340_S31_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/185-15c-09-G9-6-9-21_264_313_S5_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-02-B7-6-9-21_238_339_S23_L003_ensembl_salmon_quant, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-chu-06-F5-7-9-21-2_225_352_S32_L003_ensembl_salmon_quant
+    jobid: 0
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=/tmp
+
+[Mon Feb  6 21:07:50 2023]
+Finished job 0.
+37 of 37 steps (100%) done
+Complete log: .snakemake/log/2023-02-06T203206.569621.snakemake.log

@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+all                        1              1              1
+plot_model_segments        1              1              1
+total                      2              1              1
+
+Select jobs to execute...
+
+[Fri Nov 11 13:23:36 2022]
+rule plot_model_segments:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.allelicCounts.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.allelicCounts.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    output: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.png
+    jobid: 11
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 11 with external jobid 'Submitted batch job 18085706'.
+[Fri Nov 11 13:23:46 2022]
+Error in rule plot_model_segments:
+    jobid: 11
+    output: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.png
+    shell:
+        
+        /home/eknodel/gatk-4.1.7.0/gatk PlotModeledSegments --denoised-copy-ratios cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv \ 
+        --allelic-counts cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.allelicCounts.tsv \ 
+        --sequence-dictionary /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.dict         --output cnv_plots \ 
+        --output-prefix gDNA_185_25_2E1_5C_365_212_S56_L004
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 18085706
+
+Error executing rule plot_model_segments on cluster (jobid: 11, external: Submitted batch job 18085706, jobscript: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/tmp.yvlz958x/snakejob.plot_model_segments.11.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/log/2022-11-11T132334.680503.snakemake.log

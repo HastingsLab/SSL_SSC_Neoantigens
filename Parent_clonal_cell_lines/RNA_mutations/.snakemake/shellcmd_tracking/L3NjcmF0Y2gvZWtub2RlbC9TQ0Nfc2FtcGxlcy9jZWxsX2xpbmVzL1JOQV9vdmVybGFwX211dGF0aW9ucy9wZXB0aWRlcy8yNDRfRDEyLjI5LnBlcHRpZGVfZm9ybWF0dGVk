@@ -1,0 +1,3 @@
+
+        cat /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/244_D12_vep.29.peptide | sed '/>WT/,+1 d' | sed 's/\//_/g' > /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/244_D12.29.peptide_formatted;
+        

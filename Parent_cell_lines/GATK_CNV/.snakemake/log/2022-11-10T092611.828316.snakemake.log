@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	process_intervals
+	2
+
+[Thu Nov 10 09:26:12 2022]
+rule process_intervals:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: targets_C.preprocessed.interval_list
+    jobid: 1
+
+Submitted job 1 with external jobid 'Submitted batch job 18063877'.
+[Thu Nov 10 09:26:22 2022]
+Error in rule process_intervals:
+    jobid: 1
+    output: targets_C.preprocessed.interval_list
+    cluster_jobid: Submitted batch job 18063877
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/log/2022-11-10T092611.828316.snakemake.log

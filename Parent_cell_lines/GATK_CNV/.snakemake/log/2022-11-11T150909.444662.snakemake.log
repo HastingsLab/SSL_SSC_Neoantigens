@@ -1,0 +1,63 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job stats:
+job                               count    min threads    max threads
+------------------------------  -------  -------------  -------------
+all                                   1              1              1
+collect_fragment_counts               1              1              1
+collect_fragment_counts_normal        1              1              1
+plot_normal                           1              1              1
+plot_tumor                            1              1              1
+standardize_normal                    1              1              1
+standardize_tumor                     1              1              1
+total                                 7              1              1
+
+Select jobs to execute...
+
+[Fri Nov 11 15:09:14 2022]
+rule collect_fragment_counts_normal:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.interval_list, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    jobid: 2
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+    resources: tmpdir=/tmp
+
+Submitted job 2 with external jobid 'Submitted batch job 18086301'.
+
+[Fri Nov 11 15:09:14 2022]
+rule collect_fragment_counts:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.interval_list, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    jobid: 1
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 1 with external jobid 'Submitted batch job 18086302'.
+[Fri Nov 11 15:09:53 2022]
+Error in rule collect_fragment_counts_normal:
+    jobid: 2
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    shell:
+        
+        /home/eknodel/gatk-4.1.7.0/gatk CollectReadCounts         -I /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam         -L /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.interval_list         --interval-merging-rule OVERLAPPING_ONLY         -O cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 18086301
+
+Error executing rule collect_fragment_counts_normal on cluster (jobid: 2, external: Submitted batch job 18086301, jobscript: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/tmp.z2w12kzb/snakejob.collect_fragment_counts_normal.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Nov 11 15:09:53 2022]
+Error in rule collect_fragment_counts:
+    jobid: 1
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    shell:
+        
+        /home/eknodel/gatk-4.1.7.0/gatk CollectReadCounts         -I /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.bam         -L /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.interval_list         --interval-merging-rule OVERLAPPING_ONLY         -O cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 18086302
+
+Error executing rule collect_fragment_counts on cluster (jobid: 1, external: Submitted batch job 18086302, jobscript: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/tmp.z2w12kzb/snakejob.collect_fragment_counts.1.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/log/2022-11-11T150909.444662.snakemake.log

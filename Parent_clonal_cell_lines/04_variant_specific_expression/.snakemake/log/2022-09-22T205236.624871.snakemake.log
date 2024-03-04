@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job counts:
+	count	jobs
+	1	all
+	6	gatk_asereadcounter
+	1	index_vcf
+	8
+
+[Thu Sep 22 20:52:36 2022]
+rule index_vcf:
+    input: /scratch/eknodel/SCC_samples/cell_lines/variants/244_1_Chu_02_B7_352_225_S2_L003_merged.vcf
+    output: /scratch/eknodel/SCC_samples/cell_lines/variants/244_1_Chu_02_B7_352_225_S2_L003_merged.vcf.idx
+    jobid: 7
+
+Submitted job 7 with external jobid 'Submitted batch job 17562699'.
+[Thu Sep 22 20:52:46 2022]
+Error in rule index_vcf:
+    jobid: 7
+    output: /scratch/eknodel/SCC_samples/cell_lines/variants/244_1_Chu_02_B7_352_225_S2_L003_merged.vcf.idx
+    cluster_jobid: Submitted batch job 17562699
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/04_variant_specific_expression/.snakemake/log/2022-09-22T205236.624871.snakemake.log

@@ -1,0 +1,464 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 30
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+all                        1              1              1
+salmon_quant_paired       38              1              1
+total                     39              1              1
+
+Select jobs to execute...
+
+[Thu May 19 11:19:47 2022]
+Job 28: Quantifying 185-15c-09-G9-6-3-21_288_289_S3_L003 transcripts with Salmon.
+
+Submitted job 28 with external jobid 'Submitted batch job 15840544'.
+
+[Thu May 19 11:19:48 2022]
+Job 13: Quantifying 185-1-5c-01-F11-6-26-21-5_263_314_S13_L003 transcripts with Salmon.
+
+Submitted job 13 with external jobid 'Submitted batch job 15840545'.
+
+[Thu May 19 11:19:48 2022]
+Job 21: Quantifying 244-chu-06-F5-6-26-21_285_292_S27_L003 transcripts with Salmon.
+
+Submitted job 21 with external jobid 'Submitted batch job 15840546'.
+
+[Thu May 19 11:19:48 2022]
+Job 6: Quantifying 244-1-chu-06-D12-6-26-21_201_376_S34_L003 transcripts with Salmon.
+
+Submitted job 6 with external jobid 'Submitted batch job 15840547'.
+
+[Thu May 19 11:19:48 2022]
+Job 29: Quantifying 244-1-chu-02-B7-6-3-21_262_315_S21_L003 transcripts with Salmon.
+
+Submitted job 29 with external jobid 'Submitted batch job 15840548'.
+
+[Thu May 19 11:19:48 2022]
+Job 14: Quantifying 188-2-5c-05-F11-6-6-21_227_350_S16_L003 transcripts with Salmon.
+
+Submitted job 14 with external jobid 'Submitted batch job 15840549'.
+
+[Thu May 19 11:19:48 2022]
+Job 37: Quantifying 483_sc_01_B6-1_366_211_S58_L003 transcripts with Salmon.
+
+Submitted job 37 with external jobid 'Submitted batch job 15840550'.
+
+[Thu May 19 11:19:48 2022]
+Job 22: Quantifying 185-15c-09-G9-6-15-21_240_337_S7_L003 transcripts with Salmon.
+
+Submitted job 22 with external jobid 'Submitted batch job 15840551'.
+
+[Thu May 19 11:19:48 2022]
+Job 7: Quantifying 185-1-5c-01-F11-6-26-21-3_287_290_S11_L003 transcripts with Salmon.
+
+Submitted job 7 with external jobid 'Submitted batch job 15840552'.
+
+[Thu May 19 11:19:50 2022]
+Job 30: Quantifying 244-chu-06-F5-7-2-21-3_249_328_S30_L003 transcripts with Salmon.
+
+Submitted job 30 with external jobid 'Submitted batch job 15840553'.
+
+[Thu May 19 11:19:50 2022]
+Job 15: Quantifying 244-1-chu-06-D12-7-9-21-1_284_293_S35_L003 transcripts with Salmon.
+
+Submitted job 15 with external jobid 'Submitted batch job 15840554'.
+
+[Thu May 19 11:19:50 2022]
+Job 38: Quantifying 483_sc_01_B6-2_354_223_S59_L003 transcripts with Salmon.
+
+Submitted job 38 with external jobid 'Submitted batch job 15840555'.
+
+[Thu May 19 11:19:51 2022]
+Job 23: Quantifying 244-1-chu-02-B7-6-15-21_214_363_S25_L003 transcripts with Salmon.
+
+Submitted job 23 with external jobid 'Submitted batch job 15840556'.
+
+[Thu May 19 11:19:51 2022]
+Job 8: Quantifying 188-2-5c-05-F11-6-22-21_274_303_S20_L003 transcripts with Salmon.
+
+Submitted job 8 with external jobid 'Submitted batch job 15840557'.
+
+[Thu May 19 11:19:51 2022]
+Job 31: Quantifying 185-15c-09-G9-6-6-21_276_301_S4_L003 transcripts with Salmon.
+
+Submitted job 31 with external jobid 'Submitted batch job 15840558'.
+
+[Thu May 19 11:19:51 2022]
+Job 16: Quantifying 185-1-5c-01-F11-6-26-21-6_251_326_S14_L003 transcripts with Salmon.
+
+Submitted job 16 with external jobid 'Submitted batch job 15840559'.
+
+[Thu May 19 11:19:51 2022]
+Job 2: Quantifying 188-2-5c-05-F11-6-11-21_203_374_S18_L003 transcripts with Salmon.
+
+Submitted job 2 with external jobid 'Submitted batch job 15840560'.
+
+[Thu May 19 11:19:51 2022]
+Job 24: Quantifying 244-chu-06-F5-7-2-21-1_273_304_S28_L003 transcripts with Salmon.
+
+Submitted job 24 with external jobid 'Submitted batch job 15840561'.
+
+[Thu May 19 11:19:51 2022]
+Job 18: Quantifying 244-1-chu-06-D12-7-9-21-2_272_305_S36_L003 transcripts with Salmon.
+
+Submitted job 18 with external jobid 'Submitted batch job 15840562'.
+
+[Thu May 19 11:19:51 2022]
+Job 3: Quantifying 244-1-chu-06-D12-6-22-21_213_364_S33_L003 transcripts with Salmon.
+
+Submitted job 3 with external jobid 'Submitted batch job 15840563'.
+
+[Thu May 19 11:19:51 2022]
+Job 26: Quantifying 244-1-chu-02-B7-6-22-21_202_375_S26_L003 transcripts with Salmon.
+
+Submitted job 26 with external jobid 'Submitted batch job 15840564'.
+
+[Thu May 19 11:19:53 2022]
+Job 11: Quantifying 188-2-5c-05-F11-6-3-21_239_338_S15_L003 transcripts with Salmon.
+
+Submitted job 11 with external jobid 'Submitted batch job 15840565'.
+
+[Thu May 19 11:19:53 2022]
+Job 34: Quantifying 185-15c-09-G9-6-9-21_264_313_S5_L003 transcripts with Salmon.
+
+Submitted job 34 with external jobid 'Submitted batch job 15840566'.
+
+[Thu May 19 11:19:54 2022]
+Job 19: Quantifying 185-15c-09-G9-6-11-21_252_325_S6_L003 transcripts with Salmon.
+
+Submitted job 19 with external jobid 'Submitted batch job 15840567'.
+
+[Thu May 19 11:19:55 2022]
+Job 4: Quantifying 185-1-5c-01-F11-6-26-21-2_204_373_S10_L003 transcripts with Salmon.
+
+[Thu May 19 11:19:56 2022]
+Error in rule salmon_quant_paired:
+    jobid: 28
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-3-21_288_289_S3_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840544
+
+Error executing rule salmon_quant_paired on cluster (jobid: 28, external: Submitted batch job 15840544, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.28.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:56 2022]
+Error in rule salmon_quant_paired:
+    jobid: 13
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840545
+
+Error executing rule salmon_quant_paired on cluster (jobid: 13, external: Submitted batch job 15840545, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.13.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:56 2022]
+Error in rule salmon_quant_paired:
+    jobid: 6
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-6-26-21_201_376_S34_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840547
+
+Error executing rule salmon_quant_paired on cluster (jobid: 6, external: Submitted batch job 15840547, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.6.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:57 2022]
+Error in rule salmon_quant_paired:
+    jobid: 29
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-3-21_262_315_S21_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840548
+
+Error executing rule salmon_quant_paired on cluster (jobid: 29, external: Submitted batch job 15840548, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.29.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:57 2022]
+Error in rule salmon_quant_paired:
+    jobid: 14
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-6-21_227_350_S16_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840549
+
+Error executing rule salmon_quant_paired on cluster (jobid: 14, external: Submitted batch job 15840549, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.14.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:57 2022]
+Error in rule salmon_quant_paired:
+    jobid: 37
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-1_366_211_S58_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840550
+
+Error executing rule salmon_quant_paired on cluster (jobid: 37, external: Submitted batch job 15840550, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.37.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:57 2022]
+Error in rule salmon_quant_paired:
+    jobid: 22
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-15-21_240_337_S7_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840551
+
+Error executing rule salmon_quant_paired on cluster (jobid: 22, external: Submitted batch job 15840551, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.22.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:57 2022]
+Error in rule salmon_quant_paired:
+    jobid: 38
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-2_354_223_S59_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840555
+
+Error executing rule salmon_quant_paired on cluster (jobid: 38, external: Submitted batch job 15840555, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.38.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:58 2022]
+Error in rule salmon_quant_paired:
+    jobid: 23
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-15-21_214_363_S25_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840556
+
+Error executing rule salmon_quant_paired on cluster (jobid: 23, external: Submitted batch job 15840556, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.23.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:58 2022]
+Error in rule salmon_quant_paired:
+    jobid: 31
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-6-21_276_301_S4_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840558
+
+Error executing rule salmon_quant_paired on cluster (jobid: 31, external: Submitted batch job 15840558, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.31.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:58 2022]
+Error in rule salmon_quant_paired:
+    jobid: 2
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-11-21_203_374_S18_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840560
+
+Error executing rule salmon_quant_paired on cluster (jobid: 2, external: Submitted batch job 15840560, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:58 2022]
+Error in rule salmon_quant_paired:
+    jobid: 24
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-7-2-21-1_273_304_S28_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840561
+
+Error executing rule salmon_quant_paired on cluster (jobid: 24, external: Submitted batch job 15840561, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.24.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:58 2022]
+Error in rule salmon_quant_paired:
+    jobid: 18
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840562
+
+Error executing rule salmon_quant_paired on cluster (jobid: 18, external: Submitted batch job 15840562, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.18.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 4 with external jobid 'Submitted batch job 15840568'.
+
+[Thu May 19 11:19:58 2022]
+Job 27: Quantifying 244-chu-06-F5-7-2-21-2_261_316_S29_L003 transcripts with Salmon.
+
+[Thu May 19 11:19:58 2022]
+Error in rule salmon_quant_paired:
+    jobid: 26
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-22-21_202_375_S26_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840564
+
+Error executing rule salmon_quant_paired on cluster (jobid: 26, external: Submitted batch job 15840564, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.26.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:19:59 2022]
+Error in rule salmon_quant_paired:
+    jobid: 11
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-3-21_239_338_S15_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840565
+
+Error executing rule salmon_quant_paired on cluster (jobid: 11, external: Submitted batch job 15840565, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.11.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 27 with external jobid 'Submitted batch job 15840570'.
+
+[Thu May 19 11:20:08 2022]
+Job 12: Quantifying 244-1-chu-06-D12-7-12-21-2_248_329_S38_L003 transcripts with Salmon.
+
+[Thu May 19 11:20:09 2022]
+Error in rule salmon_quant_paired:
+    jobid: 4
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840568
+
+Error executing rule salmon_quant_paired on cluster (jobid: 4, external: Submitted batch job 15840568, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.4.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:20:09 2022]
+Error in rule salmon_quant_paired:
+    jobid: 21
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-6-26-21_285_292_S27_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840546
+
+Error executing rule salmon_quant_paired on cluster (jobid: 21, external: Submitted batch job 15840546, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.21.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:20:09 2022]
+Error in rule salmon_quant_paired:
+    jobid: 7
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840552
+
+Error executing rule salmon_quant_paired on cluster (jobid: 7, external: Submitted batch job 15840552, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.7.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:20:09 2022]
+Error in rule salmon_quant_paired:
+    jobid: 30
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-7-2-21-3_249_328_S30_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840553
+
+Error executing rule salmon_quant_paired on cluster (jobid: 30, external: Submitted batch job 15840553, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.30.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:20:09 2022]
+Error in rule salmon_quant_paired:
+    jobid: 15
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840554
+
+Error executing rule salmon_quant_paired on cluster (jobid: 15, external: Submitted batch job 15840554, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.15.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:20:09 2022]
+Error in rule salmon_quant_paired:
+    jobid: 8
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-22-21_274_303_S20_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840557
+
+Error executing rule salmon_quant_paired on cluster (jobid: 8, external: Submitted batch job 15840557, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.8.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:20:09 2022]
+Error in rule salmon_quant_paired:
+    jobid: 16
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840559
+
+Error executing rule salmon_quant_paired on cluster (jobid: 16, external: Submitted batch job 15840559, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.16.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:20:09 2022]
+Error in rule salmon_quant_paired:
+    jobid: 3
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-6-22-21_213_364_S33_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840563
+
+Error executing rule salmon_quant_paired on cluster (jobid: 3, external: Submitted batch job 15840563, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.3.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:20:09 2022]
+Error in rule salmon_quant_paired:
+    jobid: 34
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-9-21_264_313_S5_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840566
+
+Error executing rule salmon_quant_paired on cluster (jobid: 34, external: Submitted batch job 15840566, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.34.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu May 19 11:20:09 2022]
+Error in rule salmon_quant_paired:
+    jobid: 19
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-11-21_252_325_S6_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840567
+
+Error executing rule salmon_quant_paired on cluster (jobid: 19, external: Submitted batch job 15840567, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.19.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 12 with external jobid 'Submitted batch job 15840571'.
+
+[Thu May 19 11:20:12 2022]
+Job 35: Quantifying 244-1-chu-02-B7-6-9-21_238_339_S23_L003 transcripts with Salmon.
+
+Submitted job 35 with external jobid 'Submitted batch job 15840572'.
+
+[Thu May 19 11:20:12 2022]
+Job 20: Quantifying 244-1-chu-02-B7-6-11-21_226_351_S24_L003 transcripts with Salmon.
+
+Submitted job 20 with external jobid 'Submitted batch job 15840573'.
+
+[Thu May 19 11:20:12 2022]
+Job 5: Quantifying 188-2-5c-05-F11-6-15-21_286_291_S19_L003 transcripts with Salmon.
+
+Submitted job 5 with external jobid 'Submitted batch job 15840574'.
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-3-21_288_289_S3_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-3-21_288_289_S3_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-6-26-21_201_376_S34_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-6-26-21_201_376_S34_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-3-21_262_315_S21_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-3-21_262_315_S21_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-6-21_227_350_S16_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-6-21_227_350_S16_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-1_366_211_S58_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-1_366_211_S58_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-15-21_240_337_S7_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-15-21_240_337_S7_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-2_354_223_S59_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-2_354_223_S59_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-15-21_214_363_S25_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-15-21_214_363_S25_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-6-21_276_301_S4_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-6-21_276_301_S4_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-11-21_203_374_S18_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-11-21_203_374_S18_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-7-2-21-1_273_304_S28_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-7-2-21-1_273_304_S28_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-22-21_202_375_S26_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-22-21_202_375_S26_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-3-21_239_338_S15_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-3-21_239_338_S15_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-6-26-21_285_292_S27_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-6-26-21_285_292_S27_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-7-2-21-3_249_328_S30_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-7-2-21-3_249_328_S30_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-22-21_274_303_S20_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-22-21_274_303_S20_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-6-22-21_213_364_S33_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-6-22-21_213_364_S33_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-9-21_264_313_S5_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-9-21_264_313_S5_L003_salmon_quant
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-11-21_252_325_S6_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/185-15c-09-G9-6-11-21_252_325_S6_L003_salmon_quant
+[Thu May 19 11:20:20 2022]
+Error in rule salmon_quant_paired:
+    jobid: 12
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840571
+
+Error executing rule salmon_quant_paired on cluster (jobid: 12, external: Submitted batch job 15840571, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.12.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_salmon_quant
+[Thu May 19 11:20:20 2022]
+Error in rule salmon_quant_paired:
+    jobid: 35
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-9-21_238_339_S23_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840572
+
+Error executing rule salmon_quant_paired on cluster (jobid: 35, external: Submitted batch job 15840572, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.35.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-9-21_238_339_S23_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-9-21_238_339_S23_L003_salmon_quant
+[Thu May 19 11:20:20 2022]
+Error in rule salmon_quant_paired:
+    jobid: 20
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-11-21_226_351_S24_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840573
+
+Error executing rule salmon_quant_paired on cluster (jobid: 20, external: Submitted batch job 15840573, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.20.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-11-21_226_351_S24_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-11-21_226_351_S24_L003_salmon_quant
+[Thu May 19 11:20:20 2022]
+Error in rule salmon_quant_paired:
+    jobid: 5
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-15-21_286_291_S19_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840574
+
+Error executing rule salmon_quant_paired on cluster (jobid: 5, external: Submitted batch job 15840574, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.5.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-15-21_286_291_S19_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/188-2-5c-05-F11-6-15-21_286_291_S19_L003_salmon_quant
+[Thu May 19 11:20:30 2022]
+Error in rule salmon_quant_paired:
+    jobid: 27
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-7-2-21-2_261_316_S29_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15840570
+
+Error executing rule salmon_quant_paired on cluster (jobid: 27, external: Submitted batch job 15840570, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.jglvuabo/snakejob.salmon_quant_paired.27.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-7-2-21-2_261_316_S29_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-chu-06-F5-7-2-21-2_261_316_S29_L003_salmon_quant
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-05-19T111944.763963.snakemake.log

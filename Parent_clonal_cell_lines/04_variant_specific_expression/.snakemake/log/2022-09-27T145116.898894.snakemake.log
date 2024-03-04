@@ -1,0 +1,90 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job counts:
+	count	jobs
+	1	all
+	6	format_output
+	7
+
+[Tue Sep 27 14:51:17 2022]
+rule format_output:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-6-21_250_327_S22_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-6-21_250_327_S22_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-6-21_250_327_S22_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-6-21_250_327_S22_L003_strelka_unfiltered_expression.tsv
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-6-21_250_327_S22_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-6-21_250_327_S22_L003_gatk_unfiltered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-6-21_250_327_S22_L003_strelka_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-6-21_250_327_S22_L003_strelka_unfiltered_expression.out
+    jobid: 11
+    wildcards: RNA=244-1-chu-02-B7-6-6-21_250_327_S22_L003
+
+Submitted job 11 with external jobid 'Submitted batch job 17632259'.
+
+[Tue Sep 27 14:51:17 2022]
+rule format_output:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-15-21_214_363_S25_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-15-21_214_363_S25_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-15-21_214_363_S25_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-15-21_214_363_S25_L003_strelka_unfiltered_expression.tsv
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-15-21_214_363_S25_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-15-21_214_363_S25_L003_gatk_unfiltered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-15-21_214_363_S25_L003_strelka_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-15-21_214_363_S25_L003_strelka_unfiltered_expression.out
+    jobid: 10
+    wildcards: RNA=244-1-chu-02-B7-6-15-21_214_363_S25_L003
+
+Submitted job 10 with external jobid 'Submitted batch job 17632260'.
+
+[Tue Sep 27 14:51:18 2022]
+rule format_output:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-3-21_262_315_S21_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-3-21_262_315_S21_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-3-21_262_315_S21_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-3-21_262_315_S21_L003_strelka_unfiltered_expression.tsv
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-3-21_262_315_S21_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-3-21_262_315_S21_L003_gatk_unfiltered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-3-21_262_315_S21_L003_strelka_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-3-21_262_315_S21_L003_strelka_unfiltered_expression.out
+    jobid: 9
+    wildcards: RNA=244-1-chu-02-B7-6-3-21_262_315_S21_L003
+
+Submitted job 9 with external jobid 'Submitted batch job 17632261'.
+
+[Tue Sep 27 14:51:18 2022]
+rule format_output:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_strelka_unfiltered_expression.tsv
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_gatk_unfiltered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_strelka_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_strelka_unfiltered_expression.out
+    jobid: 8
+    wildcards: RNA=244-1-chu-02-B7-6-22-21_202_375_S26_L003
+
+Submitted job 8 with external jobid 'Submitted batch job 17632262'.
+
+[Tue Sep 27 14:51:18 2022]
+rule format_output:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-11-21_226_351_S24_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-11-21_226_351_S24_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-11-21_226_351_S24_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-11-21_226_351_S24_L003_strelka_unfiltered_expression.tsv
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-11-21_226_351_S24_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-11-21_226_351_S24_L003_gatk_unfiltered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-11-21_226_351_S24_L003_strelka_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-11-21_226_351_S24_L003_strelka_unfiltered_expression.out
+    jobid: 6
+    wildcards: RNA=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 6 with external jobid 'Submitted batch job 17632263'.
+
+[Tue Sep 27 14:51:18 2022]
+rule format_output:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-9-21_238_339_S23_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-9-21_238_339_S23_L003_gatk_unfiltered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-9-21_238_339_S23_L003_strelka_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-9-21_238_339_S23_L003_strelka_unfiltered_expression.tsv
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-9-21_238_339_S23_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-9-21_238_339_S23_L003_gatk_unfiltered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-9-21_238_339_S23_L003_strelka_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-9-21_238_339_S23_L003_strelka_unfiltered_expression.out
+    jobid: 3
+    wildcards: RNA=244-1-chu-02-B7-6-9-21_238_339_S23_L003
+
+Submitted job 3 with external jobid 'Submitted batch job 17632264'.
+[Tue Sep 27 14:51:27 2022]
+Finished job 11.
+1 of 7 steps (14%) done
+[Tue Sep 27 14:51:27 2022]
+Finished job 10.
+2 of 7 steps (29%) done
+[Tue Sep 27 14:51:28 2022]
+Finished job 9.
+3 of 7 steps (43%) done
+[Tue Sep 27 14:51:28 2022]
+Finished job 8.
+4 of 7 steps (57%) done
+[Tue Sep 27 14:51:28 2022]
+Finished job 6.
+5 of 7 steps (71%) done
+[Tue Sep 27 14:51:28 2022]
+Finished job 3.
+6 of 7 steps (86%) done
+
+[Tue Sep 27 14:51:28 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-11-21_226_351_S24_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-15-21_214_363_S25_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-3-21_262_315_S21_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-6-21_250_327_S22_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-9-21_238_339_S23_L003_gatk_filtered_expression.tsv, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-11-21_226_351_S24_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-15-21_214_363_S25_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-22-21_202_375_S26_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-3-21_262_315_S21_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-6-21_250_327_S22_L003_gatk_filtered_expression.out, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/variant_specific_expression/244-1-chu-02-B7-6-9-21_238_339_S23_L003_gatk_filtered_expression.out
+    jobid: 0
+
+[Tue Sep 27 14:51:28 2022]
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/04_variant_specific_expression/.snakemake/log/2022-09-27T145116.898894.snakemake.log

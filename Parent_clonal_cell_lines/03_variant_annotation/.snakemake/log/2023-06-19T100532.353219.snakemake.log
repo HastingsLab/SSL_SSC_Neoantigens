@@ -1,0 +1,174 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job counts:
+	count	jobs
+	1	all
+	6	run_vep
+	6	sort_input
+	13
+
+[Mon Jun 19 10:05:33 2023]
+rule sort_input:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_06_F5_328_249_S4_L003_mnp_split.somatic.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_06_F5_328_249_S4_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    jobid: 10
+    wildcards: sample=244_1_Chu_06_F5_328_249_S4_L003
+
+Submitted job 10 with external jobid 'Submitted batch job 21398671'.
+
+[Mon Jun 19 10:05:33 2023]
+rule sort_input:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_06_D12_316_261_S5_L003_mnp_split.somatic.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_06_D12_316_261_S5_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    jobid: 7
+    wildcards: sample=244_1_Chu_06_D12_316_261_S5_L003
+
+Submitted job 7 with external jobid 'Submitted batch job 21398672'.
+
+[Mon Jun 19 10:05:33 2023]
+rule sort_input:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/188_2_SC_05_F11_340_237_S3_L003_mnp_split.somatic.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/188_2_SC_05_F11_340_237_S3_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    jobid: 9
+    wildcards: sample=188_2_SC_05_F11_340_237_S3_L003
+
+Submitted job 9 with external jobid 'Submitted batch job 21398673'.
+
+[Mon Jun 19 10:05:33 2023]
+rule sort_input:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/185_1_SC_09_G9_304_273_S6_L003_mnp_split.somatic.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/185_1_SC_09_G9_304_273_S6_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    jobid: 11
+    wildcards: sample=185_1_SC_09_G9_304_273_S6_L003
+
+Submitted job 11 with external jobid 'Submitted batch job 21398674'.
+
+[Mon Jun 19 10:05:33 2023]
+rule sort_input:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/185_1_SC_01_F11_364_213_S1_L003_mnp_split.somatic.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/185_1_SC_01_F11_364_213_S1_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    jobid: 12
+    wildcards: sample=185_1_SC_01_F11_364_213_S1_L003
+
+Submitted job 12 with external jobid 'Submitted batch job 21398675'.
+
+[Mon Jun 19 10:05:33 2023]
+rule sort_input:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003_mnp_split.somatic.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    jobid: 8
+    wildcards: sample=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 8 with external jobid 'Submitted batch job 21398676'.
+[Mon Jun 19 10:05:43 2023]
+Finished job 10.
+1 of 13 steps (8%) done
+
+[Mon Jun 19 10:05:43 2023]
+rule run_vep:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_06_F5_328_249_S4_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_06_F5_328_249_S4_L003_mnp_split_gatk_vep_filtered.vcf
+    jobid: 4
+    wildcards: sample=244_1_Chu_06_F5_328_249_S4_L003
+
+[Mon Jun 19 10:05:43 2023]
+Finished job 7.
+2 of 13 steps (15%) done
+[Mon Jun 19 10:05:43 2023]
+Finished job 9.
+3 of 13 steps (23%) done
+[Mon Jun 19 10:05:43 2023]
+Finished job 11.
+4 of 13 steps (31%) done
+[Mon Jun 19 10:05:43 2023]
+Finished job 8.
+5 of 13 steps (38%) done
+Submitted job 4 with external jobid 'Submitted batch job 21398679'.
+
+[Mon Jun 19 10:05:43 2023]
+rule run_vep:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_02_B7_352_225_S2_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_mnp_split_gatk_vep_filtered.vcf
+    jobid: 2
+    wildcards: sample=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 21398680'.
+
+[Mon Jun 19 10:05:43 2023]
+rule run_vep:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/188_2_SC_05_F11_340_237_S3_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/188_2_SC_05_F11_340_237_S3_L003_mnp_split_gatk_vep_filtered.vcf
+    jobid: 3
+    wildcards: sample=188_2_SC_05_F11_340_237_S3_L003
+
+Submitted job 3 with external jobid 'Submitted batch job 21398681'.
+
+[Mon Jun 19 10:05:43 2023]
+rule run_vep:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/185_1_SC_09_G9_304_273_S6_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_09_G9_304_273_S6_L003_mnp_split_gatk_vep_filtered.vcf
+    jobid: 5
+    wildcards: sample=185_1_SC_09_G9_304_273_S6_L003
+
+Submitted job 5 with external jobid 'Submitted batch job 21398682'.
+
+[Mon Jun 19 10:05:43 2023]
+rule run_vep:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/244_1_Chu_06_D12_316_261_S5_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_06_D12_316_261_S5_L003_mnp_split_gatk_vep_filtered.vcf
+    jobid: 1
+    wildcards: sample=244_1_Chu_06_D12_316_261_S5_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 21398683'.
+[Mon Jun 19 10:05:53 2023]
+Finished job 12.
+6 of 13 steps (46%) done
+
+[Mon Jun 19 10:05:53 2023]
+rule run_vep:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/gatk_mutect2/185_1_SC_01_F11_364_213_S1_L003_mnp_split.somatic_sorted.filtered.pass.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_mnp_split_gatk_vep_filtered.vcf
+    jobid: 6
+    wildcards: sample=185_1_SC_01_F11_364_213_S1_L003
+
+[Mon Jun 19 10:05:53 2023]
+Error in rule run_vep:
+    jobid: 4
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_06_F5_328_249_S4_L003_mnp_split_gatk_vep_filtered.vcf
+    cluster_jobid: Submitted batch job 21398679
+
+[Mon Jun 19 10:05:53 2023]
+Error in rule run_vep:
+    jobid: 2
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_mnp_split_gatk_vep_filtered.vcf
+    cluster_jobid: Submitted batch job 21398680
+
+[Mon Jun 19 10:05:53 2023]
+Error in rule run_vep:
+    jobid: 3
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/188_2_SC_05_F11_340_237_S3_L003_mnp_split_gatk_vep_filtered.vcf
+    cluster_jobid: Submitted batch job 21398681
+
+[Mon Jun 19 10:05:53 2023]
+Error in rule run_vep:
+    jobid: 5
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_09_G9_304_273_S6_L003_mnp_split_gatk_vep_filtered.vcf
+    cluster_jobid: Submitted batch job 21398682
+
+[Mon Jun 19 10:05:53 2023]
+Error in rule run_vep:
+    jobid: 1
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_06_D12_316_261_S5_L003_mnp_split_gatk_vep_filtered.vcf
+    cluster_jobid: Submitted batch job 21398683
+
+Submitted job 6 with external jobid 'Submitted batch job 21398686'.
+[Mon Jun 19 10:06:03 2023]
+Error in rule run_vep:
+    jobid: 6
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/185_1_SC_01_F11_364_213_S1_L003_mnp_split_gatk_vep_filtered.vcf
+    cluster_jobid: Submitted batch job 21398686
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/03_variant_annotation/.snakemake/log/2023-06-19T100532.353219.snakemake.log

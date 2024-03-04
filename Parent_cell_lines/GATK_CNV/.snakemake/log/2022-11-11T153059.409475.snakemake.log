@@ -1,0 +1,51 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job stats:
+job                  count    min threads    max threads
+-----------------  -------  -------------  -------------
+all                      1              1              1
+plot_tumor               1              1              1
+standardize_tumor        1              1              1
+total                    3              1              1
+
+Select jobs to execute...
+
+[Fri Nov 11 15:31:01 2022]
+rule standardize_tumor:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    jobid: 4
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 4 with external jobid 'Submitted batch job 18086398'.
+[Fri Nov 11 15:31:11 2022]
+Finished job 4.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Fri Nov 11 15:31:11 2022]
+rule plot_tumor:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    output: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoised.png
+    jobid: 6
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: tmpdir=/tmp
+
+Submitted job 6 with external jobid 'Submitted batch job 18086399'.
+[Fri Nov 11 15:31:31 2022]
+Finished job 6.
+2 of 3 steps (67%) done
+Select jobs to execute...
+
+[Fri Nov 11 15:31:31 2022]
+localrule all:
+    input: targets_C.preprocessed.interval_list, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.standardizedCR.tsv, cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoised.png, cnv_plots/gDNA_normal_tissue_377_200_S55_L004_normal.denoised.png
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Fri Nov 11 15:31:31 2022]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/log/2022-11-11T153059.409475.snakemake.log

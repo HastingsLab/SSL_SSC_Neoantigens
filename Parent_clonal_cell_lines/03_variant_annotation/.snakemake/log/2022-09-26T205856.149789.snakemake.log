@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 1
+Job counts:
+	count	jobs
+	1	all
+	1	generate_fasta_strelka
+	1	va_annotation
+	3
+
+[Mon Sep 26 20:58:56 2022]
+rule va_annotation:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_filtered.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_unfiltered.vcf
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_filtered_gt.vcf, /scratch/eknodel/SCC_samples/Parent_cell_lines/VEP/244_1_Chu_02_B7_352_225_S2_L003_strelka_vep_unfiltered_gt.vcf
+    jobid: 4
+    wildcards: sample=244_1_Chu_02_B7_352_225_S2_L003
+
+RuleException in line 134 of /home/eknodel/SCC_samples/Parent_cell_lines/03_variant_annotation/VEP_PVACseq_updated.snakefile:
+NameError: The name '0/1,0/1' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}

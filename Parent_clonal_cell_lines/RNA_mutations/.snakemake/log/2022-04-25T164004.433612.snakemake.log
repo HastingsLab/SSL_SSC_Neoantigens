@@ -1,0 +1,2182 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	36	SplitNCigarReads
+	36	add_readgroup
+	1	all
+	36	filter
+	36	select_pass_variants
+	36	tumor_only
+	181
+
+[Mon Apr 25 16:40:04 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 148
+    wildcards: subject=185-1-5c-01-F11-6-26-21-4_275_302_S12_L003
+
+Submitted job 148 with external jobid 'Submitted batch job 15195949'.
+
+[Mon Apr 25 16:40:04 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 151
+    wildcards: subject=185-1-5c-01-F11-6-26-21-6_251_326_S14_L003
+
+Submitted job 151 with external jobid 'Submitted batch job 15195950'.
+
+[Mon Apr 25 16:40:05 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 161
+    wildcards: subject=185-15c-09-G9-6-6-21_276_301_S4_L003
+
+Submitted job 161 with external jobid 'Submitted batch job 15195951'.
+
+[Mon Apr 25 16:40:05 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 168
+    wildcards: subject=188-2-5c-05-F11-6-3-21_239_338_S15_L003
+
+Submitted job 168 with external jobid 'Submitted batch job 15195952'.
+
+[Mon Apr 25 16:40:05 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 170
+    wildcards: subject=185-15c-09-G9-6-15-21_240_337_S7_L003
+
+Submitted job 170 with external jobid 'Submitted batch job 15195953'.
+
+[Mon Apr 25 16:40:05 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 174
+    wildcards: subject=244-1-chu-06-D12-7-12-21-2_248_329_S38_L003
+
+Submitted job 174 with external jobid 'Submitted batch job 15195954'.
+
+[Mon Apr 25 16:40:05 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 146
+    wildcards: subject=185-1-5c-01-F11-6-26-21-3_287_290_S11_L003
+
+Submitted job 146 with external jobid 'Submitted batch job 15195955'.
+
+[Mon Apr 25 16:40:05 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 171
+    wildcards: subject=185-1-5c-01-F11-6-26-21-5_263_314_S13_L003
+
+Submitted job 171 with external jobid 'Submitted batch job 15195956'.
+
+[Mon Apr 25 16:40:05 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 173
+    wildcards: subject=188-2-5c-05-F11-6-6-21_227_350_S16_L003
+
+Submitted job 173 with external jobid 'Submitted batch job 15195957'.
+
+[Mon Apr 25 16:40:05 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 153
+    wildcards: subject=244-1-chu-06-D12-7-9-21-1_284_293_S35_L003
+
+Submitted job 153 with external jobid 'Submitted batch job 15195958'.
+
+[Mon Apr 25 16:40:05 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 158
+    wildcards: subject=244-chu-06-F5-7-9-21-1_237_340_S31_L003
+
+Submitted job 158 with external jobid 'Submitted batch job 15195959'.
+
+[Mon Apr 25 16:40:06 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 166
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 166 with external jobid 'Submitted batch job 15195960'.
+
+[Mon Apr 25 16:40:06 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 172
+    wildcards: subject=185-1-5c-01-F11-6-26-21-2_204_373_S10_L003
+
+Submitted job 172 with external jobid 'Submitted batch job 15195961'.
+
+[Mon Apr 25 16:40:06 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 175
+    wildcards: subject=185-15c-09-G9-6-3-21_288_289_S3_L003
+
+Submitted job 175 with external jobid 'Submitted batch job 15195962'.
+
+[Mon Apr 25 16:40:06 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 162
+    wildcards: subject=244-chu-06-F5-7-9-21-2_225_352_S32_L003
+
+Submitted job 162 with external jobid 'Submitted batch job 15195963'.
+
+[Mon Apr 25 16:40:06 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 179
+    wildcards: subject=244-1-chu-06-D12-6-22-21_213_364_S33_L003
+
+Submitted job 179 with external jobid 'Submitted batch job 15195964'.
+
+[Mon Apr 25 16:40:06 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 155
+    wildcards: subject=244-1-chu-06-D12-7-12-21-1_260_317_S37_L003
+
+Submitted job 155 with external jobid 'Submitted batch job 15195965'.
+
+[Mon Apr 25 16:40:06 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 156
+    wildcards: subject=188-2-5c-05-F11-6-15-21_286_291_S19_L003
+
+Submitted job 156 with external jobid 'Submitted batch job 15195966'.
+
+[Mon Apr 25 16:40:06 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 149
+    wildcards: subject=185-15c-09-G9-6-22-21_228_349_S8_L003
+
+Submitted job 149 with external jobid 'Submitted batch job 15195967'.
+
+[Mon Apr 25 16:40:06 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 167
+    wildcards: subject=185-15c-09-G9-6-9-21_264_313_S5_L003
+
+Submitted job 167 with external jobid 'Submitted batch job 15195968'.
+
+[Mon Apr 25 16:40:07 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 145
+    wildcards: subject=188-2-5c-05-F11-6-11-21_203_374_S18_L003
+
+Submitted job 145 with external jobid 'Submitted batch job 15195969'.
+
+[Mon Apr 25 16:40:07 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-9-21_238_339_S23_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-9-21_238_339_S23_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 169
+    wildcards: subject=244-1-chu-02-B7-6-9-21_238_339_S23_L003
+
+Submitted job 169 with external jobid 'Submitted batch job 15195970'.
+
+[Mon Apr 25 16:40:07 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 147
+    wildcards: subject=244-1-chu-06-D12-6-26-21_201_376_S34_L003
+
+Submitted job 147 with external jobid 'Submitted batch job 15195971'.
+
+[Mon Apr 25 16:40:07 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 159
+    wildcards: subject=244-1-chu-06-D12-7-9-21-2_272_305_S36_L003
+
+Submitted job 159 with external jobid 'Submitted batch job 15195972'.
+
+[Mon Apr 25 16:40:07 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 164
+    wildcards: subject=244-chu-06-F5-7-2-21-1_273_304_S28_L003
+
+Submitted job 164 with external jobid 'Submitted batch job 15195973'.
+
+[Mon Apr 25 16:40:07 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 178
+    wildcards: subject=244-chu-06-F5-7-2-21-2_261_316_S29_L003
+
+Submitted job 178 with external jobid 'Submitted batch job 15195974'.
+
+[Mon Apr 25 16:40:07 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-6-21_250_327_S22_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-6-21_250_327_S22_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 150
+    wildcards: subject=244-1-chu-02-B7-6-6-21_250_327_S22_L003
+
+Submitted job 150 with external jobid 'Submitted batch job 15195975'.
+
+[Mon Apr 25 16:40:07 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 157
+    wildcards: subject=244-chu-06-F5-7-2-21-3_249_328_S30_L003
+
+Submitted job 157 with external jobid 'Submitted batch job 15195976'.
+
+[Mon Apr 25 16:40:07 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 180
+    wildcards: subject=185-15c-09-G9-6-11-21_252_325_S6_L003
+
+Submitted job 180 with external jobid 'Submitted batch job 15195977'.
+
+[Mon Apr 25 16:40:08 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 176
+    wildcards: subject=244-chu-06-F5-6-26-21_285_292_S27_L003
+
+Submitted job 176 with external jobid 'Submitted batch job 15195978'.
+
+[Mon Apr 25 16:40:08 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 160
+    wildcards: subject=188-2-5c-05-F11-6-22-21_274_303_S20_L003
+
+Submitted job 160 with external jobid 'Submitted batch job 15195980'.
+
+[Mon Apr 25 16:40:08 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 165
+    wildcards: subject=185-1-5c-01-F11-6-26-21-1_216_361_S9_L003
+
+Submitted job 165 with external jobid 'Submitted batch job 15195981'.
+
+[Mon Apr 25 16:40:08 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-3-21_262_315_S21_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-3-21_262_315_S21_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 177
+    wildcards: subject=244-1-chu-02-B7-6-3-21_262_315_S21_L003
+
+Submitted job 177 with external jobid 'Submitted batch job 15195982'.
+
+[Mon Apr 25 16:40:08 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-15-21_214_363_S25_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-15-21_214_363_S25_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 163
+    wildcards: subject=244-1-chu-02-B7-6-15-21_214_363_S25_L003
+
+Submitted job 163 with external jobid 'Submitted batch job 15195983'.
+
+[Mon Apr 25 16:40:08 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-22-21_202_375_S26_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-22-21_202_375_S26_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 154
+    wildcards: subject=244-1-chu-02-B7-6-22-21_202_375_S26_L003
+
+Submitted job 154 with external jobid 'Submitted batch job 15195984'.
+
+[Mon Apr 25 16:40:08 2022]
+rule add_readgroup:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam
+    jobid: 152
+    wildcards: subject=188-2-5c-05-F11-6-9-21_215_362_S17_L003
+
+Submitted job 152 with external jobid 'Submitted batch job 15195985'.
+[Mon Apr 25 16:45:02 2022]
+Finished job 172.
+1 of 181 steps (0.55%) done
+
+[Mon Apr 25 16:45:02 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 136
+    wildcards: subject=185-1-5c-01-F11-6-26-21-2_204_373_S10_L003
+
+Submitted job 136 with external jobid 'Submitted batch job 15196001'.
+[Mon Apr 25 16:45:03 2022]
+Finished job 145.
+2 of 181 steps (1%) done
+
+[Mon Apr 25 16:45:03 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 109
+    wildcards: subject=188-2-5c-05-F11-6-11-21_203_374_S18_L003
+
+[Mon Apr 25 16:45:03 2022]
+Finished job 150.
+3 of 181 steps (2%) done
+[Mon Apr 25 16:45:03 2022]
+Finished job 180.
+4 of 181 steps (2%) done
+Submitted job 109 with external jobid 'Submitted batch job 15196002'.
+
+[Mon Apr 25 16:45:03 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-6-21_250_327_S22_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-6-21_250_327_S22_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 114
+    wildcards: subject=244-1-chu-02-B7-6-6-21_250_327_S22_L003
+
+Submitted job 114 with external jobid 'Submitted batch job 15196003'.
+
+[Mon Apr 25 16:45:03 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 144
+    wildcards: subject=185-15c-09-G9-6-11-21_252_325_S6_L003
+
+Submitted job 144 with external jobid 'Submitted batch job 15196004'.
+[Mon Apr 25 16:45:04 2022]
+Finished job 154.
+5 of 181 steps (3%) done
+
+[Mon Apr 25 16:45:04 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-22-21_202_375_S26_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-22-21_202_375_S26_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 118
+    wildcards: subject=244-1-chu-02-B7-6-22-21_202_375_S26_L003
+
+Submitted job 118 with external jobid 'Submitted batch job 15196005'.
+[Mon Apr 25 16:45:14 2022]
+Finished job 151.
+6 of 181 steps (3%) done
+
+[Mon Apr 25 16:45:14 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 115
+    wildcards: subject=185-1-5c-01-F11-6-26-21-6_251_326_S14_L003
+
+Submitted job 115 with external jobid 'Submitted batch job 15196006'.
+[Mon Apr 25 16:45:15 2022]
+Finished job 179.
+7 of 181 steps (4%) done
+
+[Mon Apr 25 16:45:15 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 143
+    wildcards: subject=244-1-chu-06-D12-6-22-21_213_364_S33_L003
+
+Submitted job 143 with external jobid 'Submitted batch job 15196007'.
+[Mon Apr 25 16:45:17 2022]
+Finished job 177.
+8 of 181 steps (4%) done
+
+[Mon Apr 25 16:45:17 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-3-21_262_315_S21_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-3-21_262_315_S21_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 141
+    wildcards: subject=244-1-chu-02-B7-6-3-21_262_315_S21_L003
+
+Submitted job 141 with external jobid 'Submitted batch job 15196008'.
+[Mon Apr 25 16:45:28 2022]
+Finished job 175.
+9 of 181 steps (5%) done
+
+[Mon Apr 25 16:45:28 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 139
+    wildcards: subject=185-15c-09-G9-6-3-21_288_289_S3_L003
+
+[Mon Apr 25 16:45:28 2022]
+Finished job 162.
+10 of 181 steps (6%) done
+Submitted job 139 with external jobid 'Submitted batch job 15196009'.
+
+[Mon Apr 25 16:45:28 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 126
+    wildcards: subject=244-chu-06-F5-7-9-21-2_225_352_S32_L003
+
+Submitted job 126 with external jobid 'Submitted batch job 15196010'.
+[Mon Apr 25 16:45:42 2022]
+Finished job 156.
+11 of 181 steps (6%) done
+
+[Mon Apr 25 16:45:42 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 120
+    wildcards: subject=188-2-5c-05-F11-6-15-21_286_291_S19_L003
+
+[Mon Apr 25 16:45:42 2022]
+Finished job 149.
+12 of 181 steps (7%) done
+[Mon Apr 25 16:45:42 2022]
+Finished job 167.
+13 of 181 steps (7%) done
+[Mon Apr 25 16:45:42 2022]
+Finished job 157.
+14 of 181 steps (8%) done
+Submitted job 120 with external jobid 'Submitted batch job 15196012'.
+
+[Mon Apr 25 16:45:42 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 121
+    wildcards: subject=244-chu-06-F5-7-2-21-3_249_328_S30_L003
+
+Submitted job 121 with external jobid 'Submitted batch job 15196013'.
+
+[Mon Apr 25 16:45:42 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 131
+    wildcards: subject=185-15c-09-G9-6-9-21_264_313_S5_L003
+
+Submitted job 131 with external jobid 'Submitted batch job 15196014'.
+
+[Mon Apr 25 16:45:43 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 113
+    wildcards: subject=185-15c-09-G9-6-22-21_228_349_S8_L003
+
+Submitted job 113 with external jobid 'Submitted batch job 15196015'.
+[Mon Apr 25 16:45:44 2022]
+Finished job 160.
+15 of 181 steps (8%) done
+
+[Mon Apr 25 16:45:44 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 124
+    wildcards: subject=188-2-5c-05-F11-6-22-21_274_303_S20_L003
+
+[Mon Apr 25 16:45:44 2022]
+Finished job 165.
+16 of 181 steps (9%) done
+Submitted job 124 with external jobid 'Submitted batch job 15196016'.
+
+[Mon Apr 25 16:45:44 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 129
+    wildcards: subject=185-1-5c-01-F11-6-26-21-1_216_361_S9_L003
+
+Submitted job 129 with external jobid 'Submitted batch job 15196017'.
+[Mon Apr 25 16:45:55 2022]
+Finished job 161.
+17 of 181 steps (9%) done
+
+[Mon Apr 25 16:45:55 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 125
+    wildcards: subject=185-15c-09-G9-6-6-21_276_301_S4_L003
+
+[Mon Apr 25 16:45:55 2022]
+Finished job 173.
+18 of 181 steps (10%) done
+Submitted job 125 with external jobid 'Submitted batch job 15196019'.
+
+[Mon Apr 25 16:45:55 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 137
+    wildcards: subject=188-2-5c-05-F11-6-6-21_227_350_S16_L003
+
+Submitted job 137 with external jobid 'Submitted batch job 15196020'.
+[Mon Apr 25 16:45:56 2022]
+Finished job 158.
+19 of 181 steps (10%) done
+
+[Mon Apr 25 16:45:56 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 122
+    wildcards: subject=244-chu-06-F5-7-9-21-1_237_340_S31_L003
+
+[Mon Apr 25 16:45:56 2022]
+Finished job 166.
+20 of 181 steps (11%) done
+[Mon Apr 25 16:45:56 2022]
+Finished job 169.
+21 of 181 steps (12%) done
+[Mon Apr 25 16:45:56 2022]
+Finished job 176.
+22 of 181 steps (12%) done
+Submitted job 122 with external jobid 'Submitted batch job 15196021'.
+
+[Mon Apr 25 16:45:56 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 140
+    wildcards: subject=244-chu-06-F5-6-26-21_285_292_S27_L003
+
+Submitted job 140 with external jobid 'Submitted batch job 15196022'.
+
+[Mon Apr 25 16:45:56 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-9-21_238_339_S23_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-9-21_238_339_S23_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 133
+    wildcards: subject=244-1-chu-02-B7-6-9-21_238_339_S23_L003
+
+Submitted job 133 with external jobid 'Submitted batch job 15196023'.
+
+[Mon Apr 25 16:45:56 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 130
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 130 with external jobid 'Submitted batch job 15196024'.
+[Mon Apr 25 16:46:09 2022]
+Finished job 174.
+23 of 181 steps (13%) done
+
+[Mon Apr 25 16:46:09 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 138
+    wildcards: subject=244-1-chu-06-D12-7-12-21-2_248_329_S38_L003
+
+[Mon Apr 25 16:46:09 2022]
+Finished job 147.
+24 of 181 steps (13%) done
+[Mon Apr 25 16:46:09 2022]
+Finished job 178.
+25 of 181 steps (14%) done
+Submitted job 138 with external jobid 'Submitted batch job 15196033'.
+
+[Mon Apr 25 16:46:09 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 142
+    wildcards: subject=244-chu-06-F5-7-2-21-2_261_316_S29_L003
+
+Submitted job 142 with external jobid 'Submitted batch job 15196035'.
+
+[Mon Apr 25 16:46:09 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 111
+    wildcards: subject=244-1-chu-06-D12-6-26-21_201_376_S34_L003
+
+Submitted job 111 with external jobid 'Submitted batch job 15196036'.
+[Mon Apr 25 16:46:22 2022]
+Finished job 168.
+26 of 181 steps (14%) done
+
+[Mon Apr 25 16:46:22 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 132
+    wildcards: subject=188-2-5c-05-F11-6-3-21_239_338_S15_L003
+
+[Mon Apr 25 16:46:22 2022]
+Finished job 155.
+27 of 181 steps (15%) done
+Submitted job 132 with external jobid 'Submitted batch job 15196038'.
+
+[Mon Apr 25 16:46:22 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 119
+    wildcards: subject=244-1-chu-06-D12-7-12-21-1_260_317_S37_L003
+
+Submitted job 119 with external jobid 'Submitted batch job 15196039'.
+[Mon Apr 25 16:46:23 2022]
+Finished job 152.
+28 of 181 steps (15%) done
+
+[Mon Apr 25 16:46:23 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 116
+    wildcards: subject=188-2-5c-05-F11-6-9-21_215_362_S17_L003
+
+Submitted job 116 with external jobid 'Submitted batch job 15196040'.
+[Mon Apr 25 16:46:35 2022]
+Finished job 170.
+29 of 181 steps (16%) done
+
+[Mon Apr 25 16:46:35 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 134
+    wildcards: subject=185-15c-09-G9-6-15-21_240_337_S7_L003
+
+Submitted job 134 with external jobid 'Submitted batch job 15196041'.
+[Mon Apr 25 16:46:36 2022]
+Finished job 163.
+30 of 181 steps (17%) done
+
+[Mon Apr 25 16:46:36 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-15-21_214_363_S25_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-15-21_214_363_S25_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 127
+    wildcards: subject=244-1-chu-02-B7-6-15-21_214_363_S25_L003
+
+Submitted job 127 with external jobid 'Submitted batch job 15196042'.
+[Mon Apr 25 16:46:49 2022]
+Finished job 159.
+31 of 181 steps (17%) done
+
+[Mon Apr 25 16:46:49 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 123
+    wildcards: subject=244-1-chu-06-D12-7-9-21-2_272_305_S36_L003
+
+Submitted job 123 with external jobid 'Submitted batch job 15196043'.
+[Mon Apr 25 16:47:02 2022]
+Finished job 148.
+32 of 181 steps (18%) done
+
+[Mon Apr 25 16:47:02 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 112
+    wildcards: subject=185-1-5c-01-F11-6-26-21-4_275_302_S12_L003
+
+[Mon Apr 25 16:47:02 2022]
+Finished job 146.
+33 of 181 steps (18%) done
+Submitted job 112 with external jobid 'Submitted batch job 15196044'.
+
+[Mon Apr 25 16:47:02 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 110
+    wildcards: subject=185-1-5c-01-F11-6-26-21-3_287_290_S11_L003
+
+Submitted job 110 with external jobid 'Submitted batch job 15196045'.
+[Mon Apr 25 16:47:54 2022]
+Finished job 171.
+34 of 181 steps (19%) done
+
+[Mon Apr 25 16:47:54 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 135
+    wildcards: subject=185-1-5c-01-F11-6-26-21-5_263_314_S13_L003
+
+[Mon Apr 25 16:47:54 2022]
+Finished job 164.
+35 of 181 steps (19%) done
+Submitted job 135 with external jobid 'Submitted batch job 15196047'.
+
+[Mon Apr 25 16:47:55 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 128
+    wildcards: subject=244-chu-06-F5-7-2-21-1_273_304_S28_L003
+
+Submitted job 128 with external jobid 'Submitted batch job 15196048'.
+[Mon Apr 25 16:51:48 2022]
+Finished job 153.
+36 of 181 steps (20%) done
+
+[Mon Apr 25 16:51:48 2022]
+rule SplitNCigarReads:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    jobid: 117
+    wildcards: subject=244-1-chu-06-D12-7-9-21-1_284_293_S35_L003
+
+Submitted job 117 with external jobid 'Submitted batch job 15196056'.
+[Mon Apr 25 17:42:34 2022]
+Finished job 115.
+37 of 181 steps (20%) done
+
+[Mon Apr 25 17:42:34 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003.somatic.vcf.gz
+    jobid: 14
+    wildcards: subject=185-1-5c-01-F11-6-26-21-6_251_326_S14_L003
+
+Submitted job 14 with external jobid 'Submitted batch job 15196244'.
+[Mon Apr 25 17:43:28 2022]
+Finished job 109.
+38 of 181 steps (21%) done
+
+[Mon Apr 25 17:43:28 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-11-21_203_374_S18_L003.somatic.vcf.gz
+    jobid: 1
+    wildcards: subject=188-2-5c-05-F11-6-11-21_203_374_S18_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 15196251'.
+[Mon Apr 25 17:45:12 2022]
+Finished job 114.
+39 of 181 steps (22%) done
+
+[Mon Apr 25 17:45:12 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-6-21_250_327_S22_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-6-21_250_327_S22_L003.somatic.vcf.gz
+    jobid: 12
+    wildcards: subject=244-1-chu-02-B7-6-6-21_250_327_S22_L003
+
+Submitted job 12 with external jobid 'Submitted batch job 15196254'.
+[Mon Apr 25 17:45:25 2022]
+Finished job 126.
+40 of 181 steps (22%) done
+
+[Mon Apr 25 17:45:25 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-2_225_352_S32_L003.somatic.vcf.gz
+    jobid: 42
+    wildcards: subject=244-chu-06-F5-7-9-21-2_225_352_S32_L003
+
+Submitted job 42 with external jobid 'Submitted batch job 15196256'.
+[Mon Apr 25 17:46:04 2022]
+Finished job 120.
+41 of 181 steps (23%) done
+
+[Mon Apr 25 17:46:04 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-15-21_286_291_S19_L003.somatic.vcf.gz
+    jobid: 23
+    wildcards: subject=188-2-5c-05-F11-6-15-21_286_291_S19_L003
+
+Submitted job 23 with external jobid 'Submitted batch job 15196258'.
+[Mon Apr 25 17:48:01 2022]
+Finished job 140.
+42 of 181 steps (23%) done
+
+[Mon Apr 25 17:48:01 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-6-26-21_285_292_S27_L003.somatic.vcf.gz
+    jobid: 96
+    wildcards: subject=244-chu-06-F5-6-26-21_285_292_S27_L003
+
+Submitted job 96 with external jobid 'Submitted batch job 15196264'.
+[Mon Apr 25 17:48:02 2022]
+Finished job 131.
+43 of 181 steps (24%) done
+
+[Mon Apr 25 17:48:02 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-9-21_264_313_S5_L003.somatic.vcf.gz
+    jobid: 64
+    wildcards: subject=185-15c-09-G9-6-9-21_264_313_S5_L003
+
+[Mon Apr 25 17:48:02 2022]
+Finished job 118.
+44 of 181 steps (24%) done
+Submitted job 64 with external jobid 'Submitted batch job 15196265'.
+
+[Mon Apr 25 17:48:04 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-22-21_202_375_S26_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-22-21_202_375_S26_L003.somatic.vcf.gz
+    jobid: 20
+    wildcards: subject=244-1-chu-02-B7-6-22-21_202_375_S26_L003
+
+Submitted job 20 with external jobid 'Submitted batch job 15196266'.
+[Mon Apr 25 17:51:54 2022]
+Finished job 110.
+45 of 181 steps (25%) done
+
+[Mon Apr 25 17:51:54 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003.somatic.vcf.gz
+    jobid: 2
+    wildcards: subject=185-1-5c-01-F11-6-26-21-3_287_290_S11_L003
+
+Submitted job 2 with external jobid 'Submitted batch job 15196276'.
+[Mon Apr 25 17:51:57 2022]
+Finished job 124.
+46 of 181 steps (25%) done
+
+[Mon Apr 25 17:51:57 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-22-21_274_303_S20_L003.somatic.vcf.gz
+    jobid: 34
+    wildcards: subject=188-2-5c-05-F11-6-22-21_274_303_S20_L003
+
+Submitted job 34 with external jobid 'Submitted batch job 15196277'.
+[Mon Apr 25 17:56:03 2022]
+Finished job 125.
+47 of 181 steps (26%) done
+
+[Mon Apr 25 17:56:03 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-6-21_276_301_S4_L003.somatic.vcf.gz
+    jobid: 40
+    wildcards: subject=185-15c-09-G9-6-6-21_276_301_S4_L003
+
+Submitted job 40 with external jobid 'Submitted batch job 15196289'.
+[Mon Apr 25 17:56:04 2022]
+Finished job 121.
+48 of 181 steps (27%) done
+
+[Mon Apr 25 17:56:04 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-3_249_328_S30_L003.somatic.vcf.gz
+    jobid: 29
+    wildcards: subject=244-chu-06-F5-7-2-21-3_249_328_S30_L003
+
+Submitted job 29 with external jobid 'Submitted batch job 15196290'.
+[Mon Apr 25 17:56:05 2022]
+Finished job 139.
+49 of 181 steps (27%) done
+
+[Mon Apr 25 17:56:05 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-3-21_288_289_S3_L003.somatic.vcf.gz
+    jobid: 93
+    wildcards: subject=185-15c-09-G9-6-3-21_288_289_S3_L003
+
+Submitted job 93 with external jobid 'Submitted batch job 15196291'.
+[Mon Apr 25 17:56:06 2022]
+Finished job 136.
+50 of 181 steps (28%) done
+
+[Mon Apr 25 17:56:06 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003.somatic.vcf.gz
+    jobid: 81
+    wildcards: subject=185-1-5c-01-F11-6-26-21-2_204_373_S10_L003
+
+[Mon Apr 25 17:56:06 2022]
+Finished job 141.
+51 of 181 steps (28%) done
+Submitted job 81 with external jobid 'Submitted batch job 15196292'.
+
+[Mon Apr 25 17:56:06 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-3-21_262_315_S21_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-3-21_262_315_S21_L003.somatic.vcf.gz
+    jobid: 97
+    wildcards: subject=244-1-chu-02-B7-6-3-21_262_315_S21_L003
+
+Submitted job 97 with external jobid 'Submitted batch job 15196293'.
+[Mon Apr 25 17:56:20 2022]
+Finished job 123.
+52 of 181 steps (29%) done
+
+[Mon Apr 25 17:56:20 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003.somatic.vcf.gz
+    jobid: 33
+    wildcards: subject=244-1-chu-06-D12-7-9-21-2_272_305_S36_L003
+
+Submitted job 33 with external jobid 'Submitted batch job 15196294'.
+[Mon Apr 25 17:57:00 2022]
+Finished job 129.
+53 of 181 steps (29%) done
+
+[Mon Apr 25 17:57:00 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003.somatic.vcf.gz
+    jobid: 54
+    wildcards: subject=185-1-5c-01-F11-6-26-21-1_216_361_S9_L003
+
+Submitted job 54 with external jobid 'Submitted batch job 15196295'.
+[Mon Apr 25 17:57:51 2022]
+Finished job 132.
+54 of 181 steps (30%) done
+
+[Mon Apr 25 17:57:51 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-3-21_239_338_S15_L003.somatic.vcf.gz
+    jobid: 67
+    wildcards: subject=188-2-5c-05-F11-6-3-21_239_338_S15_L003
+
+Submitted job 67 with external jobid 'Submitted batch job 15196297'.
+[Mon Apr 25 17:58:04 2022]
+Finished job 138.
+55 of 181 steps (30%) done
+
+[Mon Apr 25 17:58:04 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003.somatic.vcf.gz
+    jobid: 91
+    wildcards: subject=244-1-chu-06-D12-7-12-21-2_248_329_S38_L003
+
+Submitted job 91 with external jobid 'Submitted batch job 15196299'.
+[Mon Apr 25 17:58:18 2022]
+Finished job 133.
+56 of 181 steps (31%) done
+
+[Mon Apr 25 17:58:19 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-9-21_238_339_S23_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-9-21_238_339_S23_L003.somatic.vcf.gz
+    jobid: 73
+    wildcards: subject=244-1-chu-02-B7-6-9-21_238_339_S23_L003
+
+Submitted job 73 with external jobid 'Submitted batch job 15196301'.
+[Mon Apr 25 18:00:16 2022]
+Finished job 116.
+57 of 181 steps (31%) done
+
+[Mon Apr 25 18:00:16 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-9-21_215_362_S17_L003.somatic.vcf.gz
+    jobid: 16
+    wildcards: subject=188-2-5c-05-F11-6-9-21_215_362_S17_L003
+
+Submitted job 16 with external jobid 'Submitted batch job 15196304'.
+[Mon Apr 25 18:01:08 2022]
+Finished job 143.
+58 of 181 steps (32%) done
+
+[Mon Apr 25 18:01:08 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-22-21_213_364_S33_L003.somatic.vcf.gz
+    jobid: 107
+    wildcards: subject=244-1-chu-06-D12-6-22-21_213_364_S33_L003
+
+Submitted job 107 with external jobid 'Submitted batch job 15196305'.
+[Mon Apr 25 18:01:08 2022]
+Finished job 144.
+59 of 181 steps (33%) done
+
+[Mon Apr 25 18:01:08 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-11-21_252_325_S6_L003.somatic.vcf.gz
+    jobid: 108
+    wildcards: subject=185-15c-09-G9-6-11-21_252_325_S6_L003
+
+Submitted job 108 with external jobid 'Submitted batch job 15196306'.
+[Mon Apr 25 18:03:05 2022]
+Finished job 137.
+60 of 181 steps (33%) done
+
+[Mon Apr 25 18:03:05 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-6-21_227_350_S16_L003.somatic.vcf.gz
+    jobid: 87
+    wildcards: subject=188-2-5c-05-F11-6-6-21_227_350_S16_L003
+
+Submitted job 87 with external jobid 'Submitted batch job 15196310'.
+[Mon Apr 25 18:03:58 2022]
+Finished job 111.
+61 of 181 steps (34%) done
+
+[Mon Apr 25 18:03:59 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-26-21_201_376_S34_L003.somatic.vcf.gz
+    jobid: 3
+    wildcards: subject=244-1-chu-06-D12-6-26-21_201_376_S34_L003
+
+Submitted job 3 with external jobid 'Submitted batch job 15196312'.
+[Mon Apr 25 18:05:43 2022]
+Finished job 130.
+62 of 181 steps (34%) done
+
+[Mon Apr 25 18:05:43 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz
+    jobid: 59
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 59 with external jobid 'Submitted batch job 15196314'.
+[Mon Apr 25 18:08:45 2022]
+Finished job 142.
+63 of 181 steps (35%) done
+[Mon Apr 25 18:08:46 2022]
+Finished job 113.
+64 of 181 steps (35%) done
+
+[Mon Apr 25 18:08:46 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-2_261_316_S29_L003.somatic.vcf.gz
+    jobid: 98
+    wildcards: subject=244-chu-06-F5-7-2-21-2_261_316_S29_L003
+
+Submitted job 98 with external jobid 'Submitted batch job 15196335'.
+
+[Mon Apr 25 18:08:47 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-22-21_228_349_S8_L003.somatic.vcf.gz
+    jobid: 10
+    wildcards: subject=185-15c-09-G9-6-22-21_228_349_S8_L003
+
+Submitted job 10 with external jobid 'Submitted batch job 15196336'.
+[Mon Apr 25 18:10:56 2022]
+Finished job 112.
+65 of 181 steps (36%) done
+
+[Mon Apr 25 18:10:56 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003.somatic.vcf.gz
+    jobid: 8
+    wildcards: subject=185-1-5c-01-F11-6-26-21-4_275_302_S12_L003
+
+Submitted job 8 with external jobid 'Submitted batch job 15196360'.
+[Mon Apr 25 18:12:53 2022]
+Finished job 127.
+66 of 181 steps (36%) done
+
+[Mon Apr 25 18:12:53 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-15-21_214_363_S25_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-15-21_214_363_S25_L003.somatic.vcf.gz
+    jobid: 48
+    wildcards: subject=244-1-chu-02-B7-6-15-21_214_363_S25_L003
+
+Submitted job 48 with external jobid 'Submitted batch job 15196391'.
+[Mon Apr 25 18:17:00 2022]
+Finished job 134.
+67 of 181 steps (37%) done
+
+[Mon Apr 25 18:17:00 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-15-21_240_337_S7_L003.somatic.vcf.gz
+    jobid: 75
+    wildcards: subject=185-15c-09-G9-6-15-21_240_337_S7_L003
+
+Submitted job 75 with external jobid 'Submitted batch job 15196437'.
+[Mon Apr 25 18:21:09 2022]
+Finished job 119.
+68 of 181 steps (38%) done
+
+[Mon Apr 25 18:21:09 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003.somatic.vcf.gz
+    jobid: 22
+    wildcards: subject=244-1-chu-06-D12-7-12-21-1_260_317_S37_L003
+
+Submitted job 22 with external jobid 'Submitted batch job 15196450'.
+[Mon Apr 25 18:21:10 2022]
+Finished job 122.
+69 of 181 steps (38%) done
+
+[Mon Apr 25 18:21:10 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-1_237_340_S31_L003.somatic.vcf.gz
+    jobid: 30
+    wildcards: subject=244-chu-06-F5-7-9-21-1_237_340_S31_L003
+
+Submitted job 30 with external jobid 'Submitted batch job 15196451'.
+[Mon Apr 25 18:23:59 2022]
+Finished job 135.
+70 of 181 steps (39%) done
+
+[Mon Apr 25 18:23:59 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003.somatic.vcf.gz
+    jobid: 80
+    wildcards: subject=185-1-5c-01-F11-6-26-21-5_263_314_S13_L003
+
+Submitted job 80 with external jobid 'Submitted batch job 15196464'.
+[Mon Apr 25 18:29:11 2022]
+Finished job 128.
+71 of 181 steps (39%) done
+
+[Mon Apr 25 18:29:11 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-1_273_304_S28_L003.somatic.vcf.gz
+    jobid: 51
+    wildcards: subject=244-chu-06-F5-7-2-21-1_273_304_S28_L003
+
+Submitted job 51 with external jobid 'Submitted batch job 15196479'.
+[Mon Apr 25 19:08:01 2022]
+Finished job 117.
+72 of 181 steps (40%) done
+
+[Mon Apr 25 19:08:01 2022]
+rule tumor_only:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG-splitreads.bam
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003.somatic.vcf.gz
+    jobid: 18
+    wildcards: subject=244-1-chu-06-D12-7-9-21-1_284_293_S35_L003
+
+Submitted job 18 with external jobid 'Submitted batch job 15196609'.
+[Mon Apr 25 20:04:12 2022]
+Finished job 12.
+73 of 181 steps (40%) done
+
+[Mon Apr 25 20:04:12 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-6-21_250_327_S22_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-6-21_250_327_S22_L003.somatic.filtered.vcf.gz
+    jobid: 99
+    wildcards: subject=244-1-chu-02-B7-6-6-21_250_327_S22_L003
+
+Submitted job 99 with external jobid 'Submitted batch job 15196756'.
+[Mon Apr 25 20:08:18 2022]
+Finished job 99.
+74 of 181 steps (41%) done
+
+[Mon Apr 25 20:08:18 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-6-21_250_327_S22_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-6-21_250_327_S22_L003.somatic.filtered.pass.vcf.gz
+    jobid: 25
+    wildcards: subject=244-1-chu-02-B7-6-6-21_250_327_S22_L003
+
+Submitted job 25 with external jobid 'Submitted batch job 15196768'.
+[Mon Apr 25 20:08:31 2022]
+Finished job 25.
+75 of 181 steps (41%) done
+[Mon Apr 25 20:14:50 2022]
+Finished job 20.
+76 of 181 steps (42%) done
+
+[Mon Apr 25 20:14:50 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-22-21_202_375_S26_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-22-21_202_375_S26_L003.somatic.filtered.vcf.gz
+    jobid: 52
+    wildcards: subject=244-1-chu-02-B7-6-22-21_202_375_S26_L003
+
+Submitted job 52 with external jobid 'Submitted batch job 15196788'.
+[Mon Apr 25 20:20:04 2022]
+Finished job 52.
+77 of 181 steps (43%) done
+
+[Mon Apr 25 20:20:04 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-22-21_202_375_S26_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-22-21_202_375_S26_L003.somatic.filtered.pass.vcf.gz
+    jobid: 37
+    wildcards: subject=244-1-chu-02-B7-6-22-21_202_375_S26_L003
+
+Submitted job 37 with external jobid 'Submitted batch job 15196801'.
+[Mon Apr 25 20:20:17 2022]
+Finished job 37.
+78 of 181 steps (43%) done
+[Mon Apr 25 20:24:36 2022]
+Finished job 23.
+79 of 181 steps (44%) done
+
+[Mon Apr 25 20:24:36 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-15-21_286_291_S19_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-15-21_286_291_S19_L003.somatic.filtered.vcf.gz
+    jobid: 17
+    wildcards: subject=188-2-5c-05-F11-6-15-21_286_291_S19_L003
+
+Submitted job 17 with external jobid 'Submitted batch job 15196825'.
+[Mon Apr 25 20:24:49 2022]
+Finished job 1.
+80 of 181 steps (44%) done
+
+[Mon Apr 25 20:24:49 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-11-21_203_374_S18_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-11-21_203_374_S18_L003.somatic.filtered.vcf.gz
+    jobid: 4
+    wildcards: subject=188-2-5c-05-F11-6-11-21_203_374_S18_L003
+
+Submitted job 4 with external jobid 'Submitted batch job 15196826'.
+[Mon Apr 25 20:25:41 2022]
+Finished job 34.
+81 of 181 steps (45%) done
+
+[Mon Apr 25 20:25:41 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-22-21_274_303_S20_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-22-21_274_303_S20_L003.somatic.filtered.vcf.gz
+    jobid: 53
+    wildcards: subject=188-2-5c-05-F11-6-22-21_274_303_S20_L003
+
+Submitted job 53 with external jobid 'Submitted batch job 15196829'.
+[Mon Apr 25 20:28:41 2022]
+Finished job 53.
+82 of 181 steps (45%) done
+
+[Mon Apr 25 20:28:41 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-22-21_274_303_S20_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-22-21_274_303_S20_L003.somatic.filtered.pass.vcf.gz
+    jobid: 105
+    wildcards: subject=188-2-5c-05-F11-6-22-21_274_303_S20_L003
+
+[Mon Apr 25 20:28:41 2022]
+Finished job 4.
+83 of 181 steps (46%) done
+[Mon Apr 25 20:28:41 2022]
+Finished job 17.
+84 of 181 steps (46%) done
+Submitted job 105 with external jobid 'Submitted batch job 15196835'.
+
+[Mon Apr 25 20:28:43 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-15-21_286_291_S19_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-15-21_286_291_S19_L003.somatic.filtered.pass.vcf.gz
+    jobid: 83
+    wildcards: subject=188-2-5c-05-F11-6-15-21_286_291_S19_L003
+
+Submitted job 83 with external jobid 'Submitted batch job 15196836'.
+
+[Mon Apr 25 20:28:43 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-11-21_203_374_S18_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-11-21_203_374_S18_L003.somatic.filtered.pass.vcf.gz
+    jobid: 50
+    wildcards: subject=188-2-5c-05-F11-6-11-21_203_374_S18_L003
+
+Submitted job 50 with external jobid 'Submitted batch job 15196837'.
+[Mon Apr 25 20:28:55 2022]
+Finished job 105.
+85 of 181 steps (47%) done
+[Mon Apr 25 20:28:55 2022]
+Finished job 83.
+86 of 181 steps (48%) done
+[Mon Apr 25 20:28:55 2022]
+Finished job 50.
+87 of 181 steps (48%) done
+[Mon Apr 25 20:29:10 2022]
+Finished job 97.
+88 of 181 steps (49%) done
+
+[Mon Apr 25 20:29:10 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-3-21_262_315_S21_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-3-21_262_315_S21_L003.somatic.filtered.vcf.gz
+    jobid: 31
+    wildcards: subject=244-1-chu-02-B7-6-3-21_262_315_S21_L003
+
+Submitted job 31 with external jobid 'Submitted batch job 15196838'.
+[Mon Apr 25 20:30:02 2022]
+Finished job 96.
+89 of 181 steps (49%) done
+
+[Mon Apr 25 20:30:02 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-6-26-21_285_292_S27_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-6-26-21_285_292_S27_L003.somatic.filtered.vcf.gz
+    jobid: 62
+    wildcards: subject=244-chu-06-F5-6-26-21_285_292_S27_L003
+
+Submitted job 62 with external jobid 'Submitted batch job 15196847'.
+[Mon Apr 25 20:31:59 2022]
+Finished job 14.
+90 of 181 steps (50%) done
+
+[Mon Apr 25 20:31:59 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003.somatic.filtered.vcf.gz
+    jobid: 76
+    wildcards: subject=185-1-5c-01-F11-6-26-21-6_251_326_S14_L003
+
+Submitted job 76 with external jobid 'Submitted batch job 15196866'.
+[Mon Apr 25 20:32:49 2022]
+Finished job 31.
+91 of 181 steps (50%) done
+
+[Mon Apr 25 20:32:49 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-3-21_262_315_S21_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-3-21_262_315_S21_L003.somatic.filtered.pass.vcf.gz
+    jobid: 45
+    wildcards: subject=244-1-chu-02-B7-6-3-21_262_315_S21_L003
+
+Submitted job 45 with external jobid 'Submitted batch job 15196867'.
+[Mon Apr 25 20:33:02 2022]
+Finished job 45.
+92 of 181 steps (51%) done
+[Mon Apr 25 20:35:01 2022]
+Finished job 62.
+93 of 181 steps (51%) done
+
+[Mon Apr 25 20:35:01 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-6-26-21_285_292_S27_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-6-26-21_285_292_S27_L003.somatic.filtered.pass.vcf.gz
+    jobid: 71
+    wildcards: subject=244-chu-06-F5-6-26-21_285_292_S27_L003
+
+Submitted job 71 with external jobid 'Submitted batch job 15196873'.
+[Mon Apr 25 20:35:14 2022]
+Finished job 71.
+94 of 181 steps (52%) done
+[Mon Apr 25 20:35:37 2022]
+Finished job 76.
+95 of 181 steps (52%) done
+
+[Mon Apr 25 20:35:37 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003.somatic.filtered.pass.vcf.gz
+    jobid: 13
+    wildcards: subject=185-1-5c-01-F11-6-26-21-6_251_326_S14_L003
+
+Submitted job 13 with external jobid 'Submitted batch job 15196876'.
+[Mon Apr 25 20:35:49 2022]
+Finished job 13.
+96 of 181 steps (53%) done
+[Mon Apr 25 20:46:40 2022]
+Finished job 64.
+97 of 181 steps (54%) done
+
+[Mon Apr 25 20:46:40 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-9-21_264_313_S5_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-9-21_264_313_S5_L003.somatic.filtered.vcf.gz
+    jobid: 78
+    wildcards: subject=185-15c-09-G9-6-9-21_264_313_S5_L003
+
+Submitted job 78 with external jobid 'Submitted batch job 15197051'.
+[Mon Apr 25 20:47:15 2022]
+Finished job 107.
+98 of 181 steps (54%) done
+
+[Mon Apr 25 20:47:15 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-22-21_213_364_S33_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-22-21_213_364_S33_L003.somatic.filtered.vcf.gz
+    jobid: 38
+    wildcards: subject=244-1-chu-06-D12-6-22-21_213_364_S33_L003
+
+Submitted job 38 with external jobid 'Submitted batch job 15197055'.
+[Mon Apr 25 20:51:05 2022]
+Finished job 78.
+99 of 181 steps (55%) done
+
+[Mon Apr 25 20:51:05 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-9-21_264_313_S5_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-9-21_264_313_S5_L003.somatic.filtered.pass.vcf.gz
+    jobid: 32
+    wildcards: subject=185-15c-09-G9-6-9-21_264_313_S5_L003
+
+Submitted job 32 with external jobid 'Submitted batch job 15197062'.
+[Mon Apr 25 20:51:17 2022]
+Finished job 32.
+100 of 181 steps (55%) done
+[Mon Apr 25 20:51:27 2022]
+Finished job 38.
+101 of 181 steps (56%) done
+
+[Mon Apr 25 20:51:27 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-22-21_213_364_S33_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-22-21_213_364_S33_L003.somatic.filtered.pass.vcf.gz
+    jobid: 101
+    wildcards: subject=244-1-chu-06-D12-6-22-21_213_364_S33_L003
+
+Submitted job 101 with external jobid 'Submitted batch job 15197063'.
+[Mon Apr 25 20:51:28 2022]
+Finished job 81.
+102 of 181 steps (56%) done
+
+[Mon Apr 25 20:51:28 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003.somatic.filtered.vcf.gz
+    jobid: 88
+    wildcards: subject=185-1-5c-01-F11-6-26-21-2_204_373_S10_L003
+
+Submitted job 88 with external jobid 'Submitted batch job 15197065'.
+[Mon Apr 25 20:51:39 2022]
+Finished job 101.
+103 of 181 steps (57%) done
+[Mon Apr 25 20:52:27 2022]
+Finished job 108.
+104 of 181 steps (57%) done
+
+[Mon Apr 25 20:52:27 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-11-21_252_325_S6_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-11-21_252_325_S6_L003.somatic.filtered.vcf.gz
+    jobid: 63
+    wildcards: subject=185-15c-09-G9-6-11-21_252_325_S6_L003
+
+Submitted job 63 with external jobid 'Submitted batch job 15197066'.
+[Mon Apr 25 20:52:29 2022]
+Finished job 42.
+105 of 181 steps (58%) done
+
+[Mon Apr 25 20:52:29 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-2_225_352_S32_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-2_225_352_S32_L003.somatic.filtered.vcf.gz
+    jobid: 44
+    wildcards: subject=244-chu-06-F5-7-9-21-2_225_352_S32_L003
+
+Submitted job 44 with external jobid 'Submitted batch job 15197067'.
+[Mon Apr 25 20:53:04 2022]
+Finished job 29.
+106 of 181 steps (59%) done
+
+[Mon Apr 25 20:53:04 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-3_249_328_S30_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-3_249_328_S30_L003.somatic.filtered.vcf.gz
+    jobid: 65
+    wildcards: subject=244-chu-06-F5-7-2-21-3_249_328_S30_L003
+
+Submitted job 65 with external jobid 'Submitted batch job 15197071'.
+[Mon Apr 25 20:53:15 2022]
+Finished job 59.
+107 of 181 steps (59%) done
+
+[Mon Apr 25 20:53:15 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.filtered.vcf.gz
+    jobid: 86
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+Submitted job 86 with external jobid 'Submitted batch job 15197072'.
+[Mon Apr 25 20:54:52 2022]
+Finished job 93.
+108 of 181 steps (60%) done
+
+[Mon Apr 25 20:54:52 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-3-21_288_289_S3_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-3-21_288_289_S3_L003.somatic.filtered.vcf.gz
+    jobid: 90
+    wildcards: subject=185-15c-09-G9-6-3-21_288_289_S3_L003
+
+Submitted job 90 with external jobid 'Submitted batch job 15197077'.
+[Mon Apr 25 20:55:40 2022]
+Finished job 88.
+109 of 181 steps (60%) done
+
+[Mon Apr 25 20:55:40 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003.somatic.filtered.pass.vcf.gz
+    jobid: 55
+    wildcards: subject=185-1-5c-01-F11-6-26-21-2_204_373_S10_L003
+
+Submitted job 55 with external jobid 'Submitted batch job 15197082'.
+[Mon Apr 25 20:56:28 2022]
+Finished job 55.
+110 of 181 steps (61%) done
+[Mon Apr 25 20:56:28 2022]
+Finished job 63.
+111 of 181 steps (61%) done
+
+[Mon Apr 25 20:56:28 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-11-21_252_325_S6_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-11-21_252_325_S6_L003.somatic.filtered.pass.vcf.gz
+    jobid: 5
+    wildcards: subject=185-15c-09-G9-6-11-21_252_325_S6_L003
+
+Submitted job 5 with external jobid 'Submitted batch job 15197085'.
+[Mon Apr 25 20:56:40 2022]
+Finished job 5.
+112 of 181 steps (62%) done
+[Mon Apr 25 20:57:28 2022]
+Finished job 86.
+113 of 181 steps (62%) done
+
+[Mon Apr 25 20:57:28 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.filtered.pass.vcf.gz
+    jobid: 106
+    wildcards: subject=244-1-chu-02-B7-6-11-21_226_351_S24_L003
+
+[Mon Apr 25 20:57:29 2022]
+Finished job 2.
+114 of 181 steps (63%) done
+Submitted job 106 with external jobid 'Submitted batch job 15197089'.
+
+[Mon Apr 25 20:57:30 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003.somatic.filtered.vcf.gz
+    jobid: 61
+    wildcards: subject=185-1-5c-01-F11-6-26-21-3_287_290_S11_L003
+
+Submitted job 61 with external jobid 'Submitted batch job 15197090'.
+[Mon Apr 25 20:57:30 2022]
+Finished job 44.
+115 of 181 steps (64%) done
+
+[Mon Apr 25 20:57:30 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-2_225_352_S32_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-2_225_352_S32_L003.somatic.filtered.pass.vcf.gz
+    jobid: 43
+    wildcards: subject=244-chu-06-F5-7-9-21-2_225_352_S32_L003
+
+Submitted job 43 with external jobid 'Submitted batch job 15197091'.
+[Mon Apr 25 20:58:05 2022]
+Finished job 106.
+116 of 181 steps (64%) done
+[Mon Apr 25 20:58:07 2022]
+Finished job 43.
+117 of 181 steps (65%) done
+[Mon Apr 25 20:58:41 2022]
+Finished job 73.
+118 of 181 steps (65%) done
+
+[Mon Apr 25 20:58:41 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-9-21_238_339_S23_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-9-21_238_339_S23_L003.somatic.filtered.vcf.gz
+    jobid: 36
+    wildcards: subject=244-1-chu-02-B7-6-9-21_238_339_S23_L003
+
+Submitted job 36 with external jobid 'Submitted batch job 15197096'.
+[Mon Apr 25 20:58:43 2022]
+Finished job 65.
+119 of 181 steps (66%) done
+
+[Mon Apr 25 20:58:43 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-3_249_328_S30_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-3_249_328_S30_L003.somatic.filtered.pass.vcf.gz
+    jobid: 77
+    wildcards: subject=244-chu-06-F5-7-2-21-3_249_328_S30_L003
+
+[Mon Apr 25 20:58:43 2022]
+Finished job 90.
+120 of 181 steps (66%) done
+Submitted job 77 with external jobid 'Submitted batch job 15197097'.
+
+[Mon Apr 25 20:58:45 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-3-21_288_289_S3_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-3-21_288_289_S3_L003.somatic.filtered.pass.vcf.gz
+    jobid: 7
+    wildcards: subject=185-15c-09-G9-6-3-21_288_289_S3_L003
+
+Submitted job 7 with external jobid 'Submitted batch job 15197098'.
+[Mon Apr 25 20:59:19 2022]
+Finished job 77.
+121 of 181 steps (67%) done
+[Mon Apr 25 20:59:19 2022]
+Finished job 7.
+122 of 181 steps (67%) done
+[Mon Apr 25 20:59:53 2022]
+Finished job 87.
+123 of 181 steps (68%) done
+
+[Mon Apr 25 20:59:53 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-6-21_227_350_S16_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-6-21_227_350_S16_L003.somatic.filtered.vcf.gz
+    jobid: 9
+    wildcards: subject=188-2-5c-05-F11-6-6-21_227_350_S16_L003
+
+[Mon Apr 25 20:59:54 2022]
+Finished job 54.
+124 of 181 steps (69%) done
+Submitted job 9 with external jobid 'Submitted batch job 15197099'.
+
+[Mon Apr 25 20:59:55 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003.somatic.filtered.vcf.gz
+    jobid: 72
+    wildcards: subject=185-1-5c-01-F11-6-26-21-1_216_361_S9_L003
+
+Submitted job 72 with external jobid 'Submitted batch job 15197100'.
+[Mon Apr 25 21:02:30 2022]
+Finished job 61.
+125 of 181 steps (69%) done
+
+[Mon Apr 25 21:02:30 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003.somatic.filtered.pass.vcf.gz
+    jobid: 19
+    wildcards: subject=185-1-5c-01-F11-6-26-21-3_287_290_S11_L003
+
+[Mon Apr 25 21:02:30 2022]
+Finished job 67.
+126 of 181 steps (70%) done
+Submitted job 19 with external jobid 'Submitted batch job 15197107'.
+
+[Mon Apr 25 21:02:33 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-3-21_239_338_S15_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-3-21_239_338_S15_L003.somatic.filtered.vcf.gz
+    jobid: 35
+    wildcards: subject=188-2-5c-05-F11-6-3-21_239_338_S15_L003
+
+Submitted job 35 with external jobid 'Submitted batch job 15197108'.
+[Mon Apr 25 21:03:06 2022]
+Finished job 19.
+127 of 181 steps (70%) done
+[Mon Apr 25 21:03:17 2022]
+Finished job 36.
+128 of 181 steps (71%) done
+
+[Mon Apr 25 21:03:17 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-9-21_238_339_S23_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-9-21_238_339_S23_L003.somatic.filtered.pass.vcf.gz
+    jobid: 100
+    wildcards: subject=244-1-chu-02-B7-6-9-21_238_339_S23_L003
+
+Submitted job 100 with external jobid 'Submitted batch job 15197125'.
+[Mon Apr 25 21:03:52 2022]
+Finished job 3.
+129 of 181 steps (71%) done
+
+[Mon Apr 25 21:03:52 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-26-21_201_376_S34_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-26-21_201_376_S34_L003.somatic.filtered.vcf.gz
+    jobid: 84
+    wildcards: subject=244-1-chu-06-D12-6-26-21_201_376_S34_L003
+
+[Mon Apr 25 21:03:52 2022]
+Finished job 9.
+130 of 181 steps (72%) done
+[Mon Apr 25 21:03:52 2022]
+Finished job 100.
+131 of 181 steps (72%) done
+Submitted job 84 with external jobid 'Submitted batch job 15197126'.
+
+[Mon Apr 25 21:03:54 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-6-21_227_350_S16_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-6-21_227_350_S16_L003.somatic.filtered.pass.vcf.gz
+    jobid: 46
+    wildcards: subject=188-2-5c-05-F11-6-6-21_227_350_S16_L003
+
+Submitted job 46 with external jobid 'Submitted batch job 15197127'.
+[Mon Apr 25 21:04:03 2022]
+Finished job 72.
+132 of 181 steps (73%) done
+
+[Mon Apr 25 21:04:03 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003.somatic.filtered.pass.vcf.gz
+    jobid: 79
+    wildcards: subject=185-1-5c-01-F11-6-26-21-1_216_361_S9_L003
+
+Submitted job 79 with external jobid 'Submitted batch job 15197128'.
+[Mon Apr 25 21:04:14 2022]
+Finished job 79.
+133 of 181 steps (73%) done
+[Mon Apr 25 21:04:25 2022]
+Finished job 46.
+134 of 181 steps (74%) done
+[Mon Apr 25 21:07:10 2022]
+Finished job 35.
+135 of 181 steps (75%) done
+
+[Mon Apr 25 21:07:10 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-3-21_239_338_S15_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-3-21_239_338_S15_L003.somatic.filtered.pass.vcf.gz
+    jobid: 41
+    wildcards: subject=188-2-5c-05-F11-6-3-21_239_338_S15_L003
+
+Submitted job 41 with external jobid 'Submitted batch job 15197137'.
+[Mon Apr 25 21:07:43 2022]
+Finished job 41.
+136 of 181 steps (75%) done
+[Mon Apr 25 21:08:16 2022]
+Finished job 84.
+137 of 181 steps (76%) done
+
+[Mon Apr 25 21:08:16 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-26-21_201_376_S34_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-26-21_201_376_S34_L003.somatic.filtered.pass.vcf.gz
+    jobid: 39
+    wildcards: subject=244-1-chu-06-D12-6-26-21_201_376_S34_L003
+
+Submitted job 39 with external jobid 'Submitted batch job 15197142'.
+[Mon Apr 25 21:08:49 2022]
+Finished job 39.
+138 of 181 steps (76%) done
+[Mon Apr 25 21:14:52 2022]
+Finished job 40.
+139 of 181 steps (77%) done
+
+[Mon Apr 25 21:14:52 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-6-21_276_301_S4_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-6-21_276_301_S4_L003.somatic.filtered.vcf.gz
+    jobid: 49
+    wildcards: subject=185-15c-09-G9-6-6-21_276_301_S4_L003
+
+Submitted job 49 with external jobid 'Submitted batch job 15197163'.
+[Mon Apr 25 21:18:54 2022]
+Finished job 49.
+140 of 181 steps (77%) done
+
+[Mon Apr 25 21:18:54 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-6-21_276_301_S4_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-6-21_276_301_S4_L003.somatic.filtered.pass.vcf.gz
+    jobid: 92
+    wildcards: subject=185-15c-09-G9-6-6-21_276_301_S4_L003
+
+Submitted job 92 with external jobid 'Submitted batch job 15197180'.
+[Mon Apr 25 21:19:38 2022]
+Finished job 92.
+141 of 181 steps (78%) done
+[Mon Apr 25 21:19:39 2022]
+Finished job 98.
+142 of 181 steps (78%) done
+
+[Mon Apr 25 21:19:39 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-2_261_316_S29_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-2_261_316_S29_L003.somatic.filtered.vcf.gz
+    jobid: 70
+    wildcards: subject=244-chu-06-F5-7-2-21-2_261_316_S29_L003
+
+Submitted job 70 with external jobid 'Submitted batch job 15197181'.
+[Mon Apr 25 21:22:46 2022]
+Finished job 48.
+143 of 181 steps (79%) done
+
+[Mon Apr 25 21:22:46 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-15-21_214_363_S25_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-15-21_214_363_S25_L003.somatic.filtered.vcf.gz
+    jobid: 102
+    wildcards: subject=244-1-chu-02-B7-6-15-21_214_363_S25_L003
+
+[Mon Apr 25 21:22:46 2022]
+Finished job 10.
+144 of 181 steps (80%) done
+Submitted job 102 with external jobid 'Submitted batch job 15197191'.
+
+[Mon Apr 25 21:22:46 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-22-21_228_349_S8_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-22-21_228_349_S8_L003.somatic.filtered.vcf.gz
+    jobid: 27
+    wildcards: subject=185-15c-09-G9-6-22-21_228_349_S8_L003
+
+Submitted job 27 with external jobid 'Submitted batch job 15197192'.
+[Mon Apr 25 21:24:37 2022]
+Finished job 70.
+145 of 181 steps (80%) done
+
+[Mon Apr 25 21:24:37 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-2_261_316_S29_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-2_261_316_S29_L003.somatic.filtered.pass.vcf.gz
+    jobid: 6
+    wildcards: subject=244-chu-06-F5-7-2-21-2_261_316_S29_L003
+
+Submitted job 6 with external jobid 'Submitted batch job 15197198'.
+[Mon Apr 25 21:25:10 2022]
+Finished job 6.
+146 of 181 steps (81%) done
+[Mon Apr 25 21:26:48 2022]
+Finished job 27.
+147 of 181 steps (81%) done
+
+[Mon Apr 25 21:26:48 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-22-21_228_349_S8_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-22-21_228_349_S8_L003.somatic.filtered.pass.vcf.gz
+    jobid: 89
+    wildcards: subject=185-15c-09-G9-6-22-21_228_349_S8_L003
+
+[Mon Apr 25 21:26:48 2022]
+Finished job 16.
+148 of 181 steps (82%) done
+[Mon Apr 25 21:26:48 2022]
+Finished job 33.
+149 of 181 steps (82%) done
+Submitted job 89 with external jobid 'Submitted batch job 15197205'.
+
+[Mon Apr 25 21:26:48 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003.somatic.filtered.vcf.gz
+    jobid: 47
+    wildcards: subject=244-1-chu-06-D12-7-9-21-2_272_305_S36_L003
+
+Submitted job 47 with external jobid 'Submitted batch job 15197206'.
+
+[Mon Apr 25 21:26:48 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-9-21_215_362_S17_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-9-21_215_362_S17_L003.somatic.filtered.vcf.gz
+    jobid: 74
+    wildcards: subject=188-2-5c-05-F11-6-9-21_215_362_S17_L003
+
+Submitted job 74 with external jobid 'Submitted batch job 15197207'.
+[Mon Apr 25 21:27:32 2022]
+Finished job 89.
+150 of 181 steps (83%) done
+[Mon Apr 25 21:27:43 2022]
+Finished job 102.
+151 of 181 steps (83%) done
+
+[Mon Apr 25 21:27:43 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-15-21_214_363_S25_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-15-21_214_363_S25_L003.somatic.filtered.pass.vcf.gz
+    jobid: 11
+    wildcards: subject=244-1-chu-02-B7-6-15-21_214_363_S25_L003
+
+Submitted job 11 with external jobid 'Submitted batch job 15197208'.
+[Mon Apr 25 21:28:28 2022]
+Finished job 11.
+152 of 181 steps (84%) done
+[Mon Apr 25 21:30:06 2022]
+Finished job 91.
+153 of 181 steps (85%) done
+
+[Mon Apr 25 21:30:06 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003.somatic.filtered.vcf.gz
+    jobid: 57
+    wildcards: subject=244-1-chu-06-D12-7-12-21-2_248_329_S38_L003
+
+[Mon Apr 25 21:30:06 2022]
+Finished job 30.
+154 of 181 steps (85%) done
+Submitted job 57 with external jobid 'Submitted batch job 15197219'.
+
+[Mon Apr 25 21:30:06 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-1_237_340_S31_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-1_237_340_S31_L003.somatic.filtered.vcf.gz
+    jobid: 103
+    wildcards: subject=244-chu-06-F5-7-9-21-1_237_340_S31_L003
+
+Submitted job 103 with external jobid 'Submitted batch job 15197220'.
+[Mon Apr 25 21:30:39 2022]
+Finished job 74.
+155 of 181 steps (86%) done
+
+[Mon Apr 25 21:30:39 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-9-21_215_362_S17_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-9-21_215_362_S17_L003.somatic.filtered.pass.vcf.gz
+    jobid: 85
+    wildcards: subject=188-2-5c-05-F11-6-9-21_215_362_S17_L003
+
+Submitted job 85 with external jobid 'Submitted batch job 15197223'.
+[Mon Apr 25 21:30:51 2022]
+Finished job 85.
+156 of 181 steps (86%) done
+[Mon Apr 25 21:31:31 2022]
+Finished job 47.
+157 of 181 steps (87%) done
+
+[Mon Apr 25 21:31:31 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003.somatic.filtered.pass.vcf.gz
+    jobid: 69
+    wildcards: subject=244-1-chu-06-D12-7-9-21-2_272_305_S36_L003
+
+Submitted job 69 with external jobid 'Submitted batch job 15197224'.
+[Mon Apr 25 21:31:51 2022]
+Finished job 69.
+158 of 181 steps (87%) done
+[Mon Apr 25 21:34:42 2022]
+Finished job 57.
+159 of 181 steps (88%) done
+
+[Mon Apr 25 21:34:42 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003.somatic.filtered.pass.vcf.gz
+    jobid: 28
+    wildcards: subject=244-1-chu-06-D12-7-12-21-2_248_329_S38_L003
+
+Submitted job 28 with external jobid 'Submitted batch job 15197232'.
+[Mon Apr 25 21:35:12 2022]
+Finished job 28.
+160 of 181 steps (88%) done
+[Mon Apr 25 21:35:42 2022]
+Finished job 103.
+161 of 181 steps (89%) done
+
+[Mon Apr 25 21:35:42 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-1_237_340_S31_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-1_237_340_S31_L003.somatic.filtered.pass.vcf.gz
+    jobid: 95
+    wildcards: subject=244-chu-06-F5-7-9-21-1_237_340_S31_L003
+
+Submitted job 95 with external jobid 'Submitted batch job 15197238'.
+[Mon Apr 25 21:36:12 2022]
+Finished job 95.
+162 of 181 steps (90%) done
+[Mon Apr 25 21:38:42 2022]
+Finished job 8.
+163 of 181 steps (90%) done
+
+[Mon Apr 25 21:38:42 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003.somatic.filtered.vcf.gz
+    jobid: 60
+    wildcards: subject=185-1-5c-01-F11-6-26-21-4_275_302_S12_L003
+
+Submitted job 60 with external jobid 'Submitted batch job 15197509'.
+[Mon Apr 25 21:43:12 2022]
+Finished job 60.
+164 of 181 steps (91%) done
+
+[Mon Apr 25 21:43:12 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003.somatic.filtered.pass.vcf.gz
+    jobid: 56
+    wildcards: subject=185-1-5c-01-F11-6-26-21-4_275_302_S12_L003
+
+Submitted job 56 with external jobid 'Submitted batch job 15198000'.
+[Mon Apr 25 21:43:42 2022]
+Finished job 56.
+165 of 181 steps (91%) done
+[Mon Apr 25 21:52:13 2022]
+Finished job 75.
+166 of 181 steps (92%) done
+
+[Mon Apr 25 21:52:13 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-15-21_240_337_S7_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-15-21_240_337_S7_L003.somatic.filtered.vcf.gz
+    jobid: 68
+    wildcards: subject=185-15c-09-G9-6-15-21_240_337_S7_L003
+
+Submitted job 68 with external jobid 'Submitted batch job 15198158'.
+[Mon Apr 25 21:57:44 2022]
+Finished job 68.
+167 of 181 steps (92%) done
+
+[Mon Apr 25 21:57:44 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-15-21_240_337_S7_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-15-21_240_337_S7_L003.somatic.filtered.pass.vcf.gz
+    jobid: 24
+    wildcards: subject=185-15c-09-G9-6-15-21_240_337_S7_L003
+
+Submitted job 24 with external jobid 'Submitted batch job 15198170'.
+[Mon Apr 25 21:58:14 2022]
+Finished job 24.
+168 of 181 steps (93%) done
+[Mon Apr 25 22:03:44 2022]
+Finished job 22.
+169 of 181 steps (93%) done
+
+[Mon Apr 25 22:03:44 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003.somatic.filtered.vcf.gz
+    jobid: 94
+    wildcards: subject=244-1-chu-06-D12-7-12-21-1_260_317_S37_L003
+
+Submitted job 94 with external jobid 'Submitted batch job 15198219'.
+[Mon Apr 25 22:08:14 2022]
+Finished job 94.
+170 of 181 steps (94%) done
+
+[Mon Apr 25 22:08:14 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003.somatic.filtered.pass.vcf.gz
+    jobid: 104
+    wildcards: subject=244-1-chu-06-D12-7-12-21-1_260_317_S37_L003
+
+Submitted job 104 with external jobid 'Submitted batch job 15198224'.
+[Mon Apr 25 22:08:45 2022]
+Finished job 104.
+171 of 181 steps (94%) done
+[Mon Apr 25 22:27:16 2022]
+Finished job 80.
+172 of 181 steps (95%) done
+
+[Mon Apr 25 22:27:16 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003.somatic.filtered.vcf.gz
+    jobid: 26
+    wildcards: subject=185-1-5c-01-F11-6-26-21-5_263_314_S13_L003
+
+Submitted job 26 with external jobid 'Submitted batch job 15198852'.
+[Mon Apr 25 22:31:46 2022]
+Finished job 26.
+173 of 181 steps (96%) done
+
+[Mon Apr 25 22:31:46 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003.somatic.filtered.pass.vcf.gz
+    jobid: 66
+    wildcards: subject=185-1-5c-01-F11-6-26-21-5_263_314_S13_L003
+
+Submitted job 66 with external jobid 'Submitted batch job 15198859'.
+[Mon Apr 25 22:32:16 2022]
+Finished job 66.
+174 of 181 steps (96%) done
+[Mon Apr 25 22:51:48 2022]
+Finished job 51.
+175 of 181 steps (97%) done
+
+[Mon Apr 25 22:51:48 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-1_273_304_S28_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-1_273_304_S28_L003.somatic.filtered.vcf.gz
+    jobid: 21
+    wildcards: subject=244-chu-06-F5-7-2-21-1_273_304_S28_L003
+
+Submitted job 21 with external jobid 'Submitted batch job 15198897'.
+[Mon Apr 25 22:57:18 2022]
+Finished job 21.
+176 of 181 steps (97%) done
+
+[Mon Apr 25 22:57:18 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-1_273_304_S28_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-1_273_304_S28_L003.somatic.filtered.pass.vcf.gz
+    jobid: 82
+    wildcards: subject=244-chu-06-F5-7-2-21-1_273_304_S28_L003
+
+Submitted job 82 with external jobid 'Submitted batch job 15198903'.
+[Mon Apr 25 22:57:48 2022]
+Finished job 82.
+177 of 181 steps (98%) done
+[Tue Apr 26 00:19:24 2022]
+Finished job 18.
+178 of 181 steps (98%) done
+
+[Tue Apr 26 00:19:24 2022]
+rule filter:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003.somatic.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003.somatic.filtered.vcf.gz
+    jobid: 58
+    wildcards: subject=244-1-chu-06-D12-7-9-21-1_284_293_S35_L003
+
+Submitted job 58 with external jobid 'Submitted batch job 15199182'.
+[Tue Apr 26 00:25:54 2022]
+Finished job 58.
+179 of 181 steps (99%) done
+
+[Tue Apr 26 00:25:54 2022]
+rule select_pass_variants:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003.somatic.filtered.vcf.gz
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003.somatic.filtered.pass.vcf.gz
+    jobid: 15
+    wildcards: subject=244-1-chu-06-D12-7-9-21-1_284_293_S35_L003
+
+Submitted job 15 with external jobid 'Submitted batch job 15199187'.
+[Tue Apr 26 00:26:24 2022]
+Finished job 15.
+180 of 181 steps (99%) done
+
+[Tue Apr 26 00:26:25 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-22-21_274_303_S20_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-3-21_239_338_S15_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-6-21_227_350_S16_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-6-26-21_285_292_S27_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-9-21_215_362_S17_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-1_273_304_S28_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-2_261_316_S29_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-15-21_214_363_S25_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-3_249_328_S30_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-11-21_252_325_S6_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-22-21_202_375_S26_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-1_237_340_S31_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-15-21_240_337_S7_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-3-21_262_315_S21_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-2_225_352_S32_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-22-21_228_349_S8_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-6-21_250_327_S22_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-3-21_288_289_S3_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-9-21_238_339_S23_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-6-21_276_301_S4_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-22-21_213_364_S33_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-9-21_264_313_S5_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-26-21_201_376_S34_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-11-21_203_374_S18_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-15-21_286_291_S19_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003.somatic.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-22-21_274_303_S20_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-3-21_239_338_S15_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-6-21_227_350_S16_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-6-26-21_285_292_S27_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-9-21_215_362_S17_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-1_273_304_S28_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-2_261_316_S29_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-15-21_214_363_S25_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-3_249_328_S30_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-11-21_252_325_S6_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-22-21_202_375_S26_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-1_237_340_S31_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-15-21_240_337_S7_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-3-21_262_315_S21_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-2_225_352_S32_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-22-21_228_349_S8_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-6-21_250_327_S22_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-3-21_288_289_S3_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-9-21_238_339_S23_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-6-21_276_301_S4_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-22-21_213_364_S33_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-9-21_264_313_S5_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-26-21_201_376_S34_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-11-21_203_374_S18_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-15-21_286_291_S19_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003.somatic.filtered.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-22-21_274_303_S20_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-3-21_239_338_S15_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-6-21_227_350_S16_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-6-26-21_285_292_S27_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-9-21_215_362_S17_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-1_273_304_S28_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-2_261_316_S29_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-15-21_214_363_S25_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-2-21-3_249_328_S30_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-11-21_252_325_S6_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-22-21_202_375_S26_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-1_237_340_S31_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-15-21_240_337_S7_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-3-21_262_315_S21_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-chu-06-F5-7-9-21-2_225_352_S32_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-22-21_228_349_S8_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-6-21_250_327_S22_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-3-21_288_289_S3_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-9-21_238_339_S23_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-6-21_276_301_S4_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-22-21_213_364_S33_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/185-15c-09-G9-6-9-21_264_313_S5_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-6-26-21_201_376_S34_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-11-21_203_374_S18_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/188-2-5c-05-F11-6-15-21_286_291_S19_L003.somatic.filtered.pass.vcf.gz, /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003.somatic.filtered.pass.vcf.gz
+    jobid: 0
+
+[Tue Apr 26 00:26:25 2022]
+Finished job 0.
+181 of 181 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/RNA_mutations/.snakemake/log/2022-04-25T164004.433612.snakemake.log

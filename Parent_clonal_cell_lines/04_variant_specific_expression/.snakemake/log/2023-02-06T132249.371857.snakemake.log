@@ -1,0 +1,1251 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 15
+Job counts:
+	count	jobs
+	1	all
+	30	index_mkdup_bam
+	30	mark_duplicates
+	30	readgroup
+	30	sort_bam
+	121
+
+[Mon Feb  6 13:22:50 2023]
+Job 208: Sorting BAM file.
+
+Submitted job 208 with external jobid 'Submitted batch job 19163301'.
+
+[Mon Feb  6 13:22:50 2023]
+Job 186: Sorting BAM file.
+
+Submitted job 186 with external jobid 'Submitted batch job 19163302'.
+
+[Mon Feb  6 13:22:50 2023]
+Job 185: Sorting BAM file.
+
+Submitted job 185 with external jobid 'Submitted batch job 19163303'.
+
+[Mon Feb  6 13:22:50 2023]
+Job 202: Sorting BAM file.
+
+Submitted job 202 with external jobid 'Submitted batch job 19163304'.
+
+[Mon Feb  6 13:22:50 2023]
+Job 206: Sorting BAM file.
+
+Submitted job 206 with external jobid 'Submitted batch job 19163305'.
+
+[Mon Feb  6 13:22:50 2023]
+Job 207: Sorting BAM file.
+
+Submitted job 207 with external jobid 'Submitted batch job 19163306'.
+
+[Mon Feb  6 13:22:50 2023]
+Job 192: Sorting BAM file.
+
+Submitted job 192 with external jobid 'Submitted batch job 19163307'.
+
+[Mon Feb  6 13:22:50 2023]
+Job 215: Sorting BAM file.
+
+Submitted job 215 with external jobid 'Submitted batch job 19163308'.
+
+[Mon Feb  6 13:22:50 2023]
+Job 190: Sorting BAM file.
+
+Submitted job 190 with external jobid 'Submitted batch job 19163309'.
+
+[Mon Feb  6 13:22:50 2023]
+Job 201: Sorting BAM file.
+
+Submitted job 201 with external jobid 'Submitted batch job 19163310'.
+
+[Mon Feb  6 13:22:51 2023]
+Job 187: Sorting BAM file.
+
+Submitted job 187 with external jobid 'Submitted batch job 19163311'.
+
+[Mon Feb  6 13:22:51 2023]
+Job 199: Sorting BAM file.
+
+Submitted job 199 with external jobid 'Submitted batch job 19163312'.
+
+[Mon Feb  6 13:22:51 2023]
+Job 205: Sorting BAM file.
+
+Submitted job 205 with external jobid 'Submitted batch job 19163313'.
+
+[Mon Feb  6 13:22:51 2023]
+Job 194: Sorting BAM file.
+
+Submitted job 194 with external jobid 'Submitted batch job 19163314'.
+
+[Mon Feb  6 13:22:51 2023]
+Job 195: Sorting BAM file.
+
+Submitted job 195 with external jobid 'Submitted batch job 19163315'.
+[Mon Feb  6 13:27:46 2023]
+Finished job 192.
+1 of 121 steps (0.83%) done
+
+[Mon Feb  6 13:27:46 2023]
+Job 210: Sorting BAM file.
+
+Submitted job 210 with external jobid 'Submitted batch job 19163322'.
+[Mon Feb  6 13:27:57 2023]
+Finished job 215.
+2 of 121 steps (2%) done
+
+[Mon Feb  6 13:27:57 2023]
+Job 213: Sorting BAM file.
+
+[Mon Feb  6 13:27:58 2023]
+Finished job 194.
+3 of 121 steps (2%) done
+[Mon Feb  6 13:27:58 2023]
+Finished job 195.
+4 of 121 steps (3%) done
+Submitted job 213 with external jobid 'Submitted batch job 19163323'.
+
+[Mon Feb  6 13:27:58 2023]
+Job 191: Sorting BAM file.
+
+Submitted job 191 with external jobid 'Submitted batch job 19163324'.
+
+[Mon Feb  6 13:27:58 2023]
+Job 214: Sorting BAM file.
+
+Submitted job 214 with external jobid 'Submitted batch job 19163325'.
+[Mon Feb  6 13:28:30 2023]
+Finished job 186.
+5 of 121 steps (4%) done
+
+[Mon Feb  6 13:28:30 2023]
+Job 216: Sorting BAM file.
+
+[Mon Feb  6 13:28:30 2023]
+Finished job 185.
+6 of 121 steps (5%) done
+Submitted job 216 with external jobid 'Submitted batch job 19163326'.
+
+[Mon Feb  6 13:28:30 2023]
+Job 200: Sorting BAM file.
+
+Submitted job 200 with external jobid 'Submitted batch job 19163327'.
+[Mon Feb  6 13:28:31 2023]
+Finished job 199.
+7 of 121 steps (6%) done
+
+[Mon Feb  6 13:28:31 2023]
+Job 196: Sorting BAM file.
+
+Submitted job 196 with external jobid 'Submitted batch job 19163328'.
+[Mon Feb  6 13:29:03 2023]
+Finished job 202.
+8 of 121 steps (7%) done
+
+[Mon Feb  6 13:29:03 2023]
+Job 183: Sorting BAM file.
+
+[Mon Feb  6 13:29:04 2023]
+Finished job 207.
+9 of 121 steps (7%) done
+[Mon Feb  6 13:29:04 2023]
+Finished job 190.
+10 of 121 steps (8%) done
+[Mon Feb  6 13:29:04 2023]
+Finished job 201.
+11 of 121 steps (9%) done
+Submitted job 183 with external jobid 'Submitted batch job 19163331'.
+
+[Mon Feb  6 13:29:04 2023]
+Job 209: Sorting BAM file.
+
+Submitted job 209 with external jobid 'Submitted batch job 19163332'.
+
+[Mon Feb  6 13:29:04 2023]
+Job 198: Sorting BAM file.
+
+Submitted job 198 with external jobid 'Submitted batch job 19163333'.
+
+[Mon Feb  6 13:29:04 2023]
+Job 204: Sorting BAM file.
+
+Submitted job 204 with external jobid 'Submitted batch job 19163334'.
+[Mon Feb  6 13:29:16 2023]
+Finished job 205.
+12 of 121 steps (10%) done
+
+[Mon Feb  6 13:29:16 2023]
+Job 193: Sorting BAM file.
+
+Submitted job 193 with external jobid 'Submitted batch job 19163335'.
+[Mon Feb  6 13:29:48 2023]
+Finished job 187.
+13 of 121 steps (11%) done
+
+[Mon Feb  6 13:29:48 2023]
+Job 182: Sorting BAM file.
+
+Submitted job 182 with external jobid 'Submitted batch job 19163337'.
+[Mon Feb  6 13:31:38 2023]
+Finished job 206.
+14 of 121 steps (12%) done
+
+[Mon Feb  6 13:31:38 2023]
+Job 189: Sorting BAM file.
+
+Submitted job 189 with external jobid 'Submitted batch job 19163341'.
+[Mon Feb  6 13:32:22 2023]
+Finished job 210.
+15 of 121 steps (12%) done
+
+[Mon Feb  6 13:32:22 2023]
+Job 197: Sorting BAM file.
+
+Submitted job 197 with external jobid 'Submitted batch job 19163342'.
+[Mon Feb  6 13:32:23 2023]
+Finished job 191.
+16 of 121 steps (13%) done
+
+[Mon Feb  6 13:32:23 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-chu-06-F5-7-2-21-1_273_304_S28_L003.picard_mkdup_metrics.txt
+    jobid: 166
+    wildcards: sample=244-chu-06-F5-7-2-21-1_273_304_S28_L003
+    threads: 4
+
+Submitted job 166 with external jobid 'Submitted batch job 19163343'.
+[Mon Feb  6 13:32:55 2023]
+Finished job 208.
+17 of 121 steps (14%) done
+
+[Mon Feb  6 13:32:55 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-1-chu-06-D12-7-9-21-1_284_293_S35_L003.picard_mkdup_metrics.txt
+    jobid: 172
+    wildcards: sample=244-1-chu-06-D12-7-9-21-1_284_293_S35_L003
+    threads: 4
+
+Submitted job 172 with external jobid 'Submitted batch job 19163344'.
+[Mon Feb  6 13:32:56 2023]
+Finished job 214.
+18 of 121 steps (15%) done
+
+[Mon Feb  6 13:32:56 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-1-5c-01-F11-6-26-21-5_263_314_S13_L003.picard_mkdup_metrics.txt
+    jobid: 171
+    wildcards: sample=185-1-5c-01-F11-6-26-21-5_263_314_S13_L003
+    threads: 4
+
+[Mon Feb  6 13:32:56 2023]
+Finished job 196.
+19 of 121 steps (16%) done
+Submitted job 171 with external jobid 'Submitted batch job 19163345'.
+
+[Mon Feb  6 13:32:56 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-15c-09-G9-6-15-21_240_337_S7_L003.picard_mkdup_metrics.txt
+    jobid: 149
+    wildcards: sample=185-15c-09-G9-6-15-21_240_337_S7_L003
+    threads: 4
+
+Submitted job 149 with external jobid 'Submitted batch job 19163346'.
+[Mon Feb  6 13:33:28 2023]
+Finished job 183.
+20 of 121 steps (17%) done
+
+[Mon Feb  6 13:33:28 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-1-chu-06-D12-7-12-21-1_260_317_S37_L003.picard_mkdup_metrics.txt
+    jobid: 154
+    wildcards: sample=244-1-chu-06-D12-7-12-21-1_260_317_S37_L003
+    threads: 4
+
+[Mon Feb  6 13:33:28 2023]
+Finished job 216.
+21 of 121 steps (17%) done
+[Mon Feb  6 13:33:28 2023]
+Finished job 200.
+22 of 121 steps (18%) done
+Submitted job 154 with external jobid 'Submitted batch job 19163348'.
+
+[Mon Feb  6 13:33:28 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-1-5c-01-F11-6-26-21-4_275_302_S12_L003.picard_mkdup_metrics.txt
+    jobid: 158
+    wildcards: sample=185-1-5c-01-F11-6-26-21-4_275_302_S12_L003
+    threads: 4
+
+Submitted job 158 with external jobid 'Submitted batch job 19163349'.
+
+[Mon Feb  6 13:33:28 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-chu-06-F5-7-9-21-1_237_340_S31_L003.picard_mkdup_metrics.txt
+    jobid: 169
+    wildcards: sample=244-chu-06-F5-7-9-21-1_237_340_S31_L003
+    threads: 4
+
+Submitted job 169 with external jobid 'Submitted batch job 19163350'.
+[Mon Feb  6 13:33:29 2023]
+Finished job 213.
+23 of 121 steps (19%) done
+
+[Mon Feb  6 13:33:29 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 188-2-5c-05-F11-6-9-21_215_362_S17_L003.picard_mkdup_metrics.txt
+    jobid: 165
+    wildcards: sample=188-2-5c-05-F11-6-9-21_215_362_S17_L003
+    threads: 4
+
+Submitted job 165 with external jobid 'Submitted batch job 19163351'.
+[Mon Feb  6 13:34:01 2023]
+Finished job 209.
+24 of 121 steps (20%) done
+
+[Mon Feb  6 13:34:01 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 188-2-5c-05-F11-6-3-21_239_338_S15_L003.picard_mkdup_metrics.txt
+    jobid: 159
+    wildcards: sample=188-2-5c-05-F11-6-3-21_239_338_S15_L003
+    threads: 4
+
+[Mon Feb  6 13:34:01 2023]
+Finished job 198.
+25 of 121 steps (21%) done
+Submitted job 159 with external jobid 'Submitted batch job 19163352'.
+
+[Mon Feb  6 13:34:01 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-1-chu-06-D12-7-12-21-2_248_329_S38_L003.picard_mkdup_metrics.txt
+    jobid: 170
+    wildcards: sample=244-1-chu-06-D12-7-12-21-2_248_329_S38_L003
+    threads: 4
+
+Submitted job 170 with external jobid 'Submitted batch job 19163353'.
+[Mon Feb  6 13:34:12 2023]
+Finished job 204.
+26 of 121 steps (21%) done
+
+[Mon Feb  6 13:34:12 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 188-2-5c-05-F11-6-6-21_227_350_S16_L003.picard_mkdup_metrics.txt
+    jobid: 156
+    wildcards: sample=188-2-5c-05-F11-6-6-21_227_350_S16_L003
+    threads: 4
+
+Submitted job 156 with external jobid 'Submitted batch job 19163354'.
+[Mon Feb  6 13:34:57 2023]
+Finished job 193.
+27 of 121 steps (22%) done
+
+[Mon Feb  6 13:34:57 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-chu-06-F5-7-2-21-2_261_316_S29_L003.picard_mkdup_metrics.txt
+    jobid: 150
+    wildcards: sample=244-chu-06-F5-7-2-21-2_261_316_S29_L003
+    threads: 4
+
+Submitted job 150 with external jobid 'Submitted batch job 19163356'.
+[Mon Feb  6 13:36:36 2023]
+Finished job 197.
+28 of 121 steps (23%) done
+
+[Mon Feb  6 13:36:36 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-1-chu-06-D12-6-26-21_201_376_S34_L003.picard_mkdup_metrics.txt
+    jobid: 151
+    wildcards: sample=244-1-chu-06-D12-6-26-21_201_376_S34_L003
+    threads: 4
+
+[Mon Feb  6 13:36:36 2023]
+Finished job 182.
+29 of 121 steps (24%) done
+Submitted job 151 with external jobid 'Submitted batch job 19163358'.
+
+[Mon Feb  6 13:36:36 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-1-chu-06-D12-7-9-21-2_272_305_S36_L003.picard_mkdup_metrics.txt
+    jobid: 164
+    wildcards: sample=244-1-chu-06-D12-7-9-21-2_272_305_S36_L003
+    threads: 4
+
+Submitted job 164 with external jobid 'Submitted batch job 19163359'.
+[Mon Feb  6 13:38:26 2023]
+Finished job 189.
+30 of 121 steps (25%) done
+
+[Mon Feb  6 13:38:26 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-15c-09-G9-6-9-21_264_313_S5_L003.picard_mkdup_metrics.txt
+    jobid: 177
+    wildcards: sample=185-15c-09-G9-6-9-21_264_313_S5_L003
+    threads: 4
+
+Submitted job 177 with external jobid 'Submitted batch job 19163361'.
+[Mon Feb  6 13:43:34 2023]
+Finished job 169.
+31 of 121 steps (26%) done
+
+[Mon Feb  6 13:43:34 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 109
+    wildcards: sample=244-chu-06-F5-7-9-21-1_237_340_S31_L003
+
+Submitted job 109 with external jobid 'Submitted batch job 19163365'.
+[Mon Feb  6 13:43:35 2023]
+Finished job 166.
+32 of 121 steps (26%) done
+
+[Mon Feb  6 13:43:35 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 101
+    wildcards: sample=244-chu-06-F5-7-2-21-1_273_304_S28_L003
+
+[Mon Feb  6 13:43:35 2023]
+Finished job 171.
+33 of 121 steps (27%) done
+[Mon Feb  6 13:43:35 2023]
+Finished job 149.
+34 of 121 steps (28%) done
+[Mon Feb  6 13:43:35 2023]
+Finished job 165.
+35 of 121 steps (29%) done
+Submitted job 101 with external jobid 'Submitted batch job 19163366'.
+
+[Mon Feb  6 13:43:35 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 100
+    wildcards: sample=188-2-5c-05-F11-6-9-21_215_362_S17_L003
+
+Submitted job 100 with external jobid 'Submitted batch job 19163367'.
+
+[Mon Feb  6 13:43:35 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 111
+    wildcards: sample=185-1-5c-01-F11-6-26-21-5_263_314_S13_L003
+
+Submitted job 111 with external jobid 'Submitted batch job 19163368'.
+
+[Mon Feb  6 13:43:35 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 23
+    wildcards: sample=185-15c-09-G9-6-15-21_240_337_S7_L003
+
+Submitted job 23 with external jobid 'Submitted batch job 19163369'.
+[Mon Feb  6 13:43:45 2023]
+Finished job 158.
+36 of 121 steps (30%) done
+
+[Mon Feb  6 13:43:45 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 58
+    wildcards: sample=185-1-5c-01-F11-6-26-21-4_275_302_S12_L003
+
+Submitted job 58 with external jobid 'Submitted batch job 19163371'.
+[Mon Feb  6 13:44:18 2023]
+Finished job 156.
+37 of 121 steps (31%) done
+
+[Mon Feb  6 13:44:18 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 51
+    wildcards: sample=188-2-5c-05-F11-6-6-21_227_350_S16_L003
+
+Submitted job 51 with external jobid 'Submitted batch job 19163373'.
+[Mon Feb  6 13:44:29 2023]
+Finished job 151.
+38 of 121 steps (31%) done
+
+[Mon Feb  6 13:44:29 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 28
+    wildcards: sample=244-1-chu-06-D12-6-26-21_201_376_S34_L003
+
+[Mon Feb  6 13:44:29 2023]
+Finished job 159.
+39 of 121 steps (32%) done
+Submitted job 28 with external jobid 'Submitted batch job 19163375'.
+
+[Mon Feb  6 13:44:30 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 60
+    wildcards: sample=188-2-5c-05-F11-6-3-21_239_338_S15_L003
+
+Submitted job 60 with external jobid 'Submitted batch job 19163376'.
+[Mon Feb  6 13:45:14 2023]
+Finished job 170.
+40 of 121 steps (33%) done
+
+[Mon Feb  6 13:45:14 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 110
+    wildcards: sample=244-1-chu-06-D12-7-12-21-2_248_329_S38_L003
+
+[Mon Feb  6 13:45:14 2023]
+Finished job 154.
+41 of 121 steps (34%) done
+Submitted job 110 with external jobid 'Submitted batch job 19163378'.
+
+[Mon Feb  6 13:45:14 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 38
+    wildcards: sample=244-1-chu-06-D12-7-12-21-1_260_317_S37_L003
+
+Submitted job 38 with external jobid 'Submitted batch job 19163379'.
+[Mon Feb  6 13:47:05 2023]
+Finished job 150.
+42 of 121 steps (35%) done
+
+[Mon Feb  6 13:47:05 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 25
+    wildcards: sample=244-chu-06-F5-7-2-21-2_261_316_S29_L003
+
+Submitted job 25 with external jobid 'Submitted batch job 19163517'.
+[Mon Feb  6 13:47:37 2023]
+Finished job 164.
+43 of 121 steps (36%) done
+
+[Mon Feb  6 13:47:37 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 87
+    wildcards: sample=244-1-chu-06-D12-7-9-21-2_272_305_S36_L003
+
+Submitted job 87 with external jobid 'Submitted batch job 19163519'.
+[Mon Feb  6 13:49:27 2023]
+Finished job 109.
+44 of 121 steps (36%) done
+
+[Mon Feb  6 13:49:27 2023]
+Job 17: Indexing sorted BAM file.
+
+Submitted job 17 with external jobid 'Submitted batch job 19163660'.
+[Mon Feb  6 13:49:28 2023]
+Finished job 100.
+45 of 121 steps (37%) done
+
+[Mon Feb  6 13:49:28 2023]
+Job 44: Indexing sorted BAM file.
+
+Submitted job 44 with external jobid 'Submitted batch job 19163661'.
+[Mon Feb  6 13:50:00 2023]
+Finished job 17.
+46 of 121 steps (38%) done
+
+[Mon Feb  6 13:50:00 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-15c-09-G9-6-6-21_276_301_S4_L003.picard_mkdup_metrics.txt
+    jobid: 163
+    wildcards: sample=185-15c-09-G9-6-6-21_276_301_S4_L003
+    threads: 4
+
+[Mon Feb  6 13:50:00 2023]
+Finished job 28.
+47 of 121 steps (39%) done
+[Mon Feb  6 13:50:00 2023]
+Finished job 172.
+48 of 121 steps (40%) done
+Submitted job 163 with external jobid 'Submitted batch job 19163663'.
+
+[Mon Feb  6 13:50:00 2023]
+Job 114: Indexing sorted BAM file.
+
+Submitted job 114 with external jobid 'Submitted batch job 19163664'.
+
+[Mon Feb  6 13:50:00 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 112
+    wildcards: sample=244-1-chu-06-D12-7-9-21-1_284_293_S35_L003
+
+Submitted job 112 with external jobid 'Submitted batch job 19163665'.
+[Mon Feb  6 13:50:01 2023]
+Finished job 44.
+49 of 121 steps (40%) done
+
+[Mon Feb  6 13:50:01 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 188-2-5c-05-F11-6-15-21_286_291_S19_L003.picard_mkdup_metrics.txt
+    jobid: 179
+    wildcards: sample=188-2-5c-05-F11-6-15-21_286_291_S19_L003
+    threads: 4
+
+Submitted job 179 with external jobid 'Submitted batch job 19163666'.
+[Mon Feb  6 13:50:33 2023]
+Finished job 114.
+50 of 121 steps (41%) done
+
+[Mon Feb  6 13:50:33 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-1-5c-01-F11-6-26-21-1_216_361_S9_L003.picard_mkdup_metrics.txt
+    jobid: 155
+    wildcards: sample=185-1-5c-01-F11-6-26-21-1_216_361_S9_L003
+    threads: 4
+
+[Mon Feb  6 13:50:33 2023]
+Finished job 60.
+51 of 121 steps (42%) done
+[Mon Feb  6 13:50:33 2023]
+Finished job 58.
+52 of 121 steps (43%) done
+Submitted job 155 with external jobid 'Submitted batch job 19163670'.
+
+[Mon Feb  6 13:50:33 2023]
+Job 65: Indexing sorted BAM file.
+
+Submitted job 65 with external jobid 'Submitted batch job 19163671'.
+
+[Mon Feb  6 13:50:33 2023]
+Job 115: Indexing sorted BAM file.
+
+Submitted job 115 with external jobid 'Submitted batch job 19163672'.
+[Mon Feb  6 13:50:34 2023]
+Finished job 23.
+53 of 121 steps (44%) done
+
+[Mon Feb  6 13:50:34 2023]
+Job 34: Indexing sorted BAM file.
+
+Submitted job 34 with external jobid 'Submitted batch job 19163673'.
+[Mon Feb  6 13:51:06 2023]
+Finished job 65.
+54 of 121 steps (45%) done
+
+[Mon Feb  6 13:51:06 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-chu-06-F5-7-2-21-3_249_328_S30_L003.picard_mkdup_metrics.txt
+    jobid: 160
+    wildcards: sample=244-chu-06-F5-7-2-21-3_249_328_S30_L003
+    threads: 4
+
+[Mon Feb  6 13:51:06 2023]
+Finished job 115.
+55 of 121 steps (45%) done
+[Mon Feb  6 13:51:06 2023]
+Finished job 51.
+56 of 121 steps (46%) done
+Submitted job 160 with external jobid 'Submitted batch job 19163676'.
+
+[Mon Feb  6 13:51:06 2023]
+Job 135: Indexing sorted BAM file.
+
+Submitted job 135 with external jobid 'Submitted batch job 19163677'.
+
+[Mon Feb  6 13:51:07 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-15c-09-G9-6-22-21_228_349_S8_L003.picard_mkdup_metrics.txt
+    jobid: 174
+    wildcards: sample=185-15c-09-G9-6-22-21_228_349_S8_L003
+    threads: 4
+
+[Mon Feb  6 13:51:07 2023]
+Finished job 101.
+57 of 121 steps (47%) done
+[Mon Feb  6 13:51:07 2023]
+Finished job 111.
+58 of 121 steps (48%) done
+[Mon Feb  6 13:51:07 2023]
+Finished job 34.
+59 of 121 steps (49%) done
+Submitted job 174 with external jobid 'Submitted batch job 19163678'.
+
+[Mon Feb  6 13:51:08 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-15c-09-G9-6-3-21_288_289_S3_L003.picard_mkdup_metrics.txt
+    jobid: 178
+    wildcards: sample=185-15c-09-G9-6-3-21_288_289_S3_L003
+    threads: 4
+
+Submitted job 178 with external jobid 'Submitted batch job 19163679'.
+
+[Mon Feb  6 13:51:08 2023]
+Job 46: Indexing sorted BAM file.
+
+Submitted job 46 with external jobid 'Submitted batch job 19163680'.
+
+[Mon Feb  6 13:51:08 2023]
+Job 36: Indexing sorted BAM file.
+
+Submitted job 36 with external jobid 'Submitted batch job 19163681'.
+[Mon Feb  6 13:51:39 2023]
+Finished job 135.
+60 of 121 steps (50%) done
+
+[Mon Feb  6 13:51:39 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-chu-06-F5-7-9-21-2_225_352_S32_L003.picard_mkdup_metrics.txt
+    jobid: 168
+    wildcards: sample=244-chu-06-F5-7-9-21-2_225_352_S32_L003
+    threads: 4
+
+[Mon Feb  6 13:51:40 2023]
+Finished job 110.
+61 of 121 steps (50%) done
+[Mon Feb  6 13:51:40 2023]
+Finished job 177.
+62 of 121 steps (51%) done
+[Mon Feb  6 13:51:40 2023]
+Finished job 46.
+63 of 121 steps (52%) done
+[Mon Feb  6 13:51:41 2023]
+Finished job 36.
+64 of 121 steps (53%) done
+Submitted job 168 with external jobid 'Submitted batch job 19163683'.
+
+[Mon Feb  6 13:51:41 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 188-2-5c-05-F11-6-22-21_274_303_S20_L003.picard_mkdup_metrics.txt
+    jobid: 147
+    wildcards: sample=188-2-5c-05-F11-6-22-21_274_303_S20_L003
+    threads: 4
+
+Submitted job 147 with external jobid 'Submitted batch job 19163684'.
+
+[Mon Feb  6 13:51:41 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-1-5c-01-F11-6-26-21-3_287_290_S11_L003.picard_mkdup_metrics.txt
+    jobid: 180
+    wildcards: sample=185-1-5c-01-F11-6-26-21-3_287_290_S11_L003
+    threads: 4
+
+Submitted job 180 with external jobid 'Submitted batch job 19163685'.
+
+[Mon Feb  6 13:51:41 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 128
+    wildcards: sample=185-15c-09-G9-6-9-21_264_313_S5_L003
+
+Submitted job 128 with external jobid 'Submitted batch job 19163686'.
+
+[Mon Feb  6 13:51:41 2023]
+Job 12: Indexing sorted BAM file.
+
+Submitted job 12 with external jobid 'Submitted batch job 19163687'.
+[Mon Feb  6 13:52:13 2023]
+Finished job 38.
+65 of 121 steps (54%) done
+
+[Mon Feb  6 13:52:13 2023]
+Job 5: Indexing sorted BAM file.
+
+Submitted job 5 with external jobid 'Submitted batch job 19163689'.
+[Mon Feb  6 13:52:14 2023]
+Finished job 12.
+66 of 121 steps (55%) done
+
+[Mon Feb  6 13:52:14 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-1-chu-06-D12-6-22-21_213_364_S33_L003.picard_mkdup_metrics.txt
+    jobid: 162
+    wildcards: sample=244-1-chu-06-D12-6-22-21_213_364_S33_L003
+    threads: 4
+
+Submitted job 162 with external jobid 'Submitted batch job 19163690'.
+[Mon Feb  6 13:52:46 2023]
+Finished job 5.
+67 of 121 steps (55%) done
+
+[Mon Feb  6 13:52:46 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-15c-09-G9-6-11-21_252_325_S6_L003.picard_mkdup_metrics.txt
+    jobid: 173
+    wildcards: sample=185-15c-09-G9-6-11-21_252_325_S6_L003
+    threads: 4
+
+Submitted job 173 with external jobid 'Submitted batch job 19163694'.
+[Mon Feb  6 13:53:30 2023]
+Finished job 25.
+68 of 121 steps (56%) done
+
+[Mon Feb  6 13:53:30 2023]
+Job 4: Indexing sorted BAM file.
+
+Submitted job 4 with external jobid 'Submitted batch job 19163699'.
+[Mon Feb  6 13:54:14 2023]
+Finished job 4.
+69 of 121 steps (57%) done
+
+[Mon Feb  6 13:54:14 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 244-chu-06-F5-6-26-21_285_292_S27_L003.picard_mkdup_metrics.txt
+    jobid: 157
+    wildcards: sample=244-chu-06-F5-6-26-21_285_292_S27_L003
+    threads: 4
+
+Submitted job 157 with external jobid 'Submitted batch job 19163702'.
+[Mon Feb  6 13:54:58 2023]
+Finished job 87.
+70 of 121 steps (58%) done
+
+[Mon Feb  6 13:54:58 2023]
+Job 26: Indexing sorted BAM file.
+
+Submitted job 26 with external jobid 'Submitted batch job 19163709'.
+[Mon Feb  6 13:55:42 2023]
+Finished job 26.
+71 of 121 steps (59%) done
+
+[Mon Feb  6 13:55:42 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-1-5c-01-F11-6-26-21-2_204_373_S10_L003.picard_mkdup_metrics.txt
+    jobid: 146
+    wildcards: sample=185-1-5c-01-F11-6-26-21-2_204_373_S10_L003
+    threads: 4
+
+Submitted job 146 with external jobid 'Submitted batch job 19163711'.
+[Mon Feb  6 13:57:32 2023]
+Finished job 179.
+72 of 121 steps (60%) done
+
+[Mon Feb  6 13:57:32 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 141
+    wildcards: sample=188-2-5c-05-F11-6-15-21_286_291_S19_L003
+
+Submitted job 141 with external jobid 'Submitted batch job 19163718'.
+[Mon Feb  6 13:57:33 2023]
+Finished job 128.
+73 of 121 steps (60%) done
+
+[Mon Feb  6 13:57:33 2023]
+Job 70: Indexing sorted BAM file.
+
+Submitted job 70 with external jobid 'Submitted batch job 19163719'.
+[Mon Feb  6 13:58:06 2023]
+Finished job 70.
+74 of 121 steps (61%) done
+
+[Mon Feb  6 13:58:06 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 185-1-5c-01-F11-6-26-21-6_251_326_S14_L003.picard_mkdup_metrics.txt
+    jobid: 153
+    wildcards: sample=185-1-5c-01-F11-6-26-21-6_251_326_S14_L003
+    threads: 4
+
+Submitted job 153 with external jobid 'Submitted batch job 19163725'.
+[Mon Feb  6 13:58:39 2023]
+Finished job 163.
+75 of 121 steps (62%) done
+
+[Mon Feb  6 13:58:39 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 79
+    wildcards: sample=185-15c-09-G9-6-6-21_276_301_S4_L003
+
+Submitted job 79 with external jobid 'Submitted batch job 19163732'.
+[Mon Feb  6 13:58:50 2023]
+Finished job 155.
+76 of 121 steps (63%) done
+
+[Mon Feb  6 13:58:50 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 41
+    wildcards: sample=185-1-5c-01-F11-6-26-21-1_216_361_S9_L003
+
+Submitted job 41 with external jobid 'Submitted batch job 19163733'.
+[Mon Feb  6 14:00:40 2023]
+Finished job 173.
+77 of 121 steps (64%) done
+
+[Mon Feb  6 14:00:40 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 116
+    wildcards: sample=185-15c-09-G9-6-11-21_252_325_S6_L003
+
+[Mon Feb  6 14:00:40 2023]
+Finished job 160.
+78 of 121 steps (64%) done
+[Mon Feb  6 14:00:40 2023]
+Finished job 174.
+79 of 121 steps (65%) done
+[Mon Feb  6 14:00:40 2023]
+Finished job 178.
+80 of 121 steps (66%) done
+Submitted job 116 with external jobid 'Submitted batch job 19163752'.
+
+[Mon Feb  6 14:00:40 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 68
+    wildcards: sample=244-chu-06-F5-7-2-21-3_249_328_S30_L003
+
+Submitted job 68 with external jobid 'Submitted batch job 19163753'.
+
+[Mon Feb  6 14:00:40 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 119
+    wildcards: sample=185-15c-09-G9-6-22-21_228_349_S8_L003
+
+Submitted job 119 with external jobid 'Submitted batch job 19163754'.
+
+[Mon Feb  6 14:00:40 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 132
+    wildcards: sample=185-15c-09-G9-6-3-21_288_289_S3_L003
+
+Submitted job 132 with external jobid 'Submitted batch job 19163755'.
+[Mon Feb  6 14:00:41 2023]
+Finished job 147.
+81 of 121 steps (67%) done
+
+[Mon Feb  6 14:00:41 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 15
+    wildcards: sample=188-2-5c-05-F11-6-22-21_274_303_S20_L003
+
+Submitted job 15 with external jobid 'Submitted batch job 19163756'.
+[Mon Feb  6 14:01:14 2023]
+Finished job 168.
+82 of 121 steps (68%) done
+
+[Mon Feb  6 14:01:14 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 104
+    wildcards: sample=244-chu-06-F5-7-9-21-2_225_352_S32_L003
+
+Submitted job 104 with external jobid 'Submitted batch job 19163762'.
+[Mon Feb  6 14:01:47 2023]
+Finished job 162.
+83 of 121 steps (69%) done
+
+[Mon Feb  6 14:01:47 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 74
+    wildcards: sample=244-1-chu-06-D12-6-22-21_213_364_S33_L003
+
+Submitted job 74 with external jobid 'Submitted batch job 19163763'.
+[Mon Feb  6 14:03:25 2023]
+Finished job 141.
+84 of 121 steps (69%) done
+
+[Mon Feb  6 14:03:25 2023]
+Job 96: Indexing sorted BAM file.
+
+[Mon Feb  6 14:03:25 2023]
+Finished job 157.
+85 of 121 steps (70%) done
+Submitted job 96 with external jobid 'Submitted batch job 19163773'.
+
+[Mon Feb  6 14:03:25 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 56
+    wildcards: sample=244-chu-06-F5-6-26-21_285_292_S27_L003
+
+Submitted job 56 with external jobid 'Submitted batch job 19163774'.
+[Mon Feb  6 14:04:09 2023]
+Finished job 96.
+86 of 121 steps (71%) done
+
+[Mon Feb  6 14:04:09 2023]
+rule mark_duplicates:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam, 188-2-5c-05-F11-6-11-21_203_374_S18_L003.picard_mkdup_metrics.txt
+    jobid: 161
+    wildcards: sample=188-2-5c-05-F11-6-11-21_203_374_S18_L003
+    threads: 4
+
+[Mon Feb  6 14:04:10 2023]
+Finished job 79.
+87 of 121 steps (72%) done
+Submitted job 161 with external jobid 'Submitted batch job 19163775'.
+
+[Mon Feb  6 14:04:10 2023]
+Job 127: Indexing sorted BAM file.
+
+Submitted job 127 with external jobid 'Submitted batch job 19163776'.
+[Mon Feb  6 14:04:11 2023]
+Finished job 180.
+88 of 121 steps (73%) done
+
+[Mon Feb  6 14:04:11 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 144
+    wildcards: sample=185-1-5c-01-F11-6-26-21-3_287_290_S11_L003
+
+Submitted job 144 with external jobid 'Submitted batch job 19163777'.
+[Mon Feb  6 14:04:21 2023]
+Finished job 41.
+89 of 121 steps (74%) done
+
+[Mon Feb  6 14:04:21 2023]
+Job 93: Indexing sorted BAM file.
+
+Submitted job 93 with external jobid 'Submitted batch job 19163778'.
+[Mon Feb  6 14:04:32 2023]
+Finished job 127.
+90 of 121 steps (74%) done
+[Mon Feb  6 14:04:43 2023]
+Finished job 93.
+91 of 121 steps (75%) done
+[Mon Feb  6 14:04:54 2023]
+Finished job 112.
+92 of 121 steps (76%) done
+
+[Mon Feb  6 14:04:54 2023]
+Job 117: Indexing sorted BAM file.
+
+Submitted job 117 with external jobid 'Submitted batch job 19163783'.
+[Mon Feb  6 14:05:05 2023]
+Finished job 146.
+93 of 121 steps (77%) done
+
+[Mon Feb  6 14:05:05 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 14
+    wildcards: sample=185-1-5c-01-F11-6-26-21-2_204_373_S10_L003
+
+Submitted job 14 with external jobid 'Submitted batch job 19163784'.
+[Mon Feb  6 14:05:49 2023]
+Finished job 153.
+94 of 121 steps (78%) done
+
+[Mon Feb  6 14:05:49 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 37
+    wildcards: sample=185-1-5c-01-F11-6-26-21-6_251_326_S14_L003
+
+Submitted job 37 with external jobid 'Submitted batch job 19163788'.
+[Mon Feb  6 14:06:00 2023]
+Finished job 116.
+95 of 121 steps (79%) done
+
+[Mon Feb  6 14:06:00 2023]
+Job 40: Indexing sorted BAM file.
+
+Submitted job 40 with external jobid 'Submitted batch job 19163789'.
+[Mon Feb  6 14:06:44 2023]
+Finished job 40.
+96 of 121 steps (79%) done
+[Mon Feb  6 14:06:44 2023]
+Finished job 68.
+97 of 121 steps (80%) done
+
+[Mon Feb  6 14:06:44 2023]
+Job 137: Indexing sorted BAM file.
+
+[Mon Feb  6 14:06:44 2023]
+Finished job 119.
+98 of 121 steps (81%) done
+[Mon Feb  6 14:06:44 2023]
+Finished job 132.
+99 of 121 steps (82%) done
+Submitted job 137 with external jobid 'Submitted batch job 19163792'.
+
+[Mon Feb  6 14:06:44 2023]
+Job 6: Indexing sorted BAM file.
+
+Submitted job 6 with external jobid 'Submitted batch job 19163793'.
+
+[Mon Feb  6 14:06:44 2023]
+Job 142: Indexing sorted BAM file.
+
+Submitted job 142 with external jobid 'Submitted batch job 19163794'.
+[Mon Feb  6 14:06:45 2023]
+Finished job 104.
+100 of 121 steps (83%) done
+
+[Mon Feb  6 14:06:45 2023]
+Job 91: Indexing sorted BAM file.
+
+Submitted job 91 with external jobid 'Submitted batch job 19163795'.
+[Mon Feb  6 14:07:17 2023]
+Finished job 137.
+101 of 121 steps (83%) done
+[Mon Feb  6 14:07:17 2023]
+Finished job 6.
+102 of 121 steps (84%) done
+[Mon Feb  6 14:07:17 2023]
+Finished job 142.
+103 of 121 steps (85%) done
+[Mon Feb  6 14:07:17 2023]
+Finished job 117.
+104 of 121 steps (86%) done
+[Mon Feb  6 14:07:17 2023]
+Finished job 74.
+105 of 121 steps (87%) done
+
+[Mon Feb  6 14:07:17 2023]
+Job 113: Indexing sorted BAM file.
+
+Submitted job 113 with external jobid 'Submitted batch job 19163799'.
+[Mon Feb  6 14:07:18 2023]
+Finished job 91.
+106 of 121 steps (88%) done
+[Mon Feb  6 14:07:48 2023]
+Finished job 113.
+107 of 121 steps (88%) done
+[Mon Feb  6 14:07:48 2023]
+Finished job 15.
+108 of 121 steps (89%) done
+
+[Mon Feb  6 14:07:48 2023]
+Job 35: Indexing sorted BAM file.
+
+Submitted job 35 with external jobid 'Submitted batch job 19163800'.
+[Mon Feb  6 14:08:18 2023]
+Finished job 35.
+109 of 121 steps (90%) done
+[Mon Feb  6 14:09:49 2023]
+Finished job 56.
+110 of 121 steps (91%) done
+
+[Mon Feb  6 14:09:49 2023]
+Job 42: Indexing sorted BAM file.
+
+Submitted job 42 with external jobid 'Submitted batch job 19163809'.
+[Mon Feb  6 14:10:19 2023]
+Finished job 42.
+111 of 121 steps (92%) done
+[Mon Feb  6 14:10:49 2023]
+Finished job 161.
+112 of 121 steps (93%) done
+
+[Mon Feb  6 14:10:49 2023]
+rule readgroup:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup.bam
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam
+    jobid: 72
+    wildcards: sample=188-2-5c-05-F11-6-11-21_203_374_S18_L003
+
+Submitted job 72 with external jobid 'Submitted batch job 19163813'.
+[Mon Feb  6 14:11:19 2023]
+Finished job 37.
+113 of 121 steps (93%) done
+
+[Mon Feb  6 14:11:19 2023]
+Job 10: Indexing sorted BAM file.
+
+Submitted job 10 with external jobid 'Submitted batch job 19163815'.
+[Mon Feb  6 14:11:49 2023]
+Finished job 10.
+114 of 121 steps (94%) done
+[Mon Feb  6 14:12:19 2023]
+Finished job 144.
+115 of 121 steps (95%) done
+
+[Mon Feb  6 14:12:19 2023]
+Job 71: Indexing sorted BAM file.
+
+Submitted job 71 with external jobid 'Submitted batch job 19163818'.
+[Mon Feb  6 14:12:49 2023]
+Finished job 71.
+116 of 121 steps (96%) done
+[Mon Feb  6 14:14:19 2023]
+Finished job 14.
+117 of 121 steps (97%) done
+
+[Mon Feb  6 14:14:19 2023]
+Job 77: Indexing sorted BAM file.
+
+Submitted job 77 with external jobid 'Submitted batch job 19163827'.
+[Mon Feb  6 14:14:49 2023]
+Finished job 77.
+118 of 121 steps (98%) done
+[Mon Feb  6 14:16:20 2023]
+Finished job 72.
+119 of 121 steps (98%) done
+
+[Mon Feb  6 14:16:20 2023]
+Job 2: Indexing sorted BAM file.
+
+Submitted job 2 with external jobid 'Submitted batch job 19163836'.
+[Mon Feb  6 14:16:50 2023]
+Finished job 2.
+120 of 121 steps (99%) done
+
+[Mon Feb  6 14:16:50 2023]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-02-B7-6-15-21_214_363_S25_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-02-B7-6-22-21_202_375_S26_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-02-B7-6-3-21_262_315_S21_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-02-B7-6-6-21_250_327_S22_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-02-B7-6-9-21_238_339_S23_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned.sam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-02-B7-6-15-21_214_363_S25_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-02-B7-6-22-21_202_375_S26_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-02-B7-6-3-21_262_315_S21_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-02-B7-6-6-21_250_327_S22_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-02-B7-6-9-21_238_339_S23_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-15-21_214_363_S25_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-22-21_202_375_S26_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-3-21_262_315_S21_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-6-21_250_327_S22_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-9-21_238_339_S23_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-1_216_361_S9_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-2_204_373_S10_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-3_287_290_S11_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-4_275_302_S12_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-5_263_314_S13_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-1-5c-01-F11-6-26-21-6_251_326_S14_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-11-21_252_325_S6_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-15-21_240_337_S7_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-22-21_228_349_S8_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-3-21_288_289_S3_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-6-21_276_301_S4_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/185-15c-09-G9-6-9-21_264_313_S5_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-11-21_203_374_S18_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-22-21_274_303_S20_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-3-21_239_338_S15_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-6-21_227_350_S16_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-9-21_215_362_S17_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-11-21_226_351_S24_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-15-21_214_363_S25_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-22-21_202_375_S26_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-3-21_262_315_S21_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-6-21_250_327_S22_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-02-B7-6-9-21_238_339_S23_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-22-21_213_364_S33_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-6-26-21_201_376_S34_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-1_260_317_S37_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-12-21-2_248_329_S38_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-1_284_293_S35_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-1-chu-06-D12-7-9-21-2_272_305_S36_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-6-26-21_285_292_S27_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-1_273_304_S28_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-2_261_316_S29_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-2-21-3_249_328_S30_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-1_237_340_S31_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai, /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/sorted_bam/244-chu-06-F5-7-9-21-2_225_352_S32_L003_RNA_HISAT2_genome_aligned_sortedbycoord_mkdup_RG.bam.bai
+    jobid: 0
+
+[Mon Feb  6 14:16:50 2023]
+Finished job 0.
+121 of 121 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/04_variant_specific_expression/.snakemake/log/2023-02-06T132249.371857.snakemake.log

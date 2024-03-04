@@ -1,0 +1,117 @@
+Migrating .snakemake folder to new format...
+Migration complete
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job stats:
+job                               count    min threads    max threads
+------------------------------  -------  -------------  -------------
+all                                   1              1              1
+collect_fragment_counts               1              1              1
+collect_fragment_counts_normal        1              1              1
+plot_tumor                            1              1              1
+process_intervals                     1              1              1
+standardize_normal                    1              1              1
+standardize_tumor                     1              1              1
+total                                 7              1              1
+
+Select jobs to execute...
+
+[Thu Nov 10 11:24:06 2022]
+rule process_intervals:
+    input: /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: targets_C.preprocessed.interval_list
+    jobid: 1
+    reason: Code has changed since last execution
+    resources: mem_mb=5296, disk_mb=5296, tmpdir=<TBD>
+
+Submitted job 1 with external jobid 'Submitted batch job 18067691'.
+[Thu Nov 10 11:24:26 2022]
+Finished job 1.
+1 of 7 steps (14%) done
+Select jobs to execute...
+
+[Thu Nov 10 11:24:26 2022]
+rule collect_fragment_counts:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.bam, targets_C.preprocessed.interval_list, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    jobid: 2
+    reason: Input files updated by another job: targets_C.preprocessed.interval_list
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: mem_mb=9973, disk_mb=9973, tmpdir=<TBD>
+
+Submitted job 2 with external jobid 'Submitted batch job 18067694'.
+
+[Thu Nov 10 11:24:26 2022]
+rule collect_fragment_counts_normal:
+    input: /scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, targets_C.preprocessed.interval_list, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    jobid: 3
+    reason: Input files updated by another job: targets_C.preprocessed.interval_list
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+    resources: mem_mb=9120, disk_mb=9120, tmpdir=<TBD>
+
+Submitted job 3 with external jobid 'Submitted batch job 18067695'.
+[Thu Nov 10 11:26:16 2022]
+Finished job 3.
+2 of 7 steps (29%) done
+Select jobs to execute...
+
+[Thu Nov 10 11:26:16 2022]
+rule standardize_normal:
+    input: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    output: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.standardizedCR.tsv, cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.denoisedCR.tsv
+    jobid: 5
+    reason: Input files updated by another job: cnv_files/gDNA_normal_tissue_377_200_S55_L004_normal.counts.hdf5
+    wildcards: normal=gDNA_normal_tissue_377_200_S55_L004
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=<TBD>
+
+Submitted job 5 with external jobid 'Submitted batch job 18067700'.
+[Thu Nov 10 11:26:26 2022]
+Finished job 5.
+3 of 7 steps (43%) done
+[Thu Nov 10 11:26:36 2022]
+Finished job 2.
+4 of 7 steps (57%) done
+Select jobs to execute...
+
+[Thu Nov 10 11:26:36 2022]
+rule standardize_tumor:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    output: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    jobid: 4
+    reason: Input files updated by another job: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.counts.hdf5
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=<TBD>
+
+Submitted job 4 with external jobid 'Submitted batch job 18067701'.
+[Thu Nov 10 11:26:46 2022]
+Finished job 4.
+5 of 7 steps (71%) done
+Select jobs to execute...
+
+[Thu Nov 10 11:26:46 2022]
+rule plot_tumor:
+    input: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    output: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.denoised.png
+    jobid: 6
+    reason: Missing output files: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.denoised.png; Input files updated by another job: cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv, cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+    resources: mem_mb=1000, disk_mb=1000, tmpdir=<TBD>
+
+Submitted job 6 with external jobid 'Submitted batch job 18067702'.
+[Thu Nov 10 11:26:56 2022]
+Error in rule plot_tumor:
+    jobid: 6
+    output: cnv_plots/gDNA_185_25_2E1_5C_365_212_S56_L004.denoised.png
+    shell:
+        
+        /home/eknodel/gatk-4.1.7.0/gatk PlotDenoisedCopyRatios         --standardized-copy-ratios cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.standardizedCR.tsv         --denoised-copy-ratios cnv_files/gDNA_185_25_2E1_5C_365_212_S56_L004_tumor.denoisedCR.tsv         --sequence-dictionary /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.dict         --output cnv_plots         --output-prefix gDNA_185_25_2E1_5C_365_212_S56_L004
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 18067702
+
+Error executing rule plot_tumor on cluster (jobid: 6, external: Submitted batch job 18067702, jobscript: /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/.snakemake/tmp.hqaoninc/snakejob.plot_tumor.6.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-11-10T112402.643536.snakemake.log

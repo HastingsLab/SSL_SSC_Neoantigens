@@ -1,0 +1,103 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	3	config
+	3	run
+	3	select_pass_variants
+	10
+
+[Wed Dec  1 12:42:02 2021]
+rule config:
+    input: /scratch/eknodel/SCC_samples/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/reference/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_185_25_2E1_5C_365_212_S56_L004/runWorkflow.py
+    jobid: 5
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+
+Submitted job 5 with external jobid 'Submitted batch job 12653764'.
+
+[Wed Dec  1 12:42:02 2021]
+rule config:
+    input: /scratch/eknodel/SCC_samples/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/processed_bams/gDNA_188_25_2E2_5C_157_036_S57_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/reference/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/runWorkflow.py
+    jobid: 7
+    wildcards: subject=gDNA_188_25_2E2_5C_157_036_S57_L004
+
+Submitted job 7 with external jobid 'Submitted batch job 12653765'.
+
+[Wed Dec  1 12:42:02 2021]
+rule run:
+    input: /scratch/eknodel/SCC_samples/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/processed_bams/gDNA_244_25_2E1_chu_329_248_S59_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/reference/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_244_25_2E1_chu_329_248_S59_L004/results/variants/somatic.snvs.vcf.gz, /scratch/eknodel/SCC_samples/strelka/gDNA_244_25_2E1_chu_329_248_S59_L004/results/variants/somatic.indels.vcf.gz
+    jobid: 3
+    wildcards: subject=gDNA_244_25_2E1_chu_329_248_S59_L004
+
+Submitted job 3 with external jobid 'Submitted batch job 12653766'.
+
+[Wed Dec  1 12:42:02 2021]
+rule run:
+    input: /scratch/eknodel/SCC_samples/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/processed_bams/gDNA_185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/reference/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_185_25_2E1_5C_365_212_S56_L004/results/variants/somatic.snvs.vcf.gz, /scratch/eknodel/SCC_samples/strelka/gDNA_185_25_2E1_5C_365_212_S56_L004/results/variants/somatic.indels.vcf.gz
+    jobid: 9
+    wildcards: subject=gDNA_185_25_2E1_5C_365_212_S56_L004
+
+Submitted job 9 with external jobid 'Submitted batch job 12653767'.
+
+[Wed Dec  1 12:42:02 2021]
+rule run:
+    input: /scratch/eknodel/SCC_samples/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/processed_bams/gDNA_188_25_2E2_5C_157_036_S57_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/reference/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/results/variants/somatic.snvs.vcf.gz, /scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/results/variants/somatic.indels.vcf.gz
+    jobid: 6
+    wildcards: subject=gDNA_188_25_2E2_5C_157_036_S57_L004
+
+Submitted job 6 with external jobid 'Submitted batch job 12653768'.
+
+[Wed Dec  1 12:42:02 2021]
+rule config:
+    input: /scratch/eknodel/SCC_samples/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/processed_bams/gDNA_244_25_2E1_chu_329_248_S59_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/reference/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_244_25_2E1_chu_329_248_S59_L004/runWorkflow.py
+    jobid: 8
+    wildcards: subject=gDNA_244_25_2E1_chu_329_248_S59_L004
+
+Submitted job 8 with external jobid 'Submitted batch job 12653769'.
+[Wed Dec  1 12:42:12 2021]
+Error in rule config:
+    jobid: 5
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_185_25_2E1_5C_365_212_S56_L004/runWorkflow.py
+    cluster_jobid: Submitted batch job 12653764
+
+[Wed Dec  1 12:42:12 2021]
+Error in rule config:
+    jobid: 7
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/runWorkflow.py
+    cluster_jobid: Submitted batch job 12653765
+
+[Wed Dec  1 12:42:12 2021]
+Error in rule run:
+    jobid: 3
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_244_25_2E1_chu_329_248_S59_L004/results/variants/somatic.snvs.vcf.gz, /scratch/eknodel/SCC_samples/strelka/gDNA_244_25_2E1_chu_329_248_S59_L004/results/variants/somatic.indels.vcf.gz
+    cluster_jobid: Submitted batch job 12653766
+
+[Wed Dec  1 12:42:12 2021]
+Error in rule run:
+    jobid: 9
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_185_25_2E1_5C_365_212_S56_L004/results/variants/somatic.snvs.vcf.gz, /scratch/eknodel/SCC_samples/strelka/gDNA_185_25_2E1_5C_365_212_S56_L004/results/variants/somatic.indels.vcf.gz
+    cluster_jobid: Submitted batch job 12653767
+
+[Wed Dec  1 12:42:12 2021]
+Error in rule run:
+    jobid: 6
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/results/variants/somatic.snvs.vcf.gz, /scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/results/variants/somatic.indels.vcf.gz
+    cluster_jobid: Submitted batch job 12653768
+
+[Wed Dec  1 12:42:12 2021]
+Error in rule config:
+    jobid: 8
+    output: /scratch/eknodel/SCC_samples/strelka/gDNA_244_25_2E1_chu_329_248_S59_L004/runWorkflow.py
+    cluster_jobid: Submitted batch job 12653769
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/eknodel/SCC_samples/Parent_tumors/.snakemake/log/2021-12-01T124201.899392.snakemake.log

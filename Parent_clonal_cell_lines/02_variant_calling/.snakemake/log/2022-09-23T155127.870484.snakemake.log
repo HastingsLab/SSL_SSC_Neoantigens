@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 190
+Job counts:
+	count	jobs
+	1	all
+	1	config
+	2
+
+[Fri Sep 23 15:51:27 2022]
+rule config:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam, /scratch/eknodel/SCC_samples/Parent_cell_lines/processed_bams/244_1_Chu_02_B7_352_225_S2_L003.GRCm38_68.sorted.bam, /data/CEM/shared/public_data/references/ensemble_GRCm38.68/GRCm38_68.fa
+    output: /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/runWorkflow.py
+    jobid: 1
+    wildcards: subject=244_1_Chu_02_B7_352_225_S2_L003
+
+Submitted job 1 with external jobid 'Submitted batch job 17567745'.
+[Fri Sep 23 15:51:38 2022]
+Finished job 1.
+1 of 2 steps (50%) done
+
+[Fri Sep 23 15:51:38 2022]
+localrule all:
+    input: /scratch/eknodel/SCC_samples/Parent_cell_lines/strelka/244_1_Chu_02_B7_352_225_S2_L003/runWorkflow.py
+    jobid: 0
+
+[Fri Sep 23 15:51:38 2022]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /home/eknodel/SCC_samples/Parent_cell_lines/02_variant_calling/.snakemake/log/2022-09-23T155127.870484.snakemake.log

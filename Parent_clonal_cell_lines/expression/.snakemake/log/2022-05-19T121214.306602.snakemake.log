@@ -1,0 +1,44 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 30
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+all                        1              1              1
+salmon_quant_paired        2              1              1
+total                      3              1              1
+
+Select jobs to execute...
+
+[Thu May 19 12:12:15 2022]
+Job 37: Quantifying 483_sc_01_B6-1_366_211_S58_L003 transcripts with Salmon.
+
+Submitted job 37 with external jobid 'Submitted batch job 15841553'.
+
+[Thu May 19 12:12:17 2022]
+Job 38: Quantifying 483_sc_01_B6-2_354_223_S59_L003 transcripts with Salmon.
+
+Submitted job 38 with external jobid 'Submitted batch job 15841555'.
+[Thu May 19 12:21:56 2022]
+Error in rule salmon_quant_paired:
+    jobid: 37
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-1_366_211_S58_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15841553
+
+Error executing rule salmon_quant_paired on cluster (jobid: 37, external: Submitted batch job 15841553, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.wnnwpt08/snakejob.salmon_quant_paired.37.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-1_366_211_S58_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-1_366_211_S58_L003_salmon_quant
+[Thu May 19 12:21:56 2022]
+Error in rule salmon_quant_paired:
+    jobid: 38
+    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-2_354_223_S59_L003_salmon_quant
+    cluster_jobid: Submitted batch job 15841555
+
+Error executing rule salmon_quant_paired on cluster (jobid: 38, external: Submitted batch job 15841555, jobscript: /home/eknodel/SCC_samples/expression/.snakemake/tmp.wnnwpt08/snakejob.salmon_quant_paired.38.sh). For error details see the cluster log and the log files of the involved rule(s).
+Removing output files of failed job salmon_quant_paired since they might be corrupted:
+/scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-2_354_223_S59_L003_salmon_quant
+Skipped removing non-empty directory /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/483_sc_01_B6-2_354_223_S59_L003_salmon_quant
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-05-19T121214.306602.snakemake.log
