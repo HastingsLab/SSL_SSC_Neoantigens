@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 10 of /home/eknodel/SCC_samples/Parent_tumors/footprint.snakefile:
-Missing input files for rule footprint:
-/scratch/eknodel/SCC_samples/Parent_tumors/processed_bams/gDNA_244_25_2E1_chu_329_248_S59_L004.sorted.bam

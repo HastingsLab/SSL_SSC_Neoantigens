@@ -1,6 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 13 of /home/eknodel/SCC_samples/Parent_tumors/strelka.snakefile:
-Missing input files for rule all:
-/scratch/eknodel/SCC_samples/strelka/gDNA_244_25_2E1_chu_329_248_S59_L004/runWorkflow.py
-/scratch/eknodel/SCC_samples/strelka/gDNA_188_25_2E2_5C_157_036_S57_L004/runWorkflow.py
-/scratch/eknodel/SCC_samples/strelka/gDNA_185_25_2E1_5C_365_212_S56_L004/runWorkflow.py

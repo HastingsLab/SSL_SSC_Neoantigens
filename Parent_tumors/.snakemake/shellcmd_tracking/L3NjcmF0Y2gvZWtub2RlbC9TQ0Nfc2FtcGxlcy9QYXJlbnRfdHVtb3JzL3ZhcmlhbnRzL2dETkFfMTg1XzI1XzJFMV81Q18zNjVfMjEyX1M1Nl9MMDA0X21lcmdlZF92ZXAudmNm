@@ -1,3 +1,0 @@
-
-        vep -i /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_185_25_2E1_5C_365_212_S56_L004_merged_sorted.vcf --format vcf --species mus_musculus --cache --cache_version 100 --offline --vcf -o /scratch/eknodel/SCC_samples/Parent_tumors/variants/gDNA_185_25_2E1_5C_365_212_S56_L004_merged_vep.vcf --force_overwrite  --symbol --plugin Wildtype --plugin Frameshift --terms SO --plugin Downstream;
-        

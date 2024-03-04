@@ -1,3 +1,0 @@
-CreateRuleException in line 74 of /home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/GATK_CNV.snakefile:
-The name index_mkdup_normal is already used by another rule
-  File "/home/eknodel/SCC_samples/Parent_tumors/GATK_CNV/GATK_CNV.snakefile", line 74, in <module>

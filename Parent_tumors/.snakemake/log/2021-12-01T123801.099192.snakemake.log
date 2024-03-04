@@ -1,5 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 36 of /home/eknodel/SCC_samples/Parent_tumors/strelka.snakefile:
-Missing input files for rule run:
-/scratch/eknodel/SCC_samples/processed_bams/185_25_2E1_5C_365_212_S56_L004.GRCm38_68.sorted.bam
-/scratch/eknodel/SCC_samples/processed_bams/gDNA_normal_tissue_377_200_S55_L004.GRCm38_68.sorted.bam
