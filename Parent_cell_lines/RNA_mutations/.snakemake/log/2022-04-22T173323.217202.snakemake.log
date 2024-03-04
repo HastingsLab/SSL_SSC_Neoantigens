@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 29 of /home/eknodel/SCC_samples/RNA_mutations/gatk_mutect2.snakefile:
-Missing input files for rule tumor_only:
-/scratch/eknodel/SCC_samples/cell_lines/RNAseq/sorted_bam/188-2-5c-05-F11-6-15-21_286_291_S19_L003_RNA_HISAT2_genome_aligned_sortedbycoord_RG.bam

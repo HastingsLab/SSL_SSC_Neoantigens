@@ -1,4 +1,0 @@
-
-        paste -s -d' 
-' /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/185_G9_vep.17.peptide | sed '/>WT/d' > /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/185_G9.17.peptide_formatted2;
-        

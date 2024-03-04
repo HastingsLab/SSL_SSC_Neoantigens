@@ -1,8 +1,0 @@
-
-        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/244_B7_vep.vcf 29 /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/244_B7_vep.29.peptide;
-        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/244_B7_vep.vcf 31 /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/244_B7_vep.31.peptide;
-        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/244_B7_vep.vcf 33 /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/244_B7_vep.33.peptide;
-        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/244_B7_vep.vcf 35 /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/244_B7_vep.35.peptide;
-        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/244_B7_vep.vcf 37 /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/244_B7_vep.37.peptide;
-        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/244_B7_vep.vcf 39 /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/244_B7_vep.39.peptide;
-        

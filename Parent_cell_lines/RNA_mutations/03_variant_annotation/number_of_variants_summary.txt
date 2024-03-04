@@ -1,8 +1,0 @@
-filename	num_variants
-/scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf	288230
-/scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-15-21_214_363_S25_L003.somatic.vcf	331736
-/scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-22-21_202_375_S26_L003.somatic.vcf	263369
-/scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-3-21_262_315_S21_L003.somatic.vcf	289264
-/scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-6-21_250_327_S22_L003.somatic.vcf	260575
-/scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-9-21_238_339_S23_L003.somatic.vcf	311461
-at_least_1_vcfs	1008159

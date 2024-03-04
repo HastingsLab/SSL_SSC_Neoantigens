@@ -1,8 +1,0 @@
-
-        gunzip /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-11-21_226_351_S24_L003.somatic.vcf.gz;
-        gunzip /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-15-21_214_363_S25_L003.somatic.vcf.gz;
-        gunzip /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-22-21_202_375_S26_L003.somatic.vcf.gz;
-        gunzip /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-3-21_262_315_S21_L003.somatic.vcf.gz;
-        gunzip /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-6-21_250_327_S22_L003.somatic.vcf.gz;
-        gunzip /scratch/eknodel/SCC_samples/cell_lines/RNAseq/gatk_mutect2/244-1-chu-02-B7-6-9-21_238_339_S23_L003.somatic.vcf.gz;
-        

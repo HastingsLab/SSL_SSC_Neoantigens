@@ -1,6 +1,0 @@
-
-        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/185_F11_vep.vcf 15 /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/185_F11_vep.15.peptide;
-        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/185_F11_vep.vcf 17 /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/185_F11_vep.17.peptide;
-        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/185_F11_vep.vcf 19 /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/185_F11_vep.19.peptide;
-        pvacseq generate_protein_fasta /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/185_F11_vep.vcf 21 /scratch/eknodel/SCC_samples/cell_lines/RNA_overlap_mutations/peptides/185_F11_vep.21.peptide;
-        
