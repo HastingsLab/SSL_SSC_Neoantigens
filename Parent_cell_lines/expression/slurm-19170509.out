@@ -1,172 +1,0 @@
-Building DAG of jobs...
-Using shell: /usr/bin/bash
-Provided cores: 6
-Rules claiming more threads will be scaled down.
-Select jobs to execute...
-
-[Mon Feb  6 21:03:27 2023]
-Job 0: Quantifying 244-1-chu-02-B7-6-6-21_250_327_S22_L003 transcripts with Salmon.
-
-Version Info: This is the most recent version of salmon.
-### salmon (selective-alignment-based) v1.9.0
-### [ program ] => salmon 
-### [ command ] => quant 
-### [ index ] => { /data/CEM/shared/public_data/references/ensemble_GRCm38.68/transcriptome/Mus_musculus_salmon_index_new/ }
-### [ libType ] => { A }
-### [ mates1 ] => { /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/trimmed_fastqs/244-1-chu-02-B7-6-6-21_250_327_S22_L003_trimmed_read1.fastq.gz }
-### [ mates2 ] => { /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/trimmed_fastqs/244-1-chu-02-B7-6-6-21_250_327_S22_L003_trimmed_read2.fastq.gz }
-### [ validateMappings ] => { }
-### [ output ] => { /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-02-B7-6-6-21_250_327_S22_L003_ensembl_salmon_quant }
-Logs will be written to /scratch/eknodel/SCC_samples/Parent_cell_lines/RNAseq/salmon_ensembl/244-1-chu-02-B7-6-6-21_250_327_S22_L003_ensembl_salmon_quant/logs
-[2023-02-06 21:03:28.027] [jointLog] [info] setting maxHashResizeThreads to 28
-[2023-02-06 21:03:28.027] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
-[2023-02-06 21:03:28.027] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
-[2023-02-06 21:03:28.027] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
-[2023-02-06 21:03:28.027] [jointLog] [info] parsing read library format
-[2023-02-06 21:03:28.027] [jointLog] [info] There is 1 library.
-[2023-02-06 21:03:28.030] [jointLog] [info] Loading pufferfish index
-[2023-02-06 21:03:28.030] [jointLog] [info] Loading dense pufferfish index.
------------------------------------------
-| Loading contig table | Time = 244.03 ms
------------------------------------------
-size = 713780
------------------------------------------
-| Loading contig offsets | Time = 2.4872 ms
------------------------------------------
------------------------------------------
-| Loading reference lengths | Time = 396.92 us
------------------------------------------
------------------------------------------
-| Loading mphf table | Time = 48.65 ms
------------------------------------------
-size = 122173939
-Number of ones: 713779
-Number of ones per inventory item: 512
-Inventory entries filled: 1395
------------------------------------------
-| Loading contig boundaries | Time = 262.99 ms
------------------------------------------
-size = 122173939
------------------------------------------
-| Loading sequence | Time = 24.229 ms
------------------------------------------
-size = 100760569
------------------------------------------
-| Loading positions | Time = 237.01 ms
------------------------------------------
-size = 214471249
------------------------------------------
-| Loading reference sequence | Time = 34.21 ms
------------------------------------------
------------------------------------------
-| Loading reference accumulative lengths | Time = 641.49 us
------------------------------------------
-
-
-
-
-[2023-02-06 21:03:28.887] [jointLog] [info] done
-[2023-02-06 21:03:28.965] [jointLog] [info] Index contained 116,357 targets
-[2023-02-06 21:03:29.020] [jointLog] [info] Number of decoys : 0
-[2023-02-06 21:03:29.885] [jointLog] [info] Automatically detected most likely library type as ISR
-
-[A[32mprocessed[31m 500,000 [32mfragments[0m
-hits: 1,201,528, hits per frag:  5.12521[A[32mprocessed[31m 1,000,000 [32mfragments[0m
-hits: 2,403,803, hits per frag:  2.47409[A[32mprocessed[31m 1,500,000 [32mfragments[0m
-hits: 3,606,434, hits per frag:  3.00481[A[32mprocessed[31m 2,000,000 [32mfragments[0m
-hits: 4,813,066, hits per frag:  2.44462[A[32mprocessed[31m 2,500,000 [32mfragments[0m
-hits: 6,014,886, hits per frag:  2.57907[A[32mprocessed[31m 3,000,000 [32mfragments[0m
-hits: 7,216,730, hits per frag:  2.4496[A[32mprocessed[31m 3,500,000 [32mfragments[0m
-hits: 8,423,758, hits per frag:  2.46216[A[32mprocessed[31m 4,000,000 [32mfragments[0m
-hits: 9,622,169, hits per frag:  2.45576[A[32mprocessed[31m 4,500,000 [32mfragments[0m
-hits: 10,823,133, hits per frag:  2.59755[A[32mprocessed[31m 5,000,000 [32mfragments[0m
-hits: 12,036,866, hits per frag:  2.52216[A[32mprocessed[31m 5,500,000 [32mfragments[0m
-hits: 13,234,835, hits per frag:  2.43539[A[32mprocessed[31m 6,000,000 [32mfragments[0m
-hits: 14,433,522, hits per frag:  2.44797[A[32mprocessed[31m 6,500,000 [32mfragments[0m
-hits: 15,643,974, hits per frag:  2.4684[A[32mprocessed[31m 7,000,000 [32mfragments[0m
-hits: 16,845,816, hits per frag:  2.53296[A[32mprocessed[31m 7,500,000 [32mfragments[0m
-hits: 18,046,687, hits per frag:  2.45381[A[32mprocessed[31m 8,000,001 [32mfragments[0m
-hits: 19,247,710, hits per frag:  2.42069[A[32mprocessed[31m 8,500,000 [32mfragments[0m
-hits: 20,450,898, hits per frag:  2.44736[A[32mprocessed[31m 9,000,000 [32mfragments[0m
-hits: 21,659,998, hits per frag:  2.41788[A[32mprocessed[31m 9,500,000 [32mfragments[0m
-hits: 22,876,841, hits per frag:  2.4322[A[32mprocessed[31m 10,000,000 [32mfragments[0m
-hits: 24,095,415, hits per frag:  2.43498[A[32mprocessed[31m 10,500,000 [32mfragments[0m
-hits: 25,318,610, hits per frag:  2.44162[A[32mprocessed[31m 11,000,000 [32mfragments[0m
-hits: 26,538,460, hits per frag:  2.43989[A[32mprocessed[31m 11,500,000 [32mfragments[0m
-hits: 27,759,746, hits per frag:  2.44559[A[32mprocessed[31m 12,000,000 [32mfragments[0m
-hits: 28,981,111, hits per frag:  2.42972[A[32mprocessed[31m 12,500,000 [32mfragments[0m
-hits: 30,202,216, hits per frag:  2.44845[A[32mprocessed[31m 13,000,000 [32mfragments[0m
-hits: 31,423,915, hits per frag:  2.42241[A[32mprocessed[31m 13,500,000 [32mfragments[0m
-hits: 32,644,578, hits per frag:  2.43602[A[32mprocessed[31m 14,000,000 [32mfragments[0m
-hits: 33,863,903, hits per frag:  2.4263[A[32mprocessed[31m 14,500,000 [32mfragments[0m
-hits: 35,088,794, hits per frag:  2.43761[A[32mprocessed[31m 15,000,001 [32mfragments[0m
-hits: 36,310,524, hits per frag:  2.43653[A[32mprocessed[31m 15,500,000 [32mfragments[0m
-hits: 37,525,810, hits per frag:  2.43201[A[32mprocessed[31m 16,000,000 [32mfragments[0m
-hits: 38,747,104, hits per frag:  2.43325[2023-02-06 21:05:24.544] [jointLog] [info] Thread saw mini-batch with a maximum of 2.02% zero probability fragments
-[2023-02-06 21:05:24.545] [jointLog] [info] Thread saw mini-batch with a maximum of 2.04% zero probability fragments
-[2023-02-06 21:05:24.545] [jointLog] [info] Thread saw mini-batch with a maximum of 1.98% zero probability fragments
-[2023-02-06 21:05:24.545] [jointLog] [info] Thread saw mini-batch with a maximum of 2.00% zero probability fragments
-[2023-02-06 21:05:24.545] [jointLog] [info] Thread saw mini-batch with a maximum of 2.04% zero probability fragments
-[2023-02-06 21:05:24.545] [jointLog] [info] Thread saw mini-batch with a maximum of 2.10% zero probability fragments
-[2023-02-06 21:05:24.545] [jointLog] [info] Thread saw mini-batch with a maximum of 1.92% zero probability fragments
-[2023-02-06 21:05:24.545] [jointLog] [info] Thread saw mini-batch with a maximum of 2.02% zero probability fragments
-[2023-02-06 21:05:24.545] [jointLog] [info] Thread saw mini-batch with a maximum of 1.88% zero probability fragments
-[2023-02-06 21:05:24.545] [jointLog] [info] Thread saw mini-batch with a maximum of 2.02% zero probability fragments
-[2023-02-06 21:05:24.545] [jointLog] [info] Thread saw mini-batch with a maximum of 1.94% zero probability fragments
-[2023-02-06 21:05:24.546] [jointLog] [info] Thread saw mini-batch with a maximum of 2.08% zero probability fragments
-[2023-02-06 21:05:24.546] [jointLog] [info] Thread saw mini-batch with a maximum of 1.94% zero probability fragments
-[2023-02-06 21:05:24.546] [jointLog] [info] Thread saw mini-batch with a maximum of 2.12% zero probability fragments
-[2023-02-06 21:05:24.546] [jointLog] [info] Thread saw mini-batch with a maximum of 1.96% zero probability fragments
-[2023-02-06 21:05:24.546] [jointLog] [info] Thread saw mini-batch with a maximum of 2.08% zero probability fragments
-[2023-02-06 21:05:24.593] [jointLog] [info] Thread saw mini-batch with a maximum of 1.98% zero probability fragments
-[2023-02-06 21:05:24.689] [jointLog] [info] Thread saw mini-batch with a maximum of 1.96% zero probability fragments
-[2023-02-06 21:05:24.719] [jointLog] [info] Thread saw mini-batch with a maximum of 1.96% zero probability fragments
-[2023-02-06 21:05:24.796] [jointLog] [info] Thread saw mini-batch with a maximum of 2.18% zero probability fragments
-[2023-02-06 21:05:24.798] [jointLog] [info] Thread saw mini-batch with a maximum of 2.00% zero probability fragments
-[2023-02-06 21:05:24.812] [jointLog] [info] Thread saw mini-batch with a maximum of 1.88% zero probability fragments
-[2023-02-06 21:05:24.827] [jointLog] [info] Thread saw mini-batch with a maximum of 2.00% zero probability fragments
-[2023-02-06 21:05:24.846] [jointLog] [info] Thread saw mini-batch with a maximum of 1.96% zero probability fragments
-[2023-02-06 21:05:24.856] [jointLog] [info] Thread saw mini-batch with a maximum of 1.98% zero probability fragments
-[2023-02-06 21:05:24.892] [jointLog] [info] Thread saw mini-batch with a maximum of 1.98% zero probability fragments
-[2023-02-06 21:05:24.921] [jointLog] [info] Thread saw mini-batch with a maximum of 1.94% zero probability fragments
-[2023-02-06 21:05:24.986] [jointLog] [info] Thread saw mini-batch with a maximum of 2.04% zero probability fragments
-
-
-
-
-
-
-
-
-[2023-02-06 21:05:25.575] [jointLog] [info] Computed 270,289 rich equivalence classes for further processing
-[2023-02-06 21:05:25.575] [jointLog] [info] Counted 13,557,542 total reads in the equivalence classes 
-[2023-02-06 21:05:25.610] [jointLog] [info] Number of mappings discarded because of alignment score : 16,445,610
-[2023-02-06 21:05:25.610] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 1,176,365
-[2023-02-06 21:05:25.610] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
-[2023-02-06 21:05:25.610] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 3,452,281
-[2023-02-06 21:05:25.610] [jointLog] [info] Mapping rate = 83.5822%
-
-[2023-02-06 21:05:25.610] [jointLog] [info] finished quantifyLibrary()
-[2023-02-06 21:05:25.615] [jointLog] [info] Starting optimizer
-TBB Warning: The number of workers is currently limited to 5. The request for 27 workers is ignored. Further requests for more workers will be silently ignored until the limit changes.
-
-[2023-02-06 21:05:25.784] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
-[2023-02-06 21:05:25.804] [jointLog] [info] iteration = 0 | max rel diff. = 8485.15
-[2023-02-06 21:05:27.099] [jointLog] [info] iteration = 100 | max rel diff. = 15.6322
-[2023-02-06 21:05:28.295] [jointLog] [info] iteration = 200 | max rel diff. = 12.4903
-[2023-02-06 21:05:29.484] [jointLog] [info] iteration = 300 | max rel diff. = 1.43946
-[2023-02-06 21:05:30.669] [jointLog] [info] iteration = 400 | max rel diff. = 3.65449
-[2023-02-06 21:05:31.849] [jointLog] [info] iteration = 500 | max rel diff. = 0.254563
-[2023-02-06 21:05:33.019] [jointLog] [info] iteration = 600 | max rel diff. = 2.52404
-[2023-02-06 21:05:34.196] [jointLog] [info] iteration = 700 | max rel diff. = 0.611514
-[2023-02-06 21:05:35.377] [jointLog] [info] iteration = 800 | max rel diff. = 0.133211
-[2023-02-06 21:05:36.564] [jointLog] [info] iteration = 900 | max rel diff. = 0.0346387
-[2023-02-06 21:05:37.946] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.0508551
-[2023-02-06 21:05:39.160] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.0990458
-[2023-02-06 21:05:39.918] [jointLog] [info] iteration = 1,165 | max rel diff. = 0.00899686
-[2023-02-06 21:05:39.924] [jointLog] [info] Finished optimizer
-[2023-02-06 21:05:39.924] [jointLog] [info] writing output 
-
-[Mon Feb  6 21:05:41 2023]
-Finished job 0.
-1 of 1 steps (100%) done

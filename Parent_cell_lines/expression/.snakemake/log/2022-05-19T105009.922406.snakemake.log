@@ -1,7 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 33 of /home/eknodel/SCC_samples/expression/salmon_GENCODE.snakefile:
-Missing input files for rule salmon_quant_paired:
-    output: /scratch/eknodel/SCC_samples/cell_lines/RNAseq/salmon/244-1-chu-02-B7-6-11-21_226_351_S24_L003_salmon_quant
-    wildcards: sample=244-1-chu-02-B7-6-11-21_226_351_S24_L003
-    affected files:
-        /scratch/eknodel/SCC_samples/cell_lines/RNAseq/244-1-chu-02-B7-6-11-21_226_351_S24_L003_R1_001.fastq.gz
